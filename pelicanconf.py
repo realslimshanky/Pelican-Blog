@@ -35,7 +35,7 @@ HOME_HIDE_TAGS = True
 SOCIAL = (('linkedin', 'https://www.linkedin.com/in/shashankkumarkushwaha/'),
           ('github', 'https://github.com/realslimshanky'),
           ('key', 'https://keybase.io/realslimshanky'),
-          ('rss', '//blog.shanky.dev/feeds/all.atom.xml'))
+          ('rss', '//shanky.dev/blog/feeds/all.atom.xml'))
 
 MENUITEMS = (('Archives', '/archives.html'),
              ('Categories', '/categories.html'),
