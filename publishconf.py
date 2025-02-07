@@ -11,6 +11,8 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'https://shanky.dev/blog/'
+SITELOGO = '/blog/images/profile.jpg'
+FAVICON = '/blog/images/favicon.ico'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
