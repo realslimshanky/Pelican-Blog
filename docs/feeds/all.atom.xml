@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Shanky's Brainchild</title><link href="http://localhost:8000/" rel="alternate"></link><link href="http://localhost:8000/feeds/all.atom.xml" rel="self"></link><id>http://localhost:8000/</id><updated>2019-04-20T00:00:00+05:30</updated><entry><title>Event report for DebUtsav Delhi 2019</title><link href="http://localhost:8000/event-report-for-debutsav-delhi-2019.html" rel="alternate"></link><published>2019-04-20T00:00:00+05:30</published><updated>2019-04-20T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:localhost,2019-04-20:/event-report-for-debutsav-delhi-2019.html</id><summary type="html">&lt;p&gt;The Debian India Community in Delhi along with Mozilla Delhi/NCR community organized DebUtsav Delhi 2019 on 9 and 10 March, 2019.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Event report for DebUtsav Delhi 2019" src="http://localhost:8000/images/debutsavdelhi1.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;The Debian India Community in Delhi along with Mozilla Delhi/NCR community
+organized DebUtsav Delhi 2019 on 9 and 10 March, 2019.&lt;/p&gt;
+&lt;p&gt;For those who are unware, DebUtsav is an Indian style version of a typical Mini Debian Conference.&lt;/p&gt;
+&lt;p&gt;This was the first Debian related conference to be organized in the Northern
+region of India. We have had Mini Debian conferences previously in Mumbai, Pune, Hyderabad and in different cities of state of Kerala. But this was the very
+first one in the Northern Region.&lt;/p&gt;
+&lt;h4&gt;DebUtsav was made possible with the help from our sponsors&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.hamaralinux.org/"&gt;Hamara Linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nipfp.org.in/home-page/"&gt;National Institute of Public Finance and Policy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The travel costs of some of our speakers were generously covered by Debian.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The event took place at National Institute of Public Finance and Policy (NIPFP),
+Delhi.&lt;/p&gt;
+&lt;h4&gt;The event schedule was divided into two tracks.&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Debian Track and FOSS Track. The Debian Track was specific for the talks or
+  workshops related to Debian.&lt;/li&gt;
+&lt;li&gt;The FOSS track included talks/workshops ranging from General Free Software, Gender
+Diversity a Digital Security and privacy. The full schedule is present on
+the website &lt;a href="https://www.debutsav.in/#schedule"&gt;DebUtsav.in&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Debian Track" src="http://localhost:8000/images/debutsavdelhi2.jpg"&gt;&lt;/p&gt;
+&lt;h5&gt;On the first day of DebUtsav&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Debian Track&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Although you can check the talks happened at the talks in the link to
+&lt;a href="https://www.debutsav.in/#schedule"&gt;schedule&lt;/a&gt;. Some of the notable talks were
+Pirate Praveen on Debian Packaging in times of Docker and Flatpak. Abhijit
+Introduced us to the Debian LTS project. While Raju Devidas talked on "How to
+become a Debian Developer?" There were also workshops by Utkarsh Gupta and Sagar Ippalpalli on Packaging of Ruby Gems and Node Modules.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Debian Track" src="http://localhost:8000/images/debutsavdelhi6.jpg" title="Debian Track"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FOSS Track&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ashutosh Singh, also known as Juggernaut, talked on getting started into Open
+Source and Debian. The other talks in FOSS track included, a talk on
+Cryptography &amp;amp; Cryptanalysis by Ishan Malik. While Mohit Phulera talked about
+Setting up and using Google Vision API's. Thing to note here that both were
+first time speakers. DebUtsav got them started. We also had a Rust 101 workshop by Swarnim Arun. Karmanya Talked about Building Data Apps with Grames. The last talk for the day in FOSS track was by Himanshu, it had a funky name to it,
+&lt;code&gt;SELinux: For the Asgardians&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="FOSS Track" src="http://localhost:8000/images/debutsavdelhi4.jpg" title="FOSS Track"&gt;&lt;/p&gt;
+&lt;h5&gt;Second Day of DebUtsav&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Debian Track&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The first talk of the day was on an Introduction to the Hamara Linux project by
+Shivani Bharadwaj and Raju Devidas. They introduced the Hamara Project to the
+one's present as well as talked about there upcoming release of Hamara codenamed
+Svastik.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Hamara Svastik by rajudev" src="http://localhost:8000/images/debutsavdelhi3.jpg" title="Hamara Svastik by rajudev"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Introduction to Hamara Project by Shivani and rajudev" src="http://localhost:8000/images/debutsavdelhi5.jpg" title="Introduction to Hamara Project by Shivani and rajudev"&gt;&lt;/p&gt;
+&lt;p&gt;Later in the Debian track, we had the first ever Bug Squashing Party
+&lt;a href="https://wiki.debian.org/BSP"&gt;BSP&lt;/a&gt; in India. For the BSP we had 2 DD's and 2
+DM's and many other active Debian contributors present. They helped people
+present to go through the Debian bug tracking system
+&lt;a href="https://wiki.debian.org/BTS"&gt;BTS&lt;/a&gt; and find bugs that they can help solve.
+Although we did not manage to get any bugsolved during the duration of BSP, we
+did managed to get some people get familiar with Debian's bug tracking
+eco-system, introduced them to the various teams within Debian in which they can
+co-ordinate to get started for solving bugs as well as contributing to Debian in
+general. The BSP proved to be a good starting point for Utkarsh Gupta. Within
+two-three weeks after the BSP he has already solved many bugs including 15 RC
+bugs.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Sruthi co-ordinating BSP" src="http://localhost:8000/images/debutsavdelhi7.jpg" title="Sruthi co-ordinating BSP"&gt;
+&lt;img alt="Bug Squashing Party " src="http://localhost:8000/images/debutsavdelhi8.jpg" title="Bug Sqashing Party"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FOSS track&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The first talk in the FOSS track was on Digital Security and Privacy by
+Shashikanth. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Digital security and Privacy" src="http://localhost:8000/images/debutsavdelhi9.jpg" title="Digital security and privacy"&gt;&lt;/p&gt;
+&lt;p&gt;In the second talk our DM Sruthi Chandran raised the question on &lt;code&gt;How gender diverse and inclusinve is the Free Software Community?&lt;/code&gt;. She
+co-ordinated the sicussion very well and made sure that the people present
+during the session got involved. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="How gender diverse are free software communities?" src="http://localhost:8000/images/debutsavdelhi10.jpg" title="How gender diverse are free software communities?"&gt;&lt;/p&gt;
+&lt;p&gt;Later in the Day we had talks by Pirate Praveen on &lt;code&gt;Take back our data and Freedoms&lt;/code&gt;. Vipul Gupta talked about digging
+Opportunities in Open Source. Last talk which was scheduled for the foss track
+did not take place because of the un-availability of the speaker Ranjith Raj
+Vasam. Everyone got involved into the Debian BSP instead.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Talk by Vipul Gupta" src="http://localhost:8000/images/debutsavdelhi11.jpg" title="Digging opportunities in Open Source by Vipul Gupta"&gt;&lt;/p&gt;
+&lt;p&gt;On the sidelines of the schedule of the second day, the podcast team of
+&lt;a href="https://decompiled.in/"&gt;Decompiled&lt;/a&gt; was also present. With the efforts of the
+team, Raju Devidas interviewed Pirate Praveen. In the interview they talked
+about work done by Praveen over the years as well as his journey in Debian
+project.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="decompiled interview" src="http://localhost:8000/images/debutsavdelhi12.jpg" title="Interview of Praveen by Decompiled.in podcast"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Mohit" src="http://localhost:8000/images/debutsavdelhi13.jpg" title="Mohit from decompiled.in"&gt;&lt;/p&gt;
+&lt;h3&gt;Some statistics from DebUtsav&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;For both the days combined, around 120 people registered for attending
+  DebUtsav, out of them around 95 attended the conference.&lt;/li&gt;
+&lt;li&gt;Around 10-15, unregistered attendees/on spot registrations were also present.&lt;/li&gt;
+&lt;li&gt;We had a total of 14 Women Attendees.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;DebUtsav Delhi was lucky to have the presence of
+- 2 Debian Developers Pirate Praveen &amp;amp; Abhijith PA.
+- 2 Debian Maintainers Sruthi Chandran and Sagar Ippalpalli.&lt;/p&gt;
+&lt;p&gt;It is during the conversations that happened at the conference that we realized
+that there are a lot of first's happening in the Debian India Community.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sruthi Chandran is the first Women Debian Maintainer from India, also soon to
+  be the first women Debian Developer from India.&lt;/li&gt;
+&lt;li&gt;Presence of DD's proved useful for Utkarsh Gupta as he got his initial
+  requirements for a DM fulfilled with his keys signed by the DD's present at
+  DebUtsav. He is at the time of writing this event report, the youngest DM from
+  India.&lt;/li&gt;
+&lt;li&gt;Currently Sruthi Chandran and Raju Devidas have there DD applications in
+  process. If they get approved, we will be crossing the Double Digits of DD's
+  from India for the first time. They are 9 now and with two more we will get to
+  11.&lt;/li&gt;
+&lt;li&gt;This was the first Debian related conference in Delhi or anywhere in Northern
+  India.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;DebUtsav Delhi proved very productive in introducing many new people to Debian
+project and to free software in general. Also it provided an opportunity for the
+Debian contributors from Delhi to meet the Debian Developers.&lt;/p&gt;
+&lt;p&gt;The conference was made possible by the continuous efforts of people from the
+communities of &lt;a href="https://wiki.mozilla.org/India/Delhi"&gt;Mozilla Delhi NCR&lt;/a&gt; and
+&lt;a href="https://www.linuxdelhi.org/"&gt;Indian Linux User's Group Delhi&lt;/a&gt;. Some of the
+people involved in the effort could be seen on the Team section of
+&lt;a href="https://www.debutsav.in/#team"&gt;debutsav.in&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks a lot to everyone for puting up there efforts for DebUtsav Delhi. We are 
+looking forward to having another Debian event in Delhi and more events around
+India.&lt;/p&gt;</content><category term="Meetup"></category><category term="Debian"></category><category term="DebUtsav"></category><category term="Delhi"></category></entry><entry><title>Google Summer of Code 2018 with Debian - Final Report</title><link href="http://localhost:8000/gsoc-2018-final-report.html" rel="alternate"></link><published>2018-08-13T00:00:00+05:30</published><updated>2018-08-13T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:localhost,2018-08-13:/gsoc-2018-final-report.html</id><summary type="html">&lt;p&gt;Three weeks of Google Summer of Code went off to be life-changing for me. I learned a lot about soft skills and project management as well. This here is the summary of my work which also serves as my Final Report of Google Summer of Code 2018.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Three weeks of Google Summer of Code went off to be life-changing for me. This here is the summary of my work which also serves as my Final Report of Google Summer of Code 2018.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GSoC and Debian" src="http://localhost:8000/images/gsocanddebian.png"&gt;&lt;/p&gt;
+&lt;h3&gt;Preperations&lt;/h3&gt;
+&lt;p&gt;My project is &lt;strong&gt;Wizard/GUI helping students/interns apply and get started&lt;/strong&gt; and the final application is named &lt;strong&gt;New Contributor Wizard&lt;/strong&gt;. It originated as the brainchild and Project Idea of &lt;a href="https://wiki.debian.org/SummerOfCode2018/Projects/WizardForStudentsAndNewInterns"&gt;Daniel Pocock&lt;/a&gt; for GSoC 2018 under Debian. I prepared the application task for the same and shared my journey through Open Source till GSoC 2018 in two of my blogs, &lt;a href="https://blog.shanky.xyz/gsoc-2018-blog-1-from-preparations-to-debian-proposal.html#gsoc-2018-blog-1-from-preparations-to-debian-proposal"&gt;&lt;strong&gt;From Preparations to Debian to Proposal&lt;/strong&gt;&lt;/a&gt; and &lt;a href="https://blog.shanky.xyz/gsoc-2018-blog-2-the-application-task-and-results.html#gsoc-2018-blog-2-the-application-task-and-results"&gt;&lt;strong&gt;The Application Task and Results&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h3&gt;Project Overview&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Sign Up Screen" src="http://localhost:8000/images/gsoc-final-report-application-screen-signup.png"&gt;&lt;/p&gt;
+&lt;p&gt;New Contributor Wizard is a GUI application build to help new contributors get started with Open Source. It was an idea to bring together all the Tools and Tutorials necessary for a person to learn and start contributing to Open Source. The application contains different courseware sections like &lt;code&gt;Communication&lt;/code&gt;, &lt;code&gt;Version Control System&lt;/code&gt; etc. and within each section, there are respective Tools and Tutorials.&lt;/p&gt;
+&lt;p&gt;A Tool is an up and running service right inside the application which can perform tasks to help the user understand the concepts. For example, encrypting a message using the primary key, decrypting the encrypted message using the private key, and so on, these tools can help the user better understand the concepts of encryption.&lt;/p&gt;
+&lt;p&gt;A tutorial is comprised of lessons which contain text, images, questions and code snippets. It is a comprehensive guide for a particular concept. For example, Encryption 101, How to use git?, What is a mailing list? and so on.&lt;/p&gt;
+&lt;p&gt;In addition to providing the Tools and Tutorials, this application is build to be progressive. One can easily contribute new Tutorials by just creating a JSON file, the process of which is documented in the project repository itself. Similarly, a documentation for contributing Tools is present as well.&lt;/p&gt;
+&lt;h3&gt;Project Details&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;GSoC Project Page&lt;/strong&gt; - &lt;a href="https://summerofcode.withgoogle.com/projects/#5056989357408256"&gt;GSoC Projects #5056989357408256&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Project Respository&lt;/strong&gt; - &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard"&gt;New Contributor Wizard on Debian Salsa&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Issue/Bug Tracker&lt;/strong&gt; - &lt;a href="https://outreach-lab.debian.net/redmine/projects/new-contributor-wizard"&gt;New Contributor Wizard on Debian Redmine&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Communication&lt;/strong&gt; - Private thread with mentors for daily updates, &lt;a href="https://lists.debian.org/debian-outreach/"&gt;Debian Outreach Mailing List&lt;/a&gt; for weekly updates and &lt;a href="https://meet.jit.si"&gt;Jitsi Meet&lt;/a&gt; for conference calls.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Programming Language and Tools&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;For Development&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.python.org"&gt;Python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://kivy.org/docs"&gt;Kivy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://docs.python-requests.org/en/master"&gt;Request&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pythonhosted.org/python-gnupg"&gt;Python GnuPG&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://docs.cython.org/en/latest"&gt;Cython&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;For Testing&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pylint.readthedocs.io/en/latest"&gt;Pylint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.pytest.org/en/latest"&gt;Pytest&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://pytest-cov.readthedocs.io/en/latest"&gt;Pytest-cov&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/gotcha/ipdb"&gt;IPDB&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Environment&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://docs.pipenv.org/"&gt;Pipenv&lt;/a&gt; for Python Virtual Environment&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wiki.debian.org/DebianStretch"&gt;Debian 9&lt;/a&gt; for Project Development and testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Version Control System&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://git-scm.com/"&gt;Git&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For pinned dependencies and sub-dependencies one can have a look at the &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/master/Pipfile"&gt;Pipfile&lt;/a&gt; and &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/master/Pipfile.lock"&gt;Pipfile.lock&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;My Contributions&lt;/h3&gt;
+&lt;p&gt;The project was just an idea before GSoC and I had to make all the decisions for the implementation with the help of mentors whether it was Design or Architecture of the application. Below is the list of my contributions in shape of merge requests and every merge request contains UI, application logic, tests, and documentation. My contributions can also be seen in &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/master/changelog"&gt;&lt;strong&gt;Changelog&lt;/strong&gt;&lt;/a&gt; and &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/graphs/master"&gt;&lt;strong&gt;Contribution Graph&lt;/strong&gt;&lt;/a&gt; of the application.&lt;/p&gt;
+&lt;h5&gt;Sign Up&lt;/h5&gt;
+&lt;p&gt;Sign Up is the first screen a user is shown and asks for all the information required to create an account. It then takes the user to the Dashboard with all the courseware sections.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Merge request&lt;/strong&gt; - &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/4"&gt;Adds SignUp feature&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Redmine Issue&lt;/strong&gt; - &lt;a href="https://outreach-lab.debian.net/redmine/issues/8"&gt;Create SignUp Feature&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Feature In Action&lt;/strong&gt; (updated working of the feature)&lt;/p&gt;
+&lt;video width="400" controls loop&gt;
+  &lt;source src="http://localhost:8000/videos/GSoC_final_signup.mp4" type="video/mp4"&gt;
+  Your browser does not support HTML5 video.
+&lt;/video&gt;
+
+&lt;h5&gt;Sign In&lt;/h5&gt;
+&lt;p&gt;Alternate to Sign Up, the user has option to select Sign In to use existing account in order to access the application.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Merge Request&lt;/strong&gt; - &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/5"&gt;Adds SignIn feature&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Redmine Issue&lt;/strong&gt; - &lt;a href="https://outreach-lab.debian.net/redmine/issues/9"&gt;Create SignIn Feature&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Feature In Action&lt;/strong&gt; (updated working of the feature)&lt;/p&gt;
+&lt;video width="400" controls loop&gt;
+  &lt;source src="http://localhost:8000/videos/GSoC_final_signin.mp4" type="video/mp4"&gt;
+  Your browser does not support HTML5 video.
+&lt;/video&gt;
+
+&lt;h5&gt;Dashboard&lt;/h5&gt;
+&lt;p&gt;The Dashboard is said to be the protagonist screen of the application. It contains all the courseware sessions and their respective Tools and Tutorials.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Merge Request&lt;/strong&gt; - &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/6"&gt;Adds Dashboard feature&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Redmine Issue&lt;/strong&gt; - &lt;a href="https://outreach-lab.debian.net/redmine/issues/25"&gt;Implementing Dashboard&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Feature In Action&lt;/strong&gt; (updated working of the feature)&lt;/p&gt;
+&lt;video width="400" controls loop&gt;
+  &lt;source src="http://localhost:8000/videos/GSoC_final_dashboard.mp4" type="video/mp4"&gt;
+  Your browser does not support HTML5 video.
+&lt;/video&gt;
+
+&lt;h5&gt;Adding Tool Architecture&lt;/h5&gt;
+&lt;p&gt;Every courseware section can have respective Tools and Tutorials. To add Tools to a section I devised an architecture and implemented on &lt;code&gt;Encryption&lt;/code&gt; to add 4 different Tools. They are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create Key Pair&lt;/li&gt;
+&lt;li&gt;Display and manage Key Pair&lt;/li&gt;
+&lt;li&gt;Encrypt a message&lt;/li&gt;
+&lt;li&gt;Decrypt a message&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Merge Request&lt;/strong&gt; - &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/7"&gt;Adding encryption tools&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Redmine Issue&lt;/strong&gt; - &lt;a href="https://outreach-lab.debian.net/redmine/issues/28"&gt;Adding Encryption Tools&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Feature In Action&lt;/strong&gt; (updated working of the feature)&lt;/p&gt;
+&lt;video width="400" controls loop&gt;
+  &lt;source src="http://localhost:8000/videos/GSoC_final_encryption_tools.mp4" type="video/mp4"&gt;
+  Your browser does not support HTML5 video.
+&lt;/video&gt;
+
+&lt;h5&gt;Adding Tutorial Architecture&lt;/h5&gt;
+&lt;p&gt;Similar to Tools, Tutorials can be found with respect to any courseware section. I have created a Tutorial Parser, which can take a JSON file and build GUI for the Tutorial easily without any coding required. This way folks can easily contribute Tutorials to the project. I added &lt;code&gt;Encryption 101&lt;/code&gt; Tutorial to showcase the use of Tutorial Parser.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Merge Request&lt;/strong&gt; - &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/9"&gt;Adding encryption tutorials&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Redmine Issue&lt;/strong&gt; - &lt;a href="https://outreach-lab.debian.net/redmine/issues/31"&gt;Adding Encryption Tutorials&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Feature In Action&lt;/strong&gt; (updated working of the feature)&lt;/p&gt;
+&lt;video width="400" controls loop&gt;
+  &lt;source src="http://localhost:8000/videos/GSoC_final_encryption_tutorials.mp4" type="video/mp4"&gt;
+  Your browser does not support HTML5 video.
+&lt;/video&gt;
+
+&lt;h5&gt;Adding 'Invite Contributor' block to Tools and Tutorials&lt;/h5&gt;
+&lt;p&gt;In order to invite the contributor to New Contributor Wizard, every Tools and Tutorials menu display an additional block by linking the project repository.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Merge Request&lt;/strong&gt; - &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/10"&gt;Inviting contributors&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Redmine Issue&lt;/strong&gt; - &lt;a href="https://outreach-lab.debian.net/redmine/issues/54"&gt;Inviting contributors to the project&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Feature In Action&lt;/strong&gt; (updated working of the feature)&lt;/p&gt;
+&lt;video width="400" controls loop&gt;
+  &lt;source src="http://localhost:8000/videos/GSoC_final_invite_contributors.mp4" type="video/mp4"&gt;
+  Your browser does not support HTML5 video.
+&lt;/video&gt;
+
+&lt;h5&gt;Adding How To Use&lt;/h5&gt;
+&lt;p&gt;One of the courseware section &lt;code&gt;How To Use&lt;/code&gt; help the user understand about different sections of the application in order to get the best out of it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Merge Request&lt;/strong&gt; - &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/15"&gt;Updating How To Use&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Redmine Issue&lt;/strong&gt; - &lt;a href="https://outreach-lab.debian.net/redmine/issues/53"&gt;Adding How To Use in the application &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Feature In Action&lt;/strong&gt; (updated working of the feature)&lt;/p&gt;
+&lt;video width="400" controls loop&gt;
+  &lt;source src="http://localhost:8000/videos/GSoC_final_how_to_use.mp4" type="video/mp4"&gt;
+  Your browser does not support HTML5 video.
+&lt;/video&gt;
+
+&lt;h5&gt;Adding description to all the modules&lt;/h5&gt;
+&lt;p&gt;All the courseware sections or modules need a simple description to describe what the user will learn using it's Tutorials and Tools.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Merge Request&lt;/strong&gt; - &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/20"&gt;Description added to all the modules&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Redmine Issue&lt;/strong&gt; - &lt;a href="https://outreach-lab.debian.net/redmine/issues/57"&gt;Add a introduction/description to all the modules&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Feature In Action&lt;/strong&gt; (updated working of the feature)&lt;/p&gt;
+&lt;video width="400" controls loop&gt;
+  &lt;source src="http://localhost:8000/videos/GSoC_final_description_to_all_modules.mp4" type="video/mp4"&gt;
+  Your browser does not support HTML5 video.
+&lt;/video&gt;
+
+&lt;h5&gt;Adding Generic Tools and Tutorials Menu&lt;/h5&gt;
+&lt;p&gt;This feature allows the abstraction of Tools and Tutorials architecture I mentioned earlier so that the Menu architecture can be used by any of the courseware sections following the DRY approach.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Merge Request&lt;/strong&gt; - &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/13"&gt;Adding Generic Menu&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Redmine Issue&lt;/strong&gt; - &lt;a href="https://outreach-lab.debian.net/redmine/issues/49"&gt;Adding Tutorial and Tools menu to all the modules&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Tutorial Contribution Doc&lt;/h5&gt;
+&lt;p&gt;A tutorial in the application can be added using just a JSON file. As mentioned earlier, it is made possible using the Tutorial Parser. A comprehensive ocumentation is added to help the users understand how they can contribute Tutorials to the application for the world to take advantage of.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Merge Request&lt;/strong&gt; - &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/16"&gt;Tutorial contribution docs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Redmine Issue&lt;/strong&gt; - &lt;a href="https://outreach-lab.debian.net/redmine/issues/45"&gt;Add documentation for Tutorial development&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Tools Contribution Doc&lt;/h5&gt;
+&lt;p&gt;A tool in the application is build using Kivy lang and Python. A comprehensive documentation is added to the project in order for folks to contribute Tools for the world to take advantage of.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Merge Request&lt;/strong&gt; - &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/17"&gt;Tools contribution docs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Redmine Issue&lt;/strong&gt; - &lt;a href="https://outreach-lab.debian.net/redmine/issues/44"&gt;Add documentation for Tools development&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Adding a License to project&lt;/h5&gt;
+&lt;p&gt;After having discussions with the mentors and a bit of research, GNU GPLv3 was finalized as the license for the project and has been added to the repository.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Merge Request&lt;/strong&gt; - &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/11"&gt;Adds License to project&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Redmine Issue&lt;/strong&gt; - &lt;a href="https://outreach-lab.debian.net/redmine/issues/10"&gt;Add a license to Project Repository&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;Allowing different timezones during Sign Up&lt;/h5&gt;
+&lt;p&gt;Sign Up feature is refactored to support different timezones from the user.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Merge Request&lt;/strong&gt; - &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/18"&gt;Allowing different timezones during signup&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Redmine Issue&lt;/strong&gt; - &lt;a href="https://outreach-lab.debian.net/redmine/issues/56"&gt;Allow different timezones&lt;/a&gt;&lt;/p&gt;
+&lt;h5&gt;All other contributions&lt;/h5&gt;
+&lt;p&gt;Here's a list of all the merge request I raised to develop a feature or fix an issue with the application - &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests?scope=all&amp;amp;utf8=%E2%9C%93&amp;amp;state=all&amp;amp;author_username=realslimshanky-guest"&gt;All merge request by Shashank Kumar&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here are all the issues/bug/features I created, resolved or was associated to on the Redmine - &lt;a href="https://outreach-lab.debian.net/redmine/projects/new-contributor-wizard/issues?utf8=%E2%9C%93&amp;amp;set_filter=1&amp;amp;f%5B%5D=status_id&amp;amp;op%5Bstatus_id%5D=o&amp;amp;f%5B%5D=assigned_to_id&amp;amp;op%5Bassigned_to_id%5D=%3D&amp;amp;v%5Bassigned_to_id%5D%5B%5D=8&amp;amp;f%5B%5D=&amp;amp;c%5B%5D=tracker&amp;amp;c%5B%5D=status&amp;amp;c%5B%5D=priority&amp;amp;c%5B%5D=subject&amp;amp;c%5B%5D=assigned_to&amp;amp;c%5B%5D=updated_on&amp;amp;group_by=&amp;amp;t%5B%5D="&gt;All the redmine issue associated to Shashank Kumar&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Packaging&lt;/h3&gt;
+&lt;p&gt;The application has been packaged for PyPi and can be installed using either &lt;code&gt;pip&lt;/code&gt; or &lt;code&gt;pipenv&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Package - &lt;a href="https://pypi.org/project/new-contributor-wizard/"&gt;new-contributor-wizard&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Packaging Tool - &lt;a href="https://pypi.org/project/setuptools/"&gt;setuptools&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;To Do List&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://outreach-lab.debian.net/redmine/issues/59"&gt;Add more tools and tutorials to the project&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://outreach-lab.debian.net/redmine/issues/55"&gt;GUI popup for text manipulation in input boxes throughout the application&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://outreach-lab.debian.net/redmine/issues/60"&gt;Packaging the application for Debian after the Kivy package for python3 is upgraded&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Weekly Updates And Reports&lt;/h3&gt;
+&lt;p&gt;These report were send daily to private mentors mail thread and weekly on Debian Outreach mailing list.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://lists.debian.org/debian-outreach/2018/05/msg00069.html"&gt;Week 1 and 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://salsa.debian.org/snippets/126"&gt;Week 3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://salsa.debian.org/snippets/127"&gt;Week 4&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://salsa.debian.org/snippets/128"&gt;Week 5&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://salsa.debian.org/snippets/129"&gt;Week 6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://salsa.debian.org/snippets/130"&gt;Week 7&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://salsa.debian.org/snippets/131"&gt;Week 8&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://salsa.debian.org/snippets/132"&gt;Week 9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://salsa.debian.org/snippets/133"&gt;Week 10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://salsa.debian.org/snippets/134"&gt;Week 11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://salsa.debian.org/snippets/135"&gt;Week 12&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Talk Delivered On My GSoC Project&lt;/h3&gt;
+&lt;p&gt;On 12th August 2018, I gave a talk on &lt;strong&gt;How my Google Summer of Code project can help bring new contributors to Open Source&lt;/strong&gt; during a meetup in Hacker Space, Noida, India. Here are the &lt;a href="https://slides.com/realslimshanky/gsoc"&gt;slides&lt;/a&gt; I prepared for my talk and a collection of &lt;a href="https://drive.google.com/folderview?id=1Dcpbw0QsmW8OL8B5XYbmov83A7k8dbeM"&gt;photographs&lt;/a&gt; of the event.&lt;/p&gt;
+&lt;h3&gt;Summary&lt;/h3&gt;
+&lt;p&gt;New Contributor Wizard is ready for the users who would like to get started with Open Source as well as to the folks who would like to contribute Tools and Tutorials to the application as well.&lt;/p&gt;
+&lt;h3&gt;Acknowledgment&lt;/h3&gt;
+&lt;p&gt;I would like to thank Google Summer of Code for giving me the opportunity of giving back to the community and Debian for selecting me for the project.&lt;/p&gt;
+&lt;p&gt;I would like to thank &lt;a href="https://danielpocock.com/"&gt;Daniel Pocock&lt;/a&gt; for his amazing blogs and ideas he comes up which end up inspiring students and result in a project like above.&lt;/p&gt;
+&lt;p&gt;I would like to thank &lt;a href="https://www.sanyamkhurana.com/"&gt;Sanyam Khurana&lt;/a&gt; for constantly motivating me by reviewing every single line of code which I wrote to come up with the best solution to put in front of the community.&lt;/p&gt;
+&lt;p&gt;Thanks to all the loved ones who always believed in me and kept me motivated.&lt;/p&gt;</content><category term="GSoC"></category><category term="GSoC"></category><category term="Google"></category><category term="Debian"></category><category term="KIVY"></category><category term="Salsa"></category></entry><entry><title>Google Summer of Code 2018 with Debian - Week 5</title><link href="http://localhost:8000/gsoc-2018-week-5.html" rel="alternate"></link><published>2018-06-20T00:00:00+05:30</published><updated>2018-06-20T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:localhost,2018-06-20:/gsoc-2018-week-5.html</id><summary type="html">&lt;p&gt;Following reviews by my mentor Sanyam, I had to refactor most of my code on all the merge requests. This was a week of understanding how we write code is as important as what we code!&lt;/p&gt;</summary><content type="html">&lt;p&gt;During week 5, there were 3 merge requests undergoing review process simultaneously. I learned a lot about how code should be written in order to assist the reader since the code is read more times than the time it is written.&lt;/p&gt;
+&lt;h3&gt;Services and Utility&lt;/h3&gt;
+&lt;p&gt;After the user has entered their information on the signin or signup screen, the job of querying the database was given to a module named &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/2e0c54258641f45e72d6d16b23fc0977c2012eec/modules/signup/updatedb.py"&gt;updatedb&lt;/a&gt;. The job of &lt;code&gt;updatedb&lt;/code&gt; was to clean user input, hash password, query the database and respond with appropriate result after the database query is executed. In a discussion with Sanyam, he said &lt;code&gt;updatedb&lt;/code&gt; doesn't conform to its name with what functions it incorporated. And explained the virtue of Service and Utility modules/functions and that this is the best place to restructure code with the same.&lt;/p&gt;
+&lt;p&gt;Utility functions can be described roughly as the functions which perform some operations on the data without caring much about the relationship of the data with respect to the application. So, generating uuid, cleaning email address, cleaning full name and hashing password becomes out utility functions and can be seen in &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/7d852bdbd12c932770b2d0ade704c36ce2099eed/modules/signup/utils.py"&gt;utils.py&lt;/a&gt; for signup and similarly for &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/45d3eb1567343501993cf5b7b1bd3239daf34629/modules/signin/utils.py"&gt;signin&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Service functions can be described roughly as the functions which while performing operations on the data take their relationship with the application into account. Hence, these functions are not generic and application specific. &lt;code&gt;sign_up_user&lt;/code&gt; is one such service function which received user information, calls utility functions to modify that information, query the database with respect to the signup operation i.e. adding the new user's detail to the database or raise &lt;code&gt;SignUpError&lt;/code&gt; if details are already present. This can be seen in &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/7d852bdbd12c932770b2d0ade704c36ce2099eed/modules/signup/services.py"&gt;services&lt;/a&gt; module for signup and &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/45d3eb1567343501993cf5b7b1bd3239daf34629/modules/signin/services.py"&gt;signin&lt;/a&gt; as well.&lt;/p&gt;
+&lt;h3&gt;Persisting database connection&lt;/h3&gt;
+&lt;p&gt;This is how the connection to the database used to work before the review. The &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/e21bf62537650c3dca610f459d6099032ba156db/settings.py"&gt;settings&lt;/a&gt; module used to create the connection to the database, create table schema if not present and close the connection. Few constants are saved in the module to be used by signup and signin in order to connect to the database. But, the problem is, now database connection has to be established everytime there's a query to be executed by the services of signup or signin. Since the sqlite3 database is saved in a file alongside the application, I though it'll not be a problem to make connection whenever needed. But it overhead on the OS now which can slow down the application when scaled. To resolve this, now &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/7d852bdbd12c932770b2d0ade704c36ce2099eed/settings.py"&gt;settings&lt;/a&gt; return the connection object which can be used again in any other module.&lt;/p&gt;
+&lt;h3&gt;Integrating SignUp with Dashboard&lt;/h3&gt;
+&lt;p&gt;While the SignUp feature was being reviewed the Dashbaord was &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/6"&gt;merged&lt;/a&gt; and I had to refactor SignUp &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/4"&gt;merge request&lt;/a&gt; accordingly. The natural flow of this should be the SignUp being the default screen up on the UI and after successful signup operation the Dashboard should be displayed. To achieve such a flow, I used &lt;a href="https://kivy.org/docs/api-kivy.uix.screenmanager.html"&gt;screen manager&lt;/a&gt; which handles different screens and transition between them with predefined animation. This is defined in &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/7d852bdbd12c932770b2d0ade704c36ce2099eed/main.py"&gt;main&lt;/a&gt; module and the entire flow can be seen in action below.&lt;/p&gt;
+&lt;video width="400" controls&gt;
+  &lt;source src="http://localhost:8000/videos/gsoc_sign_in_integrated_with_dashboard.mp4" type="video/mp4"&gt;
+  Your browser does not support HTML5 video.
+&lt;/video&gt;
+
+&lt;h3&gt;Designing Tutorials and Tools menu&lt;/h3&gt;
+&lt;p&gt;Once user is on the Dashboard, they have an option of picking up from different modules and going through the tutorials and tools available in the respective modules. The idea is to display difficulty tip as well so it becomes easier for the user to begin. Hence, below is what I've designed in order to incorporate the same.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="New Contributor Wizard - Tutorials and Tools Menu" src="http://localhost:8000/images/NewContributorWizardTutorialsAndTools.png"&gt;&lt;/p&gt;
+&lt;h3&gt;Implementing Tutorials and Tools menu&lt;/h3&gt;
+&lt;p&gt;Now comes the fun part, thinking about the architecture of the modules just designed in order for them to take shape of some code in the application. The idea here is to define them in a &lt;code&gt;json&lt;/code&gt; file to be picked from the respective module afterwards. This way it'll be easier to add new tutorials and tools and hence we have this resultant &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/1fde26caae27219ee359071ef7ac001a7377e658/data/root.json"&gt;json&lt;/a&gt;. The developement of this feature can be followed on this &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/7"&gt;merge request&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Now remains the quest to design and implement the structure of tutorials which can be generalized in a way that it can be populated using a json file. This will provide flexibility to the developer of tutorials and a UI module can also be implemented to modify this json to add new tutorials without even knowing how to code. Sounds amazing right? We'll see how it works out soon. If you have any suggestions this make sure to comment down below, on the merge request or reach out to me.&lt;/p&gt;
+&lt;h3&gt;The Conclusion&lt;/h3&gt;
+&lt;p&gt;Since the SignUp has also been merged I'll have to refactor SignIn now to integrate all of it in one happy application and complete the natural flow of things. Also, the design and development of tools/tutorials is underway and by the next blog is out you might be able to test the application with atleast one tool or tutorial from one of the modules on the dashboard.&lt;/p&gt;</content><category term="GSoC"></category><category term="GSoC"></category><category term="Google"></category><category term="Debian"></category><category term="KIVY"></category></entry><entry><title>Google Summer of Code 2018 with Debian - Week 4</title><link href="http://localhost:8000/gsoc-2018-week-4.html" rel="alternate"></link><published>2018-06-12T00:00:00+05:30</published><updated>2018-06-12T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:localhost,2018-06-12:/gsoc-2018-week-4.html</id><summary type="html">&lt;p&gt;The designs which I created for Sign Up, Sign In and Dashboard during the first couple of weeks saw the light of code this week. The learning curve for KIVY was steep but now I can deploy a feature every couple of days. Here's how!&lt;/p&gt;</summary><content type="html">&lt;p&gt;After working on &lt;a href="https://blog.shanky.xyz/gsoc-2018-week-1-and-2.html"&gt;designs&lt;/a&gt; and getting my hands dirty with &lt;a href="https://blog.shanky.xyz/gsoc-2018-week-3.html"&gt;KIVY&lt;/a&gt; for the first 3 weeks, I became comfortable with my development environment and was able to deliver features within a couple of days with UI, tests, and documentation. In this blog, I explain how I converted &lt;strong&gt;all&lt;/strong&gt; my Designs into Code and what I've learned along the way.&lt;/p&gt;
+&lt;h3&gt;The Sign Up&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="New Contributor Wizard - SignUp" src="http://localhost:8000/images/NewContributorWizardSignUp.png"&gt;&lt;/p&gt;
+&lt;p&gt;In order to implement above design in KIVY, the best way is to write a user kv-lang. It involves writing a kv file which contains widget tree of the layout and a lot more. One can learn more about kv-lang from the &lt;a href="https://kivy.org/docs/guide/lang.html"&gt;documentation&lt;/a&gt;. To begin with, let us look at the simplest kv file.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;BoxLayout&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;Label&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;Hello&amp;#39;&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;Label&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
+&lt;span class="w"&gt;        &lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;World&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h6&gt;KV Language&lt;/h6&gt;
+&lt;p&gt;In KIVY, in order to build UI widgets are used. Also, &lt;code&gt;widget&lt;/code&gt; base class is what is derived to create all other UI elements like layouts, button, label and so on in KIVY. Indentation is used in kv just like in Python to define children. In our kv file above, we're using &lt;code&gt;BoxLayout&lt;/code&gt; which allows us to arrange all its children in either horizontal(by default) or vertical orientation. So, both the &lt;code&gt;Label&lt;/code&gt;s will be oriented horizontally one after another.&lt;/p&gt;
+&lt;p&gt;Just like children widgets, one can also set values to properties like &lt;code&gt;Hello&lt;/code&gt; to &lt;code&gt;text&lt;/code&gt; of the first &lt;code&gt;Label&lt;/code&gt; in above code. More information about what properties can be defined for &lt;a href="https://kivy.org/docs/api-kivy.uix.boxlayout.html"&gt;&lt;code&gt;BoxLayout&lt;/code&gt;&lt;/a&gt; and &lt;a href="https://kivy.org/docs/api-kivy.uix.label.html"&gt;&lt;code&gt;Label&lt;/code&gt;&lt;/a&gt; can be seen from their &lt;a href="https://kivy.org/docs/api-kivy.html"&gt;API documentaion&lt;/a&gt;. All which remains is importing this &lt;code&gt;.kv&lt;/code&gt; (say &lt;code&gt;sample.kv&lt;/code&gt;) file from your module which runs KIVY app. You might notice that for now &lt;code&gt;Language&lt;/code&gt; and &lt;code&gt;Timezone&lt;/code&gt; are kept static. The reason is, Language support architecture is yet to be finalized and both the options would require a &lt;a href="https://kivy.org/docs/api-kivy.uix.dropdown.html"&gt;Drop Down list&lt;/a&gt;, design and implementation for which will be handled separately.&lt;/p&gt;
+&lt;p&gt;In order for me to build the UI following the design, I had to experiment with widgets. When all was done, &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/ef00a0d18220ec9597387b95871ae687e23bff1c/ui/signup.kv"&gt;&lt;code&gt;signup.kv&lt;/code&gt;&lt;/a&gt; file contained the resultant UI.&lt;/p&gt;
+&lt;h6&gt;Validations&lt;/h6&gt;
+&lt;p&gt;Now, the good part is we have a UI, the user can input data. And the bad part is user can input any data! So, it's very important to validate whether the user is submitting data in the correct format or not. Specifically for Sign Up module, I had to validate Email, Passwords and Full Name submitted by the user. Validation module can be found &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/ef00a0d18220ec9597387b95871ae687e23bff1c/modules/signup/validations.py"&gt;here&lt;/a&gt; which contains classes and methods for what I intended to do.&lt;/p&gt;
+&lt;p&gt;It's important that user gets feedback after validation if something is wrong with the input. This is done by exchanging the Label's text with error message and color with bleeding red by calling &lt;code&gt;prompt_error_message&lt;/code&gt; for unsuccessful validation.&lt;/p&gt;
+&lt;h6&gt;Updating The Database&lt;/h6&gt;
+&lt;p&gt;After successful validation, Sign Up module steps forward to update the database in &lt;code&gt;sqlite3&lt;/code&gt; module. But before that, Email and Full Name is cleaned for any unnecessary whitespaces, tabs and newline characters. &lt;a href="https://en.wikipedia.org/wiki/UUID"&gt;Universally unique identifier&lt;/a&gt; or uuid is generated for the &lt;code&gt;user_id&lt;/code&gt;. Plain text Password in changed to sha256 hash string for security. Finally, &lt;code&gt;sqlite3&lt;/code&gt; is integrated to &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/ef00a0d18220ec9597387b95871ae687e23bff1c/modules/signup/updatedb.py"&gt;&lt;code&gt;updatedb.py&lt;/code&gt;&lt;/a&gt; to update the database. SQlite database is stored in a single file and named &lt;code&gt;new_contributor_wizard.db&lt;/code&gt;. For user information, the table named &lt;code&gt;USERS&lt;/code&gt; is created if not present during initialization of &lt;code&gt;UpdateDB&lt;/code&gt; instance. Finally, information is stored or error is returned if the Email already exists. This is how the &lt;code&gt;USERS&lt;/code&gt; schema looks like.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;id VARCHAR(36) PRIMARY KEY,
+email UNIQUE,
+pass VARCHAR(64),
+fullname TEXT,
+language TEXT,
+timezone TEXT
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;After the Database is updated, i.e. successful account creation of user, the natural flow is to take the user to the Dashboard screen. In order to make this feature atomic, integration with Dashboard would be done once all 3 (SignUp, SignIn, and Dashboard) features are merged. So, in order to showcase successful sign-up, I've used text confirmation. Below is the screencast of how the feature looks and what changes it makes in the database.&lt;/p&gt;
+&lt;video width="400" controls&gt;
+  &lt;source src="http://localhost:8000/videos/gsoc_signup_feature.mp4" type="video/mp4"&gt;
+  Your browser does not support HTML5 video.
+&lt;/video&gt;
+
+&lt;h3&gt;The Sign In&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="New Contributor Wizard - SignIn" src="http://localhost:8000/images/NewContributorWizardLogIn.png"&gt;&lt;/p&gt;
+&lt;p&gt;If you look into the difference in UI of SignIn module in comparison with the SignUp, you might notice a few changes.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;code&gt;New Contributor Wizard&lt;/code&gt; is now right-aligned&lt;/li&gt;
+&lt;li&gt;Instead of 2 columns taking user information, here we have just one with &lt;code&gt;Email&lt;/code&gt; and &lt;code&gt;Password&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hence, the UI experiences only a little change and the result can be seen in &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/a2f3a520d43a2efee016e24bcc5d64decfd509d5/ui/signin.kv"&gt;&lt;code&gt;singin.py&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h6&gt;Validations&lt;/h6&gt;
+&lt;p&gt;Just like in the Sign Up modules, we are not trusting user's input to be sane. Hence, we validate whether the user is giving us a good format Email and Password. The resultant validations of Sign In modules can be seen in &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/a2f3a520d43a2efee016e24bcc5d64decfd509d5/modules/signin/validations.py"&gt;&lt;code&gt;validations.py&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h6&gt;Updating The Database&lt;/h6&gt;
+&lt;p&gt;After successful validation, next step would be cleaning Email and hashing the Password entered by the user. Here we have two possibilities of unsuccessful signin,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Either the Email entered by the user doesn't exist in the database&lt;/li&gt;
+&lt;li&gt;Or the Password entered by the user is not correct&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Else, the user is signed in successfully. For the unsuccessful signin, I have created a &lt;code&gt;exceptions.py&lt;/code&gt; module to prompt the error correctly. &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/a2f3a520d43a2efee016e24bcc5d64decfd509d5/modules/signin/updatedb.py"&gt;&lt;code&gt;updatedb.py&lt;/code&gt;&lt;/a&gt; contains the database operations for Sign In module.&lt;/p&gt;
+&lt;h5&gt;The Exceptions&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/a2f3a520d43a2efee016e24bcc5d64decfd509d5/modules/signin/exceptions.py"&gt;&lt;code&gt;Exceptions.py&lt;/code&gt;&lt;/a&gt; of Sign In contains Exception classes and they are defined as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;UserError - this class is used to throw an exception when Email doesn't exist&lt;/li&gt;
+&lt;li&gt;PasswordError - this class is used to throw an exception when Password doesn't match the one saved in the database with the corresponding email.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All these modules are integrated with &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/a2f3a520d43a2efee016e24bcc5d64decfd509d5/modules/signin/signin.py"&gt;&lt;code&gt;signin.py&lt;/code&gt;&lt;/a&gt; and the resultant feature can be seen in action in the screencast below. Also, here's the &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/5"&gt;merge request&lt;/a&gt; for the same.&lt;/p&gt;
+&lt;video width="400" controls&gt;
+  &lt;source src="http://localhost:8000/videos/gsoc_signin_feature.mp4" type="video/mp4"&gt;
+  Your browser does not support HTML5 video.
+&lt;/video&gt;
+
+&lt;h3&gt;The Dashboard&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="New Contributor Wizard - Dashboard" src="http://localhost:8000/images/NewContributorWizardDashboard.png"&gt;&lt;/p&gt;
+&lt;p&gt;The Dashboard is completely different than the above two modules. If New Contributor Wizard is the culmination of different user stories and interactive screen then Dashboard is the protagonist of all the other features. A successful SignIn or SignUp will direct the user to the Dashboard. All the tutorials and tools will be available to the user henceforth.&lt;/p&gt;
+&lt;h5&gt;The UI&lt;/h5&gt;
+&lt;p&gt;There are 2 segments of the Dashboard screen, one is for all the menu options on the left and another is for the tutorials and tools for the selected menu option on the right. So, it was needed to change the screen on the right all the time while selecting the menu options. KIVY provides a widget named &lt;a href="https://kivy.org/docs/api-kivy.uix.screenmanager.html"&gt;&lt;code&gt;Screen Manager&lt;/code&gt;&lt;/a&gt; to manage such an issue gracefully. But in order to have control over the transition of just a part of the screen rather than the entire screen, one has to dig deep into the API and work it out. Here's when I remembered a sentence from the &lt;a href="https://www.python.org/dev/peps/pep-0020/"&gt;Zen of Python&lt;/a&gt;, "Simple is better than complex" and I chose the simple way of changing the screen i.e. by adding/removing widget functions.&lt;/p&gt;
+&lt;p&gt;In the &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/9f57525706c068a1963c9b887c1b742837d50532/modules/dashboard/dashboard.py"&gt;&lt;code&gt;dashboard.py&lt;/code&gt;&lt;/a&gt;, I'm overidding &lt;code&gt;on_touch_down&lt;/code&gt; function to check which menu option the user clicks on and calling &lt;code&gt;enable_menu&lt;/code&gt; accordingly.&lt;/p&gt;
+&lt;p&gt;The menu options on the left are not the &lt;code&gt;Button&lt;/code&gt; widget. I had an option of using the &lt;code&gt;Button&lt;/code&gt; directly but it would need customization to make them look pretty. Instead, I used &lt;code&gt;BoxLayout&lt;/code&gt; and &lt;code&gt;Label&lt;/code&gt; to incorporate a button like feature. In &lt;code&gt;enable_menu&lt;/code&gt; I only check on top of which option user is clicking using the &lt;code&gt;touch&lt;/code&gt; API. Now, all I have to do is highlight the selected option and unfocus all the other options. The final UI can be seen here in &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/9f57525706c068a1963c9b887c1b742837d50532/ui/dashboard.kv"&gt;&lt;code&gt;dashboard.kv&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h5&gt;Courseware&lt;/h5&gt;
+&lt;p&gt;Along with highlighting the selected option, Dashboard also changes to the courseware i.e. tools and tutorials for the selected option on the right. To provide a modular structure to application, all these options are build as separate modules and then integrated into the Dashboard. Here are all the modules for the courseware build for the Dashboard,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;blog&lt;/code&gt; - Users will be given tools to create and deploy their blogs and also learn the best practices.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cli&lt;/code&gt; - Understanding Command Line Interface will be the goal with all the tutorials provided in this module.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;communication&lt;/code&gt; - Communication module will have tutorials for IRC and mailing lists and showcase best communication practices. The tools in this module will help user subscribe to the mailing lists of different open source communities.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;encryption&lt;/code&gt; - Encrypting communication and data will be tough using this module.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;how_to_use&lt;/code&gt; - This would be an introductory module for the user for them to understand how to user this application.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;vcs&lt;/code&gt; - Version Control Systems like git is important while working on a project whether personal or with a team and everything in between.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;way_ahead&lt;/code&gt; - This module will help users reach out to different open source communities and organizations. It will also showcase open source project to the user with respect to their preference and information about programs like Google Summer of Code and Outreachy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;Settings&lt;/h5&gt;
+&lt;p&gt;Below the menu are the options for settings. These settings also have separate modules just like courseware. Specifically, they are described as&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;application_settings&lt;/code&gt; - Would help out user to manage setting which are specific to KIVY application like resolutions.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;theme_settings&lt;/code&gt; - User can manage theme related setting like color schema using this option&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;profile_settings&lt;/code&gt; - Would help the user manage information about themselves&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/6"&gt;merge request&lt;/a&gt; which incorporates the Dashboard feature in the project can be seen in action in the screencast below.&lt;/p&gt;
+&lt;video width="400" controls&gt;
+  &lt;source src="http://localhost:8000/videos/gsoc_dashboard_feature.mp4" type="video/mp4"&gt;
+  Your browser does not support HTML5 video.
+&lt;/video&gt;
+
+&lt;h3&gt;The Conclusion&lt;/h3&gt;
+&lt;p&gt;The week 4 was a bit satisfying for me as I felt like adding value to the project with these merge requests. As soon as the merge requests are reviewed and merged in the repository, I'll work on integrating all these features together to create a seamless experience as it should be for the user. There are few necessary modifications to be made in the features like supporting multiple languages and adding the gradient to the background as it can be seen in the &lt;a href="https://blog.shanky.xyz/gsoc-2018-week-1-and-2.html#gsoc-2018-week-1-and-2"&gt;design&lt;/a&gt;. I'll create issues on &lt;a href="https://outreach-lab.debian.net/redmine/projects/new-contributor-wizard"&gt;redmine&lt;/a&gt; for the same and will work on them as soon as integration is done. My next task would be designing how tutorials and tasks would look in the right segment of the Dashboard.&lt;/p&gt;</content><category term="GSoC"></category><category term="GSoC"></category><category term="Google"></category><category term="Debian"></category><category term="KIVY"></category></entry><entry><title>Google Summer of Code 2018 with Debian - Week 3</title><link href="http://localhost:8000/gsoc-2018-week-3.html" rel="alternate"></link><published>2018-06-04T00:00:00+05:30</published><updated>2018-06-05T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:localhost,2018-06-04:/gsoc-2018-week-3.html</id><summary type="html">&lt;p&gt;Third week of GSoC was all about working on the code and it's quality. It's the first time I started using KIVY and here's how it went.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Coming to the third week of GSoC felt like it was part of the daily schedule since ever. Daily updates to mentors, reviews, and evaluations on merge/pull requests and constant learning process kept my schedule full of adrenalin. Here's what I worked on!&lt;/p&gt;
+&lt;h5&gt;How A Project Is Made with Sanyam Khurana&lt;/h5&gt;
+&lt;p&gt;Building an idea into a project seems like a lot of work and excitement right? You can do all sorts of crazy stuff with your code to make it as amazing as possible. Use all sorts of cool-tool in hope of making something out of it at the end. But this is where the problem lies. Diving into the sea of amusement and uncertainty never promises a good ending. And hence, my mentor &lt;a href="http://www.sanyamkhurana.com/"&gt;Sanyam Khurana&lt;/a&gt; and I sat down for my intervention in hope of structuring the tasks for good. And this is how a project begins. Sanyam with his experience in &lt;a href="https://github.com/curiouslearner"&gt;Open Source&lt;/a&gt; as well as industry taught me the importance of dividing tasks which should be atomic and should clearly define what we are trying to achieve in Plain-English. For example, when you are trying to make a blogging website, you don't create a pull request with all of the functionalities needed for the blog. First, think about the atomic tasks which can be done independently. Now create a series of these tasks (we call them tickets/issues/features). So, you have a ticket for, say, setting up pelican blog. Another for creating a theme for your blog. Another for adding analytics to your blog and so on.&lt;/p&gt;
+&lt;p&gt;Now, you can also create boards or table with columns which define the state of which these tasks lies. A task may be in development or in testing or review phase. This makes it easier to vizualise what needs to be done, what has been done already and what tasks should be in focus currently. This methodology in a broader sense and proper framework with a lot of disciplines in action is known as Agile Software Development.&lt;/p&gt;
+&lt;h5&gt;Dividing Project into Tasks&lt;/h5&gt;
+&lt;p&gt;After learning much about how to proceed, I sketched out the way in which I can separate out the atomic features needed for the project. We're using Debian hosted &lt;a href="https://outreach-lab.debian.net/redmine/projects/new-contributor-wizard"&gt;Redmine&lt;/a&gt; for our project management and I started jotting down the issues, to begin with. Here are the issues which shape the beginning of the project.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://outreach-lab.debian.net/redmine/issues/15"&gt;Create Design Guideline&lt;/a&gt; - The first issue in order to create a reference GUI design guideline for the application.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://outreach-lab.debian.net/redmine/issues/16"&gt;Design GUI for Sign Up&lt;/a&gt; - Design mockup following the guideline to describe how Sign Up module should look like on the GUI.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://outreach-lab.debian.net/redmine/issues/17"&gt;Design GUI for Sign In&lt;/a&gt; - Design mockup following the guideline to describe how Sign In module should look like on the GUI.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://outreach-lab.debian.net/redmine/issues/5"&gt;Create Git repository for the project&lt;/a&gt; - Project mentor Daniel created this issue as the first step which marks the beginning of the project.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://outreach-lab.debian.net/redmine/issues/4"&gt;Initializing skeleton KIVY application&lt;/a&gt; - After a dedicated repository has been created for our project, a KIVY application has to be setup which should also include tests, documentation, and changelog.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://outreach-lab.debian.net/redmine/issues/8"&gt;Create SignUp Feature&lt;/a&gt; - After the skeleton is setup, sign up modules can be implemented which should present a GUI to the user in order to create the account to access the application. This screen should be the first interaction with the user after they run the application for the first time.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://outreach-lab.debian.net/redmine/issues/9"&gt;Create SignIn Feature&lt;/a&gt; - If the user is already signed up for an account on the application, this screen will be the medium with which they can Sign In with the credentials.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://outreach-lab.debian.net/redmine/issues/10"&gt;Add a license to Project Repository&lt;/a&gt; - Being an open source project, picking up license is a very elaborative process where we have to also look at all the dependencies our application has and other parameters. Hence, this issues is more of a discussion which will conclude by adding a License file in the project repository.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These were some of the key issues which came up after my discussion with Sanyam (except creating git repo which Daniel kickstarted). These issues were enough to begin with and as we progress we can create more issues on Redmine. As part of the first couple of weeks of GSoC, I've already completed the first 3 design issues, I also wrote a &lt;a href="https://blog.shanky.xyz/gsoc-2018-week-1-and-2.html"&gt;blog&lt;/a&gt; explaining about my process and the outcome. So, for the third week, I started with initializing skeleton KIVY application.&lt;/p&gt;
+&lt;h5&gt;The First Merge Request&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="KIVY APP" src="http://localhost:8000/images/gsocweek3kivyapp.png"&gt;&lt;/p&gt;
+&lt;p&gt;Don't be confused if you are a Github native, since we are using Debian hosted Gitlab (&lt;a href="https://salsa.debian.org/"&gt;called salsa&lt;/a&gt;), it has Merge Request in place of Pull Request.&lt;/p&gt;
+&lt;p&gt;The issue which I was trying to solve in my first Merge Request was &lt;a href="https://outreach-lab.debian.net/redmine/issues/4"&gt;Initializing skeleton KIVY application&lt;/a&gt;. It was just to create a boilerplate from scratch so that development from now on would be smooth. I set out to achieve following things in my Merge Request&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add a KIVY application which can create a sample window with sample text on it to showcase that KIVY is working just fine&lt;/li&gt;
+&lt;li&gt;Create the project structure to fit documentation, ui, tests and modules&lt;/li&gt;
+&lt;li&gt;Add &lt;code&gt;pipenv&lt;/code&gt; support for virtual environment and dependency management&lt;/li&gt;
+&lt;li&gt;Integrate &lt;code&gt;pylint&lt;/code&gt; to test Python code for PEP8 compliance&lt;/li&gt;
+&lt;li&gt;Integrate &lt;code&gt;pytest&lt;/code&gt; and write tests for unit and integration testing&lt;/li&gt;
+&lt;li&gt;Adding Gitlab CI support&lt;/li&gt;
+&lt;li&gt;Add a &lt;code&gt;README.md&lt;/code&gt; file and write general description about the project and all it's components&lt;/li&gt;
+&lt;li&gt;Add documentation for end user to help them easily run and explain all the features of the application&lt;/li&gt;
+&lt;li&gt;Add documentation for developers to help them build the application from source&lt;/li&gt;
+&lt;li&gt;Add documentation for contributors to share some of the best practices while contributing to this application&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here's the &lt;a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/1"&gt;Merge Request&lt;/a&gt; which resulted in all of the above additions to the project. It was a lot of pain getting CI to work for the first time, but once you get a green tick, you know what ticks CI to work correctly. Throughout my development process Sanyam helped me with reviews and it finally got merged into the repository by Daniel.&lt;/p&gt;
+&lt;h5&gt;Conclusion&lt;/h5&gt;
+&lt;p&gt;This week kickstarted the main development process for &lt;strong&gt;New Contributor Wizard&lt;/strong&gt; and gave me a chance to learn about project/software management. I will be creating more issues and share about what I'm working in the next week's GSoC blog.&lt;/p&gt;</content><category term="GSoC"></category><category term="GSoC"></category><category term="Google"></category><category term="Debian"></category><category term="KIVY"></category><category term="Salsa"></category><category term="Gitlab"></category></entry><entry><title>Google Summer of Code 2018 with Debian - Week 1 and 2</title><link href="http://localhost:8000/gsoc-2018-week-1-and-2.html" rel="alternate"></link><published>2018-05-28T00:00:00+05:30</published><updated>2018-05-30T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:localhost,2018-05-28:/gsoc-2018-week-1-and-2.html</id><summary type="html">&lt;p&gt;GSoC 2018 has begun and for me, it is also a journey of exploring Debian organization. Here's a blog about what I learned during community bonding period and what I've done during the first couple of weeks.&lt;/p&gt;</summary><content type="html">&lt;p&gt;After I got the news of my selection in Debian for Google Summer of Code program, I've been exploring different domains in which one can contribute to Debian and hence making the community bonding phase as productive as it can get.&lt;/p&gt;
+&lt;h5&gt;Community Bonding&lt;/h5&gt;
+&lt;p&gt;For Debian, Mailing Lists are one of the primary means of communication among the contributors and maintainers of the community. It was also stated on the Debian's &lt;a href="https://wiki.debian.org/SummerOfCode2018/Projects"&gt;GSoC projects page&lt;/a&gt; that we students should be joining &lt;a href="https://lists.debian.org/debian-outreach/"&gt;debian-outreach&lt;/a&gt;, &lt;a href="https://lists.debian.org/debconf-announce/"&gt;debconf-announce&lt;/a&gt;, &lt;a href="https://lists.debian.org/debian-announce/"&gt;debian-announce&lt;/a&gt; and &lt;a href="https://lists.debian.org/debian-devel-announce/"&gt;debian-devel-announce&lt;/a&gt; lists. debian-outreach list is for the communications mostly related Gooogle Summer of Code, Rail Girls Summer of Code and similar programs. One can always find lists as per their interests from the &lt;a href="https://lists.debian.org/"&gt;Debian Mailing Lists&lt;/a&gt; index.&lt;/p&gt;
+&lt;p&gt;Similarly, #debian-outreach and #debconf-discuss are the IRC few of the &lt;a href="https://wiki.debian.org/IRC"&gt;Debian IRC&lt;/a&gt; channels which were recommended. And is mostly filled with valuable conversations to follow. Even if you don't know where to begin in order to contribute, simply ask!&lt;/p&gt;
+&lt;p&gt;Before the Coding Phase, we had a &lt;a href="https://meet.jit.si"&gt;Jitsi&lt;/a&gt; call with the mentors and students under one room in order to discuss and plan ahead. We also agreed on having a weekly call in the same room, the schedule for which was carefully picked up which took everyone's timezone into account. &lt;a href="http://www.sanyamkhurana.com/"&gt;Sanyam Khurana&lt;/a&gt;, who is one of my mentors for this project is the only person I've known among all my mentors and fellow students from before. I've been learning from his work since we started meeting during meetups in Delhi NCR and he's generous enough to spare additional hours from his day in which we can meet and have healthy discussions about the project.&lt;/p&gt;
+&lt;h5&gt;Design - The Beginning Of Everything&lt;/h5&gt;
+&lt;p&gt;Since we are 3 folks working on the same project, mentors had a very important task of dividing modules among students which had to be atomic. Modules which were allocated were not final and open to discussion. These modules only gave an idea about the feature to be implemented, it's up to the student to plan accordingly with the help of the mentors and proceed with actual implementation. I began with working on the Design of the application.&lt;/p&gt;
+&lt;h5&gt;Design Guidelines - The Palette&lt;/h5&gt;
+&lt;p&gt;I like &lt;a href="https://coolors.co/"&gt;Coolors&lt;/a&gt; and have been using it for quite some time now. It's a go-to tool when you are exploring color palette for your project. I explored a bit and decided to go with 4 colors. 2 Solids and 2 variants of the original colors of my choice which can be seen below. Then I decided to pick fonts for the application from Google Fonts as it provides all the proper guidelines for the different use cases and licensing. I went ahead with &lt;a href="https://fonts.google.com/specimen/Anton"&gt;Anton&lt;/a&gt; and &lt;a href="https://fonts.google.com/specimen/Varela+Round"&gt;Varela Round&lt;/a&gt;, both of which come with an &lt;a href="http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&amp;amp;id=OFL_web"&gt;Open Font License&lt;/a&gt;. I've also shared the raw SVG design in the blog which we'll also be using for our development process. In order for the font in the SVG to work, simply download both the fonts mentioned above and install them in your OS's font directory.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="New Contributor Wizard - Color Palette" src="http://localhost:8000/images/NewContributorWizardPalette.png"&gt;&lt;/p&gt;
+&lt;p&gt;SVG Version of the above poster to play can be found &lt;a href="/images/NewContributorWizardPalette.svg"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h5&gt;Design Guidelines - The Gradient&lt;/h5&gt;
+&lt;p&gt;While contributing to Open Source Projects and Communities, it's important to embrace it with the rich history and resources they have given us mostly with a &lt;a href="https://opensource.org/licenses"&gt;&lt;code&gt;Go-Nuts&lt;/code&gt; license&lt;/a&gt;. This is the reason why I chose &lt;a href="https://inkscape.org/"&gt;Inkscape&lt;/a&gt; for all my designing work. The beauty of picking up variants of colors is you can mix and match them in order to create beautiful gradients. So, I did! I used the two variants of the Blueish-like color selected earlier and created the gradient which can be seen below. The gradient is linear and two colors are selected for horizontal ends of the box.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="New Contributor Wizard - Gradient" src="http://localhost:8000/images/NewContributorWizardGradient.png"&gt;&lt;/p&gt;
+&lt;p&gt;Now to create the main dashboard, I just needed a little imagination about which end point would be best for which gradient and here's the result. SVG version to play can be found &lt;a href="/images/NewContributorWizardDashboardGradient.png"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="New Contributor Wizard - Dashboard Gradient" src="http://localhost:8000/images/NewContributorWizardDashboardGradient.png"&gt;&lt;/p&gt;
+&lt;h5&gt;GUI - The Sign Up&lt;/h5&gt;
+&lt;p&gt;Sign Up will probably be the first screen the user encountered on the application after installation. Here, user shares few important details about themselves which will be used to create an instance and persist user activity throughout the application. Using the same Dashboard I created the Sign Up screen as seen below. SVG version to play can be found &lt;a href="/images/NewContributorWizardSignUp.svg"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="New Contributor Wizard - SignUp" src="http://localhost:8000/images/NewContributorWizardSignUp.png"&gt;&lt;/p&gt;
+&lt;p&gt;Additionally, I used &lt;a href="https://www.flaticon.com/free-icon/drop-down-arrow_60995#term=down%20arrow&amp;amp;page=1&amp;amp;position=20"&gt;Down Arrow Icon&lt;/a&gt; and &lt;a href="https://www.flaticon.com/free-icon/eye_23912#term=eye&amp;amp;page=1&amp;amp;position=15"&gt;Eye Icon&lt;/a&gt; in the design both of which are licensed with &lt;a href="http://creativecommons.org/licenses/by/3.0/"&gt;Creative Commons&lt;/a&gt;.&lt;/p&gt;
+&lt;h5&gt;GUI - The Log In&lt;/h5&gt;
+&lt;p&gt;After when the user has signed up, they can Log In henceforth using their email address and password shared during the Sign Up process. You might notice that the partition between the Blackish and Blueish segment changes size between Sign Up and Log In. It would look cool if we are able to animate the size when user switches between the screens. SVG version to play of the Log In design can be found &lt;a href="/images/NewContributorWizardLogIn.svg"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="New Contributor Wizard - LogIn" src="http://localhost:8000/images/NewContributorWizardLogIn.png"&gt;&lt;/p&gt;
+&lt;h5&gt;GUI - The Dashboard&lt;/h5&gt;
+&lt;p&gt;Finally, after the user is authenticated, they are taken to the main screen of the application I'm calling &lt;code&gt;Dashboard&lt;/code&gt;. On the Dashboard, one can find all the tutorials for the technology or concept available and also the tools mentioned. I extended the design to include a panel on the left segment. This panel contains options to view and modify configurations for the application. The &lt;a href="https://www.flaticon.com/free-icon/user-avatar-main-picture_69442#term=profile&amp;amp;page=1&amp;amp;position=70"&gt;Profile Icon&lt;/a&gt; can be used to give user option to change details about themselves. The &lt;a href="https://www.flaticon.com/free-icon/painter-palette_61092#term=paint&amp;amp;page=1&amp;amp;position=10"&gt;Paint Icon&lt;/a&gt; can be used to allow the user to change the application theme. The &lt;a href="https://www.flaticon.com/free-icon/settings-work-tool_70367#term=gear&amp;amp;page=1&amp;amp;position=4"&gt;Gear Icon&lt;/a&gt; can be used to provide additional application specific settings like language choice, updates etc. SVG version to play of the design below can be found &lt;a href="/images/NewContributorWizardDashboard.svg"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="New Contributor Wizard - Dashboard" src="http://localhost:8000/images/NewContributorWizardDashboard.png"&gt;&lt;/p&gt;
+&lt;h5&gt;Conclusion&lt;/h5&gt;
+&lt;p&gt;These designs will now be used to implement the GUI of the application. The designs are open to modification to fit the need of the application. We're using a Debian hosted &lt;a href="https://outreach-lab.debian.net/redmine/projects/new-contributor-wizard"&gt;Redmine&lt;/a&gt; to manage our project and I've created few issues to implement design in code with proper tests and documentation. This is the highlight of what I've been doing for the first couple of weeks and I'll continue to share updates via my blog in future as well.&lt;/p&gt;</content><category term="GSoC"></category><category term="GSoC"></category><category term="Google"></category><category term="Debian"></category><category term="Inkscape"></category></entry><entry><title>PyDelhi Dev Sprints - 28th April 2018</title><link href="http://localhost:8000/pydelhi-dev-sprints-28th-april-2018.html" rel="alternate"></link><published>2018-05-03T00:00:00+05:30</published><updated>2018-05-04T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:localhost,2018-05-03:/pydelhi-dev-sprints-28th-april-2018.html</id><summary type="html">&lt;p&gt;PyDelhi volunteer teamed up to organise dev sprint which is way different that the regular meetup and being in the team I had the reponsibility of reaching out to organisations and mentors for the same. Here's how it went!&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="PyDelhi Dev Sprint on 28th April 2018" src="http://localhost:8000/images/pydelhidevsprint1.jpg"&gt;&lt;/p&gt;
+&lt;h4&gt;The Idea&lt;/h4&gt;
+&lt;p&gt;&lt;a href="http://rajatsaini.com"&gt;Rajat Saini&lt;/a&gt; who is one of the PyDelhi volunteers for a long time suggested &lt;a href="https://mail.python.org/pipermail/ncr-python.in/2018-April/001759.html"&gt;new concepts&lt;/a&gt; for PyDelhi events on the mailing list. Discussions began both on the mailing list and on telegram volunteer group about the same and we planned to organize PyDelhi Dev Sprint on April 28th. Begin one of the volunteers I had the responsibility of creating a form for organizations and mentors, reaching out to them and also broadcast the news to different FOSS communities in and around Delhi.&lt;/p&gt;
+&lt;h4&gt;The Organisations&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="Organisations participated" src="http://localhost:8000/images/pydelhidevsprint2.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Close to the event date, we had following organizations confirmed for Dev Sprint.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://kivy.org"&gt;Kivy&lt;/a&gt; - &lt;a href="https://github.com/akshayaurora"&gt;Akshay Arora&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://coala.io"&gt;Coala&lt;/a&gt; - &lt;a href="https://github.com/hemangsk"&gt;Hemang Kumar&lt;/a&gt; and &lt;a href="https://github.com/rj722"&gt;Rahul Jha&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mozilla.org"&gt;Mozilla&lt;/a&gt; - &lt;a href="https://github.com/curiouslearner"&gt;Sanyam Khurana&lt;/a&gt; for AddOn Server, Remo and Mozilla Central and I, &lt;a href="https://github.com/realslimshanky"&gt;Shashank Kumar&lt;/a&gt; for AddOn Frontend&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://python.org"&gt;Python&lt;/a&gt; - &lt;a href="https://github.com/curiouslearner"&gt;Sanyam Khurana&lt;/a&gt; for CPython &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;The Day of Dev Sprints&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="Priyank taking VCS session" src="http://localhost:8000/images/pydelhidevsprint3.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.knowlarity.com"&gt;Knowlarity&lt;/a&gt; invited PyDelhi to host Dev Sprint in their Gurugram office and also sponsored lunch afterward. It all began with a quick introduction from everyone and Sanyam taking a session on what Dev Sprints actually are. Later, the attendees chose their projects and circled around the mentors for the same. Those who were new to Git and Github were helped by &lt;a href="https://twitter.com/priyankt68"&gt;Priyank&lt;/a&gt; who took the initiative of teaching VCS. Afterward, Knowlarity CTO, &lt;a href="https://twitter.com/ajayshr"&gt;Ajay Shrivastava&lt;/a&gt; took a quick inspirational session and then Hiring and Pitching session took place.&lt;/p&gt;
+&lt;h4&gt;The Aftermath&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="Mandatory Group Picture" src="http://localhost:8000/images/pydelhidevsprint4.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;The result of the event was 11 Issues and 6 Pull Requests to different project of participating organizations and listed them on &lt;a href="https://public.etherpad-mozilla.org/p/pydelhidevsprintapril2018"&gt;etherpad&lt;/a&gt;. Folks who contributed got PyDelhi and Github swags. We took a mandatory group picture afterward to conclude the day. Hope to see you guys in upcoming &lt;a href="https://meetup.com/pydelhi"&gt;PyDelhi Meetup&lt;/a&gt;&lt;/p&gt;</content><category term="Meetup"></category><category term="PyDelhi"></category><category term="Python"></category><category term="Kivy"></category><category term="Coala"></category><category term="CPython"></category><category term="Mozilla"></category></entry><entry><title>Google Summer of Code 2018 - Blog 2 - The Application Task and Results</title><link href="http://localhost:8000/gsoc-2018-blog-2-the-application-task-and-results.html" rel="alternate"></link><published>2018-04-30T00:00:00+05:30</published><updated>2018-04-30T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:localhost,2018-04-30:/gsoc-2018-blog-2-the-application-task-and-results.html</id><summary type="html">&lt;p&gt;While preparing for Google Summer of Code, I had to complete Application Task provided by the mentors. In this blog I explained about the same, announcement of GSoC 2018 students and my acceptance into the program.&lt;/p&gt;</summary><content type="html">&lt;p&gt;In my earlier blog &lt;a href="https://blog.shanky.xyz/gsoc-2018-blog-1-from-preparations-to-debian-proposal.html"&gt;&lt;strong&gt;Google Summer of Code 2018 - Blog 1 - From Preparations to Debian to Proposal&lt;/strong&gt;&lt;/a&gt;, I shared few highlights from my life which inspired me to learn Python and taught me good programming practices in general. And how I got to know about Google Summer of Code program and completed &lt;a href="https://blog.shanky.xyz/PDFs/GSoC_2018_proposal_for_Debian7.pdf"&gt;&lt;strong&gt;my final proposal&lt;/strong&gt;&lt;/a&gt; for Debian. In this blog, I'll share about the application task which was to be completed alongside the proposal.&lt;/p&gt;
+&lt;h5&gt;Application Task - Introduction&lt;/h5&gt;
+&lt;p&gt;I started with probing through GSoC 2016 organizations and their mailing lists, wikis and blogs to find out whether they are preparing for this year as well. For some of them, I was already aware as I have been contributing to upstream projects of these organizations on Github as well. Also, I was learning about Web Extensions while the process and also gave a &lt;a href="https://blog.shanky.xyz/mozamu-my-first-visit-to-amu-and-first-talk-for-mozilla.html"&gt;talk for Mozilla in Aligarh Muslim University&lt;/a&gt;. So, I got interested when I saw that 2 of the project ideas from Debian lies in the domain of creating browser extensions. I chose to work on one of the ideas which needed me to create an extension which is not supported in newer browsers because of the lack of web extension support on their source code. I tried to wrap my head around the idea and because I could not find proper documentation on legacy code or a mentor in given time, I had to pivot to another idea.&lt;/p&gt;
+&lt;p&gt;This is when I saw &lt;a href="https://wiki.debian.org/SummerOfCode2018/Projects/WizardForStudentsAndNewInterns"&gt;Wizard/GUI helping students/interns apply and get started&lt;/a&gt; by mentor &lt;a href="https://danielpocock.com/"&gt;Daniel Pocock&lt;/a&gt; and because of my love for Python, I chose to work on this idea, preparing Proposal and Application Task. The idea was to provide all the tools of trade necessary for open source contribution with tutorial and references.&lt;/p&gt;
+&lt;h5&gt;Application Task - Design&lt;/h5&gt;
+&lt;p&gt;I thought of a rough roadmap of what I wanted to achieve through the application task both Graphical (on UI end) and Operational (on functional end). For the UI, I thought of providing a nice sidebar with options of changing through topics and main screen where the content would appear on the chosen topic. So I set out to create the design on &lt;a href="https://inkscape.org/"&gt;Inkscape&lt;/a&gt; using &lt;a href="https://design.ubuntu.com/"&gt;Ubuntu Design Guidelines&lt;/a&gt;. Here's what I ended up with&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GUI Design - Communications" src="http://localhost:8000/images/communication.png"&gt;&lt;/p&gt;
+&lt;p&gt;In the above design, you can see sidebar containing menu on the left-hand side. I have placed the menu options based on their increasing difficulty of understanding. On the right-hand side, you can see the main screen currently showing content from the selected option on the left. Right now it is showcasing 'Communication' which can be a segment in which users will understand the importance of Mailing list and IRC. There can also be an option of subscribing to Mailing Lists or channels on IRC via the software itself.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GUI Design - CLI" src="http://localhost:8000/images/cli.png"&gt;&lt;/p&gt;
+&lt;p&gt;In another design above, you can see a user is underway leaning how Command Line Interfaces work with UNIX commands. To make it more interactive, the user can be asked to perform certain tasks like running a command on the terminal and submitting output in order to proceed to next level.&lt;/p&gt;
+&lt;h5&gt;Application Task - Implementation&lt;/h5&gt;
+&lt;p&gt;In the project idea, Daniel mentioned the use of PyQt in order to work on the application task, so I did. PyQt5 was the latest of the stable version of PyQt which can be used and from the official documentation, it was said to be &lt;a href="http://pyqt.sourceforge.net/Docs/PyQt5/pyqt4_differences.html"&gt;more 'Pythonic'&lt;/a&gt; than it's predecessor PyQt4. Also, I found a very good tutorial by Jan Bodnar on &lt;a href="http://zetcode.com/gui/pyqt5/"&gt;ZedCode&lt;/a&gt; which helped me understand the basics of PyQt5 API before I can take help from official documentation.&lt;/p&gt;
+&lt;p&gt;According to project idea, I had to implement any one of the features for which I choose to work with &lt;a href="https://ssd.eff.org/en/module/introduction-public-key-cryptography-and-pgp"&gt;PGP keys&lt;/a&gt;. The user would be able to manage their PGP keys pairs i.e. creating, exporting, encrypting and decrypting messages using PGP keys. After I was done, this is what the application task, which I named "Open Source Buddy" can do&lt;/p&gt;
+&lt;video width="400" controls&gt;
+  &lt;source src="https://salsa.debian.org/realslimshanky-guest/Open-Source-Buddy/raw/master/demo.mp4" type="video/mp4"&gt;
+  Your browser does not support HTML5 video.
+&lt;/video&gt;
+
+&lt;p&gt;Daniel also suggested some of the &lt;a href="https://wiki.debian.org/Teams/Outreach/Tools"&gt;FOSS tools and platform&lt;/a&gt; which we should be using for the development of the application. Following the guidelines, I used &lt;a href="https://salsa.debian.org"&gt;Salsa&lt;/a&gt;, which is a self-hosted GitLab on Debian server to host the application task. The entire source code with designs and demo video can be seen &lt;a href="https://salsa.debian.org/realslimshanky-guest/Open-Source-Buddy"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This was just one of the functionalities and workflow which I proposed in my &lt;a href="PDFs/GSoC_2018_proposal_for_Debian7.pdf"&gt;Final GSoC Proposal&lt;/a&gt;) to Debian.&lt;/p&gt;
+&lt;h5&gt;GSoC 2018 - Results&lt;/h5&gt;
+&lt;p&gt;As promised by GSoC on &lt;a href="https://twitter.com/gsoc/status/978671996266414080"&gt;Twitter&lt;/a&gt;, results were announced on 23rd April 2018 at 9:30 IST (16:00 UTC). With marginally less breath and heartbeats I went on to the official website to checkout the results. And there it was!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="GSoC 2018 Result" src="http://localhost:8000/images/gsoc2018result.png"&gt;&lt;/p&gt;
+&lt;p&gt;My proposal got accepted for Debian, I for Google Summer of Code 2018 and the &lt;a href="https://summerofcode.withgoogle.com/projects/#5056989357408256"&gt;website confirmed&lt;/a&gt; it with my username and other details. I also received an official mail from Google regarding the same with other details regarding the program. I'm very excited about the journey and would be sharing what I learn and accomplish along the way. I would like to thank all the mentors who chose me for the responsibility of completing the project.&lt;/p&gt;</content><category term="GSoC"></category><category term="GSoC"></category><category term="Google"></category><category term="Debian"></category><category term="PyQt"></category></entry><entry><title>Google Udacity Scholarship and getting my idea selected for Collaborative Projects</title><link href="http://localhost:8000/google-udacity-scholarship.html" rel="alternate"></link><published>2018-04-09T00:00:00+05:30</published><updated>2018-04-10T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:localhost,2018-04-09:/google-udacity-scholarship.html</id><summary type="html">&lt;p&gt;Google Udacity Scholarship was awarded to me back in February 2018 with a chance to pursue Mobile Web Specialist course and get the nanodegree. This is a blog explaining what this scholarship offers and how my idea became one of the 5 selected for collaborative projects during the course.&lt;/p&gt;</summary><content type="html">&lt;h4&gt;About The Scholarship&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="Google Udacity Scholarship" src="http://localhost:8000/images/google-udacity.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://in.udacity.com/google-india-scholarships"&gt;Google Udacity Scholarship&lt;/a&gt; was the initiative under Google's Reskilling India Program and was announced during January 2018. I submitted my application with a hope of joining Intermediate Web Development Nanodegree Program i.e. &lt;a href="https://in.udacity.com/course/mobile-web-specialist-nanodegree--nd024"&gt;Mobile Web Specialist&lt;/a&gt;. The news came in on 8th February that I was selected for the course and the courseware will be accessible on and after 14th February.&lt;/p&gt;
+&lt;h4&gt;Course So Far&lt;/h4&gt;
+&lt;p&gt;I have been hearing about Progressive Web Apps a lot (which is the focus of this program) and mostly from the &lt;a href="https://jslovers.com/"&gt;JSLovers&lt;/a&gt; meetups. Udacity course gave me a chance to explore more in a systematic way through the courseware. Alongside the courseware, we're introduced to Discourse and Slack, specific to our program through which we could communicate with folks taking the same program under the scholarship. Best thing Udacity courses is that you are free to explore at your own time and pace.&lt;/p&gt;
+&lt;p&gt;Courseware began with showcasing what problems a website faces on a slow network (like a blank screen while page loading) and what are the ways in which these issues can be gracefully handled. Starting from the Service Worker, courseware explores all the essential APIs which can be used to achieve a Progressive Web App converting a simple website into one. It's been a very enriching experience learning from the videos and example projects.&lt;/p&gt;
+&lt;h4&gt;Collaborative Project&lt;/h4&gt;
+&lt;p&gt;When you work on projects relative to technologies you've been learning, it gives the complete sense of technology's behavior in the production environment which is essential. Akshit Jain, our moderator broke the news that we'll be working on collaborative projects soon and invited ideas from the participants on what they would like to work on. Selected ideas would become the projects everyone else will be contributing to and folks who have submitted the idea will moderate the project. You can find more information about what Collaborative Projects mean for the participants from &lt;a href="https://docs.google.com/document/d/1kwO1oVvcwdwgtk4P17VM7elPidobx9qktCHexKf91kc/edit?usp=sharing"&gt;the main announcement&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;My Idea - Offline Bucket&lt;/h4&gt;
+&lt;p&gt;My idea was to create a FOSS marketplace/dashboard for offline projects, I planned to name it Offline Bucket. Like Codepen or Kickstarter showcases projects, Offline Bucket would allow developers to submit their offline projects and more information regarding supported browsers, versioning and contribution guidelines if the project is Open Source. Here are some of the mockups I created for submission.&lt;/p&gt;
+&lt;h6&gt;Splash Screen&lt;/h6&gt;
+&lt;p&gt;&lt;img alt="Splash Screen" src="https://raw.githubusercontent.com/realslimshanky/OfflineBasket/master/SplashScreen.png"&gt;&lt;/p&gt;
+&lt;h6&gt;Login/Signup Screen&lt;/h6&gt;
+&lt;p&gt;&lt;img alt="Login/Signup Selection Screen" src="https://raw.githubusercontent.com/realslimshanky/OfflineBasket/master/LoginSignup.png"&gt;&lt;/p&gt;
+&lt;h6&gt;Login Screen&lt;/h6&gt;
+&lt;p&gt;&lt;img alt="Login Screen" src="https://raw.githubusercontent.com/realslimshanky/OfflineBasket/master/Login.png"&gt;&lt;/p&gt;
+&lt;h6&gt;SignUp Screen&lt;/h6&gt;
+&lt;p&gt;&lt;img alt="SignUp Screen" src="https://raw.githubusercontent.com/realslimshanky/OfflineBasket/master/SignUp.png"&gt;&lt;/p&gt;
+&lt;h6&gt;Showcase Screen&lt;/h6&gt;
+&lt;p&gt;&lt;img alt="Showcase Screen" src="https://raw.githubusercontent.com/realslimshanky/OfflineBasket/master/MainScreen.png"&gt;&lt;/p&gt;
+&lt;h4&gt;Results&lt;/h4&gt;
+&lt;p&gt;Final results came in and the 5 collaborative projects which were accepted are, Scholarships Projects Showcase App, Notes App, Udacity Pathfinder PWA, Blood Donation App and Guess the Quote. Reason being, ideas which matches were bundled in single projects and all the folks whose ideas were considered were made moderators. Hence, Offline Bucket became Scholarships Projects Showcase App and me, moderator alongside Shashikant Jha and Manoj Bahuguna for the same project. Being a moderator we need to further select co-moderators who'll handle specific tasks and contributors like UI/UX design, backend development. Soon there'll be a repository probably open sourced which will allow other participants to contribute. There's no constraint on how many projects one participant can contribute to.&lt;/p&gt;
+&lt;p&gt;I hope you get an idea of what this scholarship means and how exciting it is for the folks who get selected. If you did not get the chance of being a part of the program this year, make sure you look for future announcements. Also, you can apply for the next iteration of the program directly from Udacity.&lt;/p&gt;</content><category term="Google"></category><category term="Google"></category><category term="Udacity"></category><category term="JSLovers"></category><category term="PWA"></category></entry><entry><title>Google Summer of Code 2018 - Blog 1 - From Preparations to Debian to Proposal</title><link href="http://localhost:8000/gsoc-2018-blog-1-from-preparations-to-debian-proposal.html" rel="alternate"></link><published>2018-03-31T00:00:00+05:30</published><updated>2018-04-02T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:localhost,2018-03-31:/gsoc-2018-blog-1-from-preparations-to-debian-proposal.html</id><summary type="html">&lt;p&gt;Being an open source contributor for more than a year I decided to get the best out of me by taking part in one of the biggest internship programs in the world. Here's how I started!&lt;/p&gt;</summary><content type="html">&lt;p&gt;I got to know about Open Source and community efforts during my first PyDelhi meetup close to a couple of years ago. And my journey began right from there. So in order to understand my preparation for GSoC, everything that has impacted me over the last couple of years is important. Here in this blog, I share what I learned to be able to work for the idea posted by Debian and submitting proposal afterward.&lt;/p&gt;
+&lt;h5&gt;PyDelhi - The Beginning&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="PyDelhi" src="http://localhost:8000/images/pydelhi.png"&gt;&lt;/p&gt;
+&lt;p&gt;After starting with Python I came across the community named &lt;a href="https://pydelhi.org/"&gt;PyDelhi&lt;/a&gt; which promotes Python programming language by organizing meetups and conferences. It is entirely volunteer-run and I also became active after attending my &lt;a href="https://www.meetup.com/pydelhi/events/pkdrklyvkbfc/"&gt;first ever meetup&lt;/a&gt;. One of the best Python books I was recommended by few folks was &lt;a href="https://pymbook.readthedocs.io/"&gt;&lt;strong&gt;Python for You and Me&lt;/strong&gt;&lt;/a&gt; by &lt;a href="https://kushaldas.in/"&gt;&lt;strong&gt;Kushal Das&lt;/strong&gt;&lt;/a&gt;. I met folks who were working on cool projects using Python and I created one myself for PyDelhi named &lt;a href="http://github.com/realslimshanky/PyDelhi-Bot"&gt;PyDelhi Bot&lt;/a&gt; to serve &lt;a href="https://t.me/pydelhigroup"&gt;Telegram Volunteer Group&lt;/a&gt;. Later, I went on to give a talk during PyDelhi Conference 2017 which landed on &lt;a href="https://www.youtube.com/watch?v=J6aZlUzxL5w"&gt;YouTube&lt;/a&gt; and I have been a volunteer, speaker, contributor and co-organizer for PyDelhi ever since. I volunteered for &lt;a href="https://in.pycon.org/2016/"&gt;PyCon India 2016&lt;/a&gt;, was in Core Organizing team for &lt;a href="https://in.pycon.org/2017/"&gt;2017&lt;/a&gt; and volunteering for &lt;a href="https://in.pycon.org/2018/"&gt;2018&lt;/a&gt; as well. My love for Python grew from PyDelhi and it became my primary programming language. Soon, I met various communities promoting Open Source software and methodologies and volunteered for them as well.&lt;/p&gt;
+&lt;h4&gt;Durgapur Linux User Group - Summer Training&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="DGPLUG" src="http://localhost:8000/images/dgplug.png"&gt;&lt;/p&gt;
+&lt;p&gt;After looking more into Kushal Das' blog, I got to know about &lt;a href="https://dgplug.org"&gt;DGPLUG&lt;/a&gt;. DGPLUG organizes one of the best &lt;a href="https://dgplug.org/summertraining17/"&gt;summer training&lt;/a&gt; which I was blessed to be a part of in 2016 and later in 2017 (to fill knowledge gaps). Training was carried on IRC which is always better so that folks with not-so-good internet reception can also benefit. The training started assuming everyone should learn from Zero and teaches all the basics following the &lt;a href="https://dgplug.org/summertraining17/#objectives"&gt;objectives&lt;/a&gt; which a developer should know in order to write code and contribute to open source in the best way possible. &lt;a href="https://dgplug.org/summertraining17/#guest-sessions"&gt;Guest sessions&lt;/a&gt; were one of the important sessions in which we got to interact with community veterans and industry leaders. Guests shared their experiences with the technologies they were working on and we can ask them questions if we had any doubt regarding it. The entire session was recorded and the logs were uploaded for someone who couldn't be online.&lt;/p&gt;
+&lt;p&gt;During the training, some important things which I learned were by the &lt;a href="http://www.shakthimaan.com/"&gt;Shakti Kanan&lt;/a&gt; sessions as follows&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.shakthimaan.com/downloads/glv/presentations/communication-guidelines.pdf"&gt;Communication Guidelines&lt;/a&gt; - I got to know about various communication platforms like IRC and Mailing Lists and what are the advantages and disadvantages of each of them has. It was important to learn when should be using those and how. &lt;a href="https://dgplug.org/irclogs/mbuf_1stclass.log"&gt;Logs&lt;/a&gt; to session in which it was discussed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.shakthimaan.com/downloads/glv/presentations/mailing-list-etiquette.pdf"&gt;Mailing List Etiquette&lt;/a&gt; - In this session, I got to learn what are the suggested ways in which we should be using Mailing Lists and proper format to draft mails. &lt;a href="https://dgplug.org/irclogs/mbuf_1stclass.log"&gt;Logs&lt;/a&gt; to session in which it was discussed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.shakthimaan.com/downloads/glv/presentations/i-want-2-do-project-tell-me-wat-2-do.pdf"&gt;I Want To Do Project, Tell Me What To Do&lt;/a&gt; - Another important session to teach what are the ways in which we should start working on a project of our own or contribute to upstream projects. This tells us the importance of a mentor and how we can find one for ourselves. &lt;a href="https://dgplug.org/irclogs/mbuf_2ndclass.log"&gt;Logs&lt;/a&gt; to session in which it was discussed.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This was a fresh start for me in the path of becoming a good developer. This opened a lot of new ways to interact and collaborate with Open Source communities around the world. (If above links to presentation doesn't work use these - &lt;a href="PDFs/communication-guidelines.pdf"&gt;Communication Guidelines&lt;/a&gt;, &lt;a href="PDFs/mailing-list-etiquette.pdf"&gt;Mailing List Etiquette&lt;/a&gt; and &lt;a href="PDFs/i-want-2-do-project-tell-me-wat-2-do.pdf"&gt;I Want To Do Project, Tell Me What To Do&lt;/a&gt;)&lt;/p&gt;
+&lt;h4&gt;Google Summer of Code - Before The Proposal&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="Google Summer of Code" src="http://localhost:8000/images/GSoC-icon-192.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://summerofcode.withgoogle.com"&gt;Google Summer of Code&lt;/a&gt; has been an exciting opportunity for the folks willing to contribute to upstream Open Source projects and being my first and last (I graduate this year) time participating, I'm willing to work with the best I've got and learn along the way. Starting from reaching out to different organizations and probing through the idealist. It's important here to look into the idea in the domain of technologies one is working with. This way it's easier to complete application tasks before, and complete the objectives with good quality code during the internship period.&lt;/p&gt;
+&lt;p&gt;Since this was my first time, I decided to go through the &lt;a href="https://google.github.io/gsocguides/student"&gt;Student Guide&lt;/a&gt; for GSoC and follow the prerequisites needed order to participate. After signing up and submitting my &lt;a href="https://developers.google.com/open-source/gsoc/help/proof-of-enrollment"&gt;Proof of Enrollement&lt;/a&gt;, one is free to focus on finding a suitable organization, reading through the idealist and working to complete application tasks given by the mentors.&lt;/p&gt;
+&lt;h4&gt;Debian - The Spark&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="Debian" src="http://localhost:8000/images/debian.png"&gt;&lt;/p&gt;
+&lt;p&gt;The time GSoC idea list went live I was learning about Web Extensions and coincidently Debian had 2 projects who's end goal was to create Browser Extensions. So I got excited about them and started with Debian's &lt;a href="https://wiki.debian.org/SummerOfCode2018/ProjectProposals/CreateASuccessorToTelifyUsingWebExtensions"&gt;Create a successor to the Telify plugin using WebExtensions&lt;/a&gt;. Because of not being able to find a mentor who could help me guide through legacy Telify code I was sure I will not able to complete application task in time. So I pivoted, and there it was, &lt;a href="https://wiki.debian.org/SummerOfCode2018/Projects/WizardForStudentsAndNewInterns"&gt;Wizard/GUI helping students/interns apply and get started&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My mind exploded with the ideas and the possibilities of feature set which can be incorporated into this project. 'Open Source Buddy' came to my mind while naming the application for the task and I began with the UI design using Inkscape which I was going to code eventually. I'll be writing a blog soon focusing entirely on the application task I created with all the technical details as well. One can find the source code with a demo video for the same on &lt;a href="https://salsa.debian.org/realslimshanky-guest/Open-Source-Buddy"&gt;Salsa&lt;/a&gt;. The project idea was to create a GUI application which can help students or interns get started with their Open Source contributions. The application will guide through the tools of the trade like Git, Github, GnuPG etc and explain the importance of communication via IRC, Mailing List etc. I planned to use PyQt as suggested on the idea description to begin with the application task. More on this later.&lt;/p&gt;
+&lt;p&gt;After selecting the project and being absolutely sure that I'll work with the best I've got for this project in the internship I began probing more about the organization on how to do things the right way. I came across &lt;a href="https://danielpocock.com/"&gt;Daniel Pocock&lt;/a&gt;'s blog (who is also my mentor for this project) on &lt;a href="https://danielpocock.com/getting-selected-for-google-summer-of-code-2016"&gt;Want to be selected for Google Summer of Code 2016?&lt;/a&gt; mentioned in the description of the project idea I selected, shaped my views in order to understand the project better. Reading more about Debian and how to join the Debian community from a dedicated &lt;a href="https://wiki.debian.org/SummerOfCode2018"&gt;Debian GSoC&lt;/a&gt; page, I did following things&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Mailing List - I joined &lt;a href="https://lists.debian.org/debian-outreach/"&gt;Debian Outreach&lt;/a&gt; which was a dedicated list for discussion of Debian's participation in internship-like programs, such as Outreachy, Google Summer of Code, etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;IRC - In order to join &lt;a href="https://wiki.debian.org/IRC"&gt;Debian channels&lt;/a&gt; on IRC, I configured &lt;a href="https://www.oftc.net/"&gt;OFTC&lt;/a&gt; on &lt;a href="https://wiki.znc.in/ZNC"&gt;ZNC&lt;/a&gt; which I was already using for Freenode (#pydelhi, #dgplug, #pyconindia, #python-gsoc) and Mozilla (#introduction, #development). This way I don't lose any of the messages when I'm not online and can connect with ZNC using any of the clients on Laptop or Mobile.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wiki - I signed up for Debian Wiki account and was blacklisted because my email address included &lt;code&gt;.xyz&lt;/code&gt; domain. Thanks to &lt;a href="https://wiki.debian.org/SteveMcIntyre"&gt;Steve McIntyre&lt;/a&gt; and &lt;a href="https://wiki.debian.org/PaulWise"&gt;Paul Wise&lt;/a&gt; from the &lt;a href="https://wiki.debian.org/Teams/DebianWiki"&gt;Wiki Admin Team&lt;/a&gt; for helping me out. I finally created my account and afterward, I created my &lt;a href="https://wiki.debian.org/ShashankKumar"&gt;own wiki page&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;The Proposal Deadline&lt;/h4&gt;
+&lt;p&gt;March 27, 2018 - 21:30 (IST) was the deadline for proposal submission. Proposal showcases what a participant understands the project idea and can elaborate on how they plan to create it. It also showcases more about participant's past work and experiences mostly related to the same technology they'll be using. Student Guide contains &lt;a href="https://google.github.io/gsocguides/student/writing-a-proposal"&gt;few general guidelines&lt;/a&gt; which tells about important points that should be included in the proposal. Apart from these, it's always a good idea to talk with mentors what they think should be included in the proposal. I took my time (close to 2 days) in order to research and come up with the best feature set and methodologies which can be used to make an amazing project. After the review process, here's the &lt;a href="PDFs/GSoC_2018_proposal_for_Debian7.pdf"&gt;&lt;strong&gt;Final GSoC Proposal&lt;/strong&gt;&lt;/a&gt; which I submitted.&lt;/p&gt;
+&lt;h4&gt;What's Next!&lt;/h4&gt;
+&lt;p&gt;I plan on integrating the Open Source Buddy with pylint, pytest and working more on GUI and PyQT so that if I'm selected for the project, using the tools of trade would be easy and I can focus more on the features. This was my experience till the project submission in brief. I'm planning to continue this GSoC blog series in order to share all that I learn along the way. Next up, a blog explaining how I completed application task - &lt;a href="https://salsa.debian.org/realslimshanky-guest/Open-Source-Buddy"&gt;Open Source Buddy&lt;/a&gt;.&lt;/p&gt;
+&lt;h4&gt;IMPORTANT UPDATE&lt;/h4&gt;
+&lt;p&gt;I got selected for Google Summer of Code 2018 under Debian and my project is &lt;a href="https://summerofcode.withgoogle.com/projects/#5056989357408256"&gt;Wizard/GUI helping students/interns apply and get started&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I've also added second blog in the series titles &lt;a href="https://blog.shanky.xyz/gsoc-2018-blog-2-the-application-task-and-results.html"&gt;&lt;strong&gt;The Application Task and Results&lt;/strong&gt;&lt;/a&gt;. Check it out!&lt;/p&gt;</content><category term="GSoC"></category><category term="GSoC"></category><category term="Google"></category><category term="Debian"></category><category term="PyDelhi"></category><category term="DGPLUD"></category><category term="Python"></category><category term="PyQt"></category></entry><entry><title>Recovering commit after git reset --hard</title><link href="http://localhost:8000/recovering-commit-after-git-reset--hard.html" rel="alternate"></link><published>2018-03-21T00:00:00+05:30</published><updated>2018-03-26T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:localhost,2018-03-21:/recovering-commit-after-git-reset--hard.html</id><summary type="html">&lt;p&gt;An hour left for project demonstration and while making few important changes you did something very veerryy aweful. It's --hard to recover but not impossible. This is how you can get the commit back from hell.&lt;/p&gt;</summary><content type="html">&lt;h5&gt;Problem statement&lt;/h5&gt;
+&lt;p&gt;One not-so-fine day when you are working on your project and do a &lt;code&gt;git reset --hard HEAD~n&lt;/code&gt; because, well, you skipped breakfast, your brain is not working properly and you don't want to take the high road of debugging commits. You sadly lost some of your important commits and you forgot to create a backup branch.&lt;/p&gt;
+&lt;p&gt;Before we move on, if you don't know what &lt;code&gt;git reset&lt;/code&gt; do checkout &lt;a href="https://git-scm.com/docs/git-reset"&gt;this documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;h5&gt;Where do the commit go?&lt;/h5&gt;
+&lt;p&gt;After you do &lt;code&gt;git reset --hard HEAD~n&lt;/code&gt; the current branch's HEAD is placed to the requested commit i.e. &lt;code&gt;HEAD~n&lt;/code&gt; and all the top level commits which were made afterwards are discarded or become 'dangling object' in the eyes of Git. Now, Git places dangling object inside &lt;code&gt;.git/lost-found/&lt;/code&gt; directory. Phew, it's a relief to know that Git is not deleting anything permanently even though it's not present in any of the branches. All we have to learn is how to probe further and get the commit back.&lt;/p&gt;
+&lt;h5&gt;Option 1 - reflog&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://git-scm.com/docs/git-reflog"&gt;Reference logs&lt;/a&gt; or reflogs keeps a log of changes happening with project with respect to the tip of all the branches. So whenever you are adding a new commit, checking out another branch etc. reflogs are updated.&lt;/p&gt;
+&lt;p&gt;That means, reflog must have peeked while we were busy screwing up the project and can help us out in telling us what exactly we did. By doing a simple &lt;code&gt;git reflog&lt;/code&gt; you might see something simliar of a structure.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="mf"&gt;04&lt;/span&gt;&lt;span class="n"&gt;fa8ba&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;HEAD&lt;/span&gt;&lt;span class="err"&gt;@{&lt;/span&gt;&lt;span class="mf"&gt;0&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;reset&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;moving&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kr"&gt;to&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;HEAD&lt;/span&gt;&lt;span class="err"&gt;~&lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;
+&lt;span class="n"&gt;aab9d00&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;HEAD&lt;/span&gt;&lt;span class="err"&gt;@{&lt;/span&gt;&lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="err"&gt;}&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;commit&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;just&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;add&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;it&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;okay&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The log is maintained in reverse chronological order and hence &lt;code&gt;HEAD@{0}&lt;/code&gt; becomes the latest activity we did and it is exactly where we messed up i.e. &lt;code&gt;reset: moving to HEAD~1&lt;/code&gt;. If you go a little further down you'll find the &lt;code&gt;commit:&lt;/code&gt; with the message you gave. This is our dangling commit we were looking all around for. The important thing to notice here is the short hash i.e. &lt;code&gt;aab9d00&lt;/code&gt; in above case. Now simply do a &lt;code&gt;git reset --hard aab9d00&lt;/code&gt; by replacing &lt;code&gt;aab9d00&lt;/code&gt; with your short hash for the commit and you'll find yourself back in time where no one knows you did anything wrong ;)&lt;/p&gt;
+&lt;h5&gt;Option 2 - fsck&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://git-scm.com/docs/git-fsck"&gt;&lt;code&gt;fsck&lt;/code&gt;&lt;/a&gt; checks the objects present inside Git database i.e. it probes whether or not something messy happened inside &lt;code&gt;.git&lt;/code&gt; directory of your repository. Since we already know that dangling commits are saved inside &lt;code&gt;.git/lost-found/&lt;/code&gt; we can use &lt;code&gt;fsck&lt;/code&gt; to find out more about them. Doing a &lt;code&gt;git fsck --lost-found&lt;/code&gt; will result in something similar to the following result.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;Checking object directories: 100% (256/256), done.
+dangling commit aab9d002015a9bb8d4f66c2e378a7da5f7077e0c
+dangling commit 9489726b0d165d4a18c677f703e4dc757617781a
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Here, &lt;code&gt;fsck&lt;/code&gt; is first checking the database and then because of the flag we gave i.e. &lt;code&gt;--lost-found&lt;/code&gt; it goes on and prints the dangling objects. In above case we have 2 &lt;code&gt;dangling commit&lt;/code&gt; which might happen something if you have been mischievous for more than one time. No worries, let's look inside individual commits and see why they were created using &lt;code&gt;git show aab9d002015a9bb8d4f66c2e378a7da5f7077e0c&lt;/code&gt;. You have to replace 3rd argument or long hash i.e. &lt;code&gt;aab9d002015a9bb8d4f66c2e378a7da5f7077e0c&lt;/code&gt; evertime to probe individual dangling commits. It'll show you something similar to the result below.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;Author&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Shashank&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Kumar&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;abc&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;shanky&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="na"&gt;xyz&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="n"&gt;Date&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="w"&gt;   &lt;/span&gt;&lt;span class="n"&gt;Tue&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;Mar&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;23&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;53&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;33&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;2018&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;0530&lt;/span&gt;
+
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;addind&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="k"&gt;new&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;file&lt;/span&gt;
+
+&lt;span class="n"&gt;diff&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;--&lt;/span&gt;&lt;span class="n"&gt;git&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="sr"&gt;/n b/&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;
+&lt;span class="k"&gt;new&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;mode&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;100644&lt;/span&gt;
+&lt;span class="n"&gt;index&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0000000&lt;/span&gt;&lt;span class="o"&gt;..&lt;/span&gt;&lt;span class="n"&gt;b14df64&lt;/span&gt;
+&lt;span class="o"&gt;---&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="sr"&gt;/dev/&lt;/span&gt;&lt;span class="kc"&gt;null&lt;/span&gt;
+&lt;span class="o"&gt;+++&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;
+&lt;span class="err"&gt;@@&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;@@&lt;/span&gt;
+&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="n"&gt;Hi&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;We get a very descriptive message with &lt;code&gt;git show&lt;/code&gt; which contains date, time, commit message and diff in the commit. After you get the commit you were looking for, simply repeat the process but this time with long hash i.e. &lt;code&gt;git reset --hard aab9d002015a9bb8d4f66c2e378a7da5f7077e0c&lt;/code&gt;. Phew!&lt;/p&gt;
+&lt;h5&gt;Conclusion&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;Shit go wrong all the time&lt;/li&gt;
+&lt;li&gt;Hack all you want for all you need your machine to do&lt;/li&gt;
+&lt;li&gt;An Open Source software just saved you from spending a lot of money on data recovery. Embrace it!&lt;/li&gt;
+&lt;/ul&gt;</content><category term="Git"></category><category term="Git"></category><category term="VCS"></category><category term="Linux"></category></entry><entry><title>MozAMU - My first talk for Mozilla and first visit to Aligarh Muslim University - 24th February 2018</title><link href="http://localhost:8000/mozamu-my-first-visit-to-amu-and-first-talk-for-mozilla.html" rel="alternate"></link><published>2018-02-27T00:00:00+05:30</published><updated>2018-02-27T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:localhost,2018-02-27:/mozamu-my-first-visit-to-amu-and-first-talk-for-mozilla.html</id><summary type="html">&lt;p&gt;I recently joined my mentor Sanyam Khurana who is also a Mozilla Rep for an event in Aligarh Muslim University on Open Source. Here's what happened!&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Core team in front of standee" src="http://localhost:8000/images/DSC_0874.JPG"&gt;&lt;/p&gt;
+&lt;h5&gt;AMU at PyCon India 2017 - Where MozAMU idea was pitched&lt;/h5&gt;
+&lt;p&gt;During PyCon India 2017, folks from Aligarh Muslim University visited for their first time in PyCon. &lt;a href="https://rj722.tech"&gt;Rahul Jha&lt;/a&gt;, who has been a GSoC 2017 student for Coala came with some of his friends. &lt;a href="http://sanyamkhurana.com"&gt;Sanyam&lt;/a&gt; and I were the core organizers and looking into the Open Spaces when we met Rahul and team. Rahul, being an Open Source contributor already needed help building a community in his own college. For this we all went to a separate room for an Open Spaces on &lt;a href="https://twitter.com/pyconindia/status/927118334692270080"&gt;How to nurture foss communities in colleges&lt;/a&gt; and Sanyam took the charge of sharing his experiences and trying to find out what troubles folks were facing in order to build the community. It went on for like a couple of hours and AMU folks showed interest in hosting Sanyam for a session on Open Source Contribution. After pitching this idea Rahul and team started doing meetups in their college to share about Git, Linux and more which are essentials in order for someone to begin with their contributions.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="How to nurture foss communities in colleges - Open Spaces during PyCon India 2017" src="http://localhost:8000/images/DN3JLMFV4AAdffJ.jpeg"&gt;&lt;/p&gt;
+&lt;h5&gt;Planning MozAMU and Trip to Aligarh&lt;/h5&gt;
+&lt;p&gt;Months after when AMU folks were successfully doing meetups on Open Source technologies Sanyam being a Mozilla Representative decided to free one of his weekends (24th February 2018) in order to give a session on &lt;a href="https://reps.mozilla.org/e/how-do-i-start-contributing-to-open-source/"&gt;How do I start contributing to Open Source?&lt;/a&gt; and showcase various ways one can contribute to Mozilla and other Open Source projects. I got roped in for a mini session on building addons using Web Extensions API and contributing to Firefox afterward. Shivam Singhal, who is another of Sanyam's mentee planned to help me out during my session by solving problems that may arise on a participants system while live demo. Since none of us had been to Aligarh before, we took help from &lt;a href="https://github.com/OmairK"&gt;Omair Khan&lt;/a&gt; an ex-AMU student currently pursuring his bachelor's from Jamia Millia Islamia University, Delhi, and an open source enthusiast. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="On our way to Aligarh Muslim University" src="http://localhost:8000/images/photo_2018-02-27_17-12-45.jpg"&gt;&lt;/p&gt;
+&lt;h5&gt;Sanyam Khurana in pro-speaker mode&lt;/h5&gt;
+&lt;p&gt;This is the first time I've witnessed Sanyam giving a talk on Open Source although he has been doing this for a couple of years now in colleges and other Mozilla events. He began with an interactive session with the audience in order to get a sense of what problems they were facing and which technology is widely used by them. He skipped his own introduction after everyone was finished for a specific reason for the end of the session and began explaining &lt;a href="http://sanyamkhurana.com/presentations/why-foss"&gt;Why you should contribute to FOSS&lt;/a&gt; with the help of slides he curated. After a while when most of the participants came to a conclusion the reasons became more clear for everyone. This is where the session got interesting. By this time everyone has understood the importance of FOSS and how it can affect their career also.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Mozilla Rep Sanyam Khurana" src="http://localhost:8000/images/IMG-20180227-WA0022.jpg"&gt;&lt;/p&gt;
+&lt;h5&gt;My first talk for Mozilla on Web Extension or Browser Extension&lt;/h5&gt;
+&lt;p&gt;I've been very active in Open Source Communities for the past couple of years now and have given several talks and workshops since I started. It's always better to write a blog or give a talk on the technology which one is working on in order to make the concept more clear. I recently started learning how web extension works and contributing to &lt;a href="https://addons.mozilla.org"&gt;AMO&lt;/a&gt;. So, given this opportunity, I started working on &lt;a href="PDFs/Build Your Own Extension Add-on for Firefox... and Beyond!.pdf"&gt;slides&lt;/a&gt; for the session. From my experience, I wanted to focus more towards the lifecycle of addons as they are installed and run on the browser. I used the &lt;a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_first_WebExtension"&gt;first extension tutorial&lt;/a&gt; provided by &lt;a href="https://developer.mozilla.org/en-US"&gt;MDN&lt;/a&gt; and spread the contents so that to make everyone understand what each of its elements were doing. As the addon began to take shape in the live demo I instantly took the chance of interacting with participants and converging their thoughts on its lifecycle. Sanyam and Shivam helped me along the way to sort out the problems individuals were having and at the end of it all we asked everyone to make something creative out of the &lt;a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API"&gt;API&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Me during my session" src="http://localhost:8000/images/DSC_0026.JPG"&gt;&lt;/p&gt;
+&lt;h5&gt;Concluding with How do I start contributing to Open Source?&lt;/h5&gt;
+&lt;p&gt;After a while when everyone was comfortable with the concept of FOSS, Sanyam took the last session on &lt;a href="http://www.sanyamkhurana.com/presentations/foss"&gt;How do I start contributing to Open Source?&lt;/a&gt;. Finally, he spoke more about himself revealing that he's just like everyone else and a part of the community. He then elaborated on all the basics knowledge one needs and etiquette one should maintain while communicating online with other contributors. Most of the beginners get overwhelmed by the huge codebase and the first step seems hard to them in this case. Sanyam then explained what are the ways one can begin with reading code and collaboration. He then showcased &lt;a href="https://openhatch.org/missions"&gt;OpenHatch Training Missions&lt;/a&gt; which can help beginners kickstart working with version control system. &lt;a href="https://openhatch.org/search"&gt;Open Hatch projects&lt;/a&gt; which folks can use to find issues to work on. He then showed how one can contribute to Mozilla by using the well know &lt;a href="http://whatcanidoformozilla.org"&gt;What can I do for Mozilla?&lt;/a&gt; website and &lt;a href="http://www.joshmatthews.net/bugsahoy"&gt;Bugs Ahoy&lt;/a&gt;. The session concluded with one last picture and networking session.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Networking Session" src="http://localhost:8000/images/IMG-20180227-WA0021.jpg"&gt;&lt;/p&gt;
+&lt;h5&gt;Lunch and Goodbyes&lt;/h5&gt;
+&lt;p&gt;After the enriching and exhausting day of sessions, the core volunteer team headed to grab few bites to eat. There we shared our previous experiences and discussed personal projects. &lt;a href="https://github.com/amu-oss"&gt;AMU&lt;/a&gt; folks have created an amazing community for themselves and thrive with every interaction they make during such sessions. I would like to give a shoutout again to the amazing people of AMU and I hope we would see each other again for future collaborations. From MozAMU I got to be a part of yet another enthusiastic bunch and I thank everyone at AMU for that.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Last picture of the day" src="http://localhost:8000/images/DSC_0051.JPG"&gt;&lt;/p&gt;
+&lt;h6&gt;&lt;a href="https://drive.google.com/open?id=1_8qDMHSZuYy-Q5crfupezg9d31Uwqcap"&gt;Checkout&lt;/a&gt; some more photos from the day. Cheers!&lt;/h6&gt;</content><category term="Mozilla"></category><category term="MozAMU"></category><category term="Mozilla"></category><category term="Event"></category><category term="Talk"></category><category term="Addons"></category><category term="Open Source"></category><category term="FOSS"></category></entry><entry><title>What Pelican quickstart actually do and how it does that?</title><link href="http://localhost:8000/what-pelican-quickstart-actually-do-and-how-it-does-that.html" rel="alternate"></link><published>2018-02-12T00:00:00+05:30</published><updated>2018-02-13T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:localhost,2018-02-12:/what-pelican-quickstart-actually-do-and-how-it-does-that.html</id><summary type="html">&lt;p&gt;In this blog, I'll go through the process after running the command &lt;code&gt;pelican-quickstart&lt;/code&gt; without any arguments inside a &lt;a href="https://docs.python.org/3/tutorial/venv.html"&gt;virtual environment&lt;/a&gt; to see what goes down in the background. Later in the blog, I'll figure out how everything works.&lt;/p&gt;</summary><content type="html">&lt;p&gt;I chose to use &lt;a href="https://github.com/getpelican/pelican"&gt;Pelican&lt;/a&gt; to build my personal blog out of my love for Python. It took me two days to go through the tutorials given by Official Pelican &lt;a href="https://docs.getpelican.com/en/stable"&gt;documentation&lt;/a&gt; and setup &lt;a href="https://blog.shanky.xyz"&gt;Shanky's Brainchild&lt;/a&gt; with the help of the &lt;a href="https://github.com/alexandrevicenzi/flex"&gt;Flex&lt;/a&gt; theme created by &lt;a href="https://alexandrevicenzi.com"&gt;Alexandre Vicenzi&lt;/a&gt;. Pelican contributors have made sure you have a quick and easy beginning in order to get down to business asap and evolve as per your needs. For this very purpose, we use &lt;code&gt;pelican-quickstart&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In this blog, I'll go through the process after running the command &lt;code&gt;pelican-quickstart&lt;/code&gt; without any arguments inside a &lt;a href="https://docs.python.org/3/tutorial/venv.html"&gt;virtual environment&lt;/a&gt; to see what goes down in the background. Later in the blog, I'll figure out how everything works. You can also move directly to &lt;strong&gt;Demystifying pelican-quickstart&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4&gt;Prerequisites and Warm-Up&lt;/h4&gt;
+&lt;p&gt;Before we start, make sure to have a virtual environment setup, use either venv or pipenv. Install the protagonist package &lt;a href="https://pypi.python.org/pypi/pelican"&gt;&lt;code&gt;pelican&lt;/code&gt;&lt;/a&gt;. Optionally, if one is familiar with &lt;a href="https://daringfireball.net/projects/markdown"&gt;Markdown&lt;/a&gt; like me and want to create website/blog using it, install &lt;a href="https://pypi.python.org/pypi/Markdown"&gt;&lt;code&gt;Markdown&lt;/code&gt;&lt;/a&gt; package.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Running &lt;code&gt;pelican-quickstart&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;After setting up the virtual environment and activated it, creating a new folder for our website say &lt;code&gt;justanotherblog&lt;/code&gt;, running &lt;code&gt;pelican-quickstart&lt;/code&gt; from inside the folder, a few questions will be asked by Pelican. As a result of answering all of the successfully, following directory structure can be seen which is in turn created by &lt;code&gt;pelican-quickstart&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;justanotherblog/
+                content/
+                output/
+                develop_server.sh
+                fabfile.py
+                Makefile
+                pelicanconf.py
+                publishconf.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Let's look into the question that were asked and how they affect our blog.&lt;/p&gt;
+&lt;h6&gt;Where do you want to create your new web site? [.]&lt;/h6&gt;
+&lt;p&gt;Here, it is asked about the location of the website. The default value is &lt;code&gt;.&lt;/code&gt; or the location from where the &lt;code&gt;pelican-quickstart&lt;/code&gt; has been called and is denoted by &lt;code&gt;[.]&lt;/code&gt;. If one does not want to change the location can simply enter without inputting anything. You can also specify a location like &lt;code&gt;/home/username/justanotherblog&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - Location specified here will be the parent location for all the Pelican files.&lt;/p&gt;
+&lt;h6&gt;What will be the title of this web site?&lt;/h6&gt;
+&lt;p&gt;When this question is asked, title of the website should be provided. Failure in doing so or just hitting enter here would immediately prompt &lt;code&gt;You must enter something&lt;/code&gt; and the question will be asked again.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - Title specified here will be store inside &lt;code&gt;pelicanconf.py&lt;/code&gt; as &lt;code&gt;SITENAME = 'Just Another Blog'&lt;/code&gt;.&lt;/p&gt;
+&lt;h6&gt;Who will be the author of this web site?&lt;/h6&gt;
+&lt;p&gt;When this question is asked, author name should be provided. And just like before, failure in doing so or just hitting enter here would immediately prompt &lt;code&gt;You must enter something&lt;/code&gt; and the question will be asked again.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - Name specified here will be saved inside &lt;code&gt;pelicanconf.py&lt;/code&gt; as &lt;code&gt;AUTHOR = 'Shashank Kumar'&lt;/code&gt;&lt;/p&gt;
+&lt;h6&gt;What will be the default language of this web site? [en]&lt;/h6&gt;
+&lt;p&gt;Whichever language you would like to use to write the content of your blog should be stated here. Language should be in form of 2 letters code and failure in doing so will prompt &lt;code&gt;You must enter a 2 letters long string&lt;/code&gt; with the question asked again. You can look up 2 letter code for languages in this &lt;a href="https://www.loc.gov/standards/iso639-2/php/code_list.php"&gt;ISO 639.1&lt;/a&gt; guide. Default language is English - en as denoted by &lt;code&gt;[en]&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - The choosen language will be stored inside &lt;code&gt;pelicanconf.py&lt;/code&gt; as &lt;code&gt;DEFAULT_LANG = 'en'&lt;/code&gt;.&lt;/p&gt;
+&lt;h6&gt;Do you want to specify a URL prefix? e.g., http://example.com   (Y/n)&lt;/h6&gt;
+&lt;p&gt;Here, you have to state whether or not you want to use a URL prefix or simply host your blog. The default value is &lt;code&gt;Y&lt;/code&gt; (y or Yes) or one can also choose &lt;code&gt;n&lt;/code&gt; (N or No). Failure in doing to will prompt &lt;code&gt;You must answer 'yes' or 'no'&lt;/code&gt; and the question will be asked again.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - If chosen &lt;code&gt;Y&lt;/code&gt;, a subsequent question will be asked to state the URL. If chosen &lt;code&gt;n&lt;/code&gt;, &lt;code&gt;SITEURL = ''&lt;/code&gt; will be saved inside &lt;code&gt;pelicanconf.py&lt;/code&gt; which can be changed later.&lt;/p&gt;
+&lt;h6&gt;What is your URL prefix? (see above example; no trailing slash)&lt;/h6&gt;
+&lt;p&gt;If the previous question was answered with a &lt;code&gt;Y&lt;/code&gt;, this question will be asked. Now is the time to state the URL you are planning to host the blog. Although we cannot enter while providing a URL by simply entering (&lt;code&gt;You must enter something&lt;/code&gt; will be prompted while doing os), there's no failure to this step as the URL is not validated.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - The stated URL will be saved inside &lt;code&gt;pelicanconf.py&lt;/code&gt; as SITEURL = 'URL stated'.&lt;/p&gt;
+&lt;h6&gt;Do you want to enable article pagination? (Y/n)&lt;/h6&gt;
+&lt;p&gt;Pagination is the property of a blog to provide part of items or contents in one page and shift the rest to susequest pages with proper numering in order to allow easy access. Allowing pagination in Pelican will help showcase blogs on the homepage spreading across pages. The default value is &lt;code&gt;Y&lt;/code&gt; (y or Yes) or one can also choose &lt;code&gt;n&lt;/code&gt; (N or No) to disable pagination.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - If chosen &lt;code&gt;Y&lt;/code&gt;, a subsequent question will be asked about the no of articles or blogs per page. If chosen &lt;code&gt;N&lt;/code&gt;, this will be saved as &lt;code&gt;DEFAULT_PAGINATION = False&lt;/code&gt; inside &lt;code&gt;pelicanconf.py&lt;/code&gt;&lt;/p&gt;
+&lt;h6&gt;How many articles per page do you want? [10]&lt;/h6&gt;
+&lt;p&gt;If the previous question was answered with a &lt;code&gt;Y&lt;/code&gt;, this question will be asked. This is where the number of articles or blogs per page is declared. The default number is &lt;code&gt;10&lt;/code&gt;. There's no failure to this step as number is not validated.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - &lt;code&gt;DEFAULT_PAGINATION = 10&lt;/code&gt; will be stored inside &lt;code&gt;pelicanconf.py&lt;/code&gt;.&lt;/p&gt;
+&lt;h6&gt;What is your time zone? [Europe/Paris]&lt;/h6&gt;
+&lt;p&gt;Time zones are important in order to properly state the date and time of creation of blogs and also while generating feeds. The default time zone is set to &lt;code&gt;Europe/Paris&lt;/code&gt; which can be changed by providing another one. Look into this &lt;a href="http://en.wikipedia.org/wiki/List_of_tz_database_time_zones"&gt;wikipedia guide&lt;/a&gt; for the complete list.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - &lt;code&gt;TIMEZONE = 'Europe/Paris'&lt;/code&gt; will be saved inside &lt;code&gt;pelicanconf.py&lt;/code&gt;.&lt;/p&gt;
+&lt;h6&gt;Do you want to generate a Fabfile/Makefile to automate generation and publishing? (Y/n)&lt;/h6&gt;
+&lt;p&gt;Fabfile.py and Makefile are used to manage development server, publishing website to gh-pages or via ssh and similar feature. The default answer to this is &lt;code&gt;Y&lt;/code&gt; (y or Yes), after which Pelican will ask few questions to create the proper configuration for Fabfile.py and Makefile. If &lt;code&gt;n&lt;/code&gt; (N or No) is entered, generation of Fabfile.py and Makefile will be skipped.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - If &lt;code&gt;Y&lt;/code&gt; is selected, configuration for generating Fabfile.py and Makefile will be asked after the next question.&lt;/p&gt;
+&lt;h6&gt;Do you want an auto-reload &amp;amp; simpleHTTP script to assist with theme and site development? (Y/n)&lt;/h6&gt;
+&lt;p&gt;Auto-reload and simpleHTTP scripts are very helpful while in development as they facilitate local server management and auto-reload whenever the content of the website is changed. This step is specifically to ask whether &lt;code&gt;develop_server.sh&lt;/code&gt; file should be created with command line scripts in order to provide auto-reload and simpleHTTP facilities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - If &lt;code&gt;Y&lt;/code&gt; is selected, &lt;code&gt;develop_server.sh&lt;/code&gt; will be created with proper configurations.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The reason why before asking for Fabfile.py and Makefile configurations, we are asked about &lt;code&gt;develop_server.sh&lt;/code&gt; is because Makefile can also use &lt;code&gt;develop_server.sh&lt;/code&gt; to facilitate local server management.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Now, let's look into options that will come up if &lt;code&gt;Y&lt;/code&gt; is chosen for generating Fabfile/Makefile.&lt;/p&gt;
+&lt;h6&gt;Do you want to upload your website using FTP? (y/N)&lt;/h6&gt;
+&lt;p&gt;If files of this website is to be uploaded to the server using FTP connection this option can be useful. The default is &lt;code&gt;n&lt;/code&gt; (N or No).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - &lt;code&gt;n&lt;/code&gt; (N or No) will leave placeholders inside Fabfile.py and Makefile to be filled later. If &lt;code&gt;Y&lt;/code&gt; (y or Yes) is chosen, 3 subsequest questions will be asked related to the FTP configuration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is the hostname of your FTP server? [localhost] &lt;/li&gt;
+&lt;li&gt;What is your username on that server? [anonymous] &lt;/li&gt;
+&lt;li&gt;Where do you want to put your web site on that server? [/]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each of the above questions have default value which can be changed later from inside the Fabfile.py and Makefile.&lt;/p&gt;
+&lt;h6&gt;Do you want to upload your website using SSH? (y/N)&lt;/h6&gt;
+&lt;p&gt;Another option one can use to upload their files is SSH, state whether or not you want to configure SSH here.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - &lt;code&gt;n&lt;/code&gt; (N or No) will leave placeholders inside Fabfile.py and Makefile to be filled later. If &lt;code&gt;Y&lt;/code&gt; (y or Yes) is chosen, 4 subsequest questions will be asked related to the SSH configuration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is the hostname of your SSH server? [localhost] &lt;/li&gt;
+&lt;li&gt;What is the port of your SSH server? [22] &lt;/li&gt;
+&lt;li&gt;What is your username on that server? [root] &lt;/li&gt;
+&lt;li&gt;Where do you want to put your web site on that server? [/var/www]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each of the above questions have default value which can be changed later from inside the Fabfile.py and Makefile.&lt;/p&gt;
+&lt;h6&gt;Do you want to upload your website using Dropbox? (y/N)&lt;/h6&gt;
+&lt;p&gt;Another helpful option is using Dropbox to upload the files, this is where you state whether or not you would like to configure it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - &lt;code&gt;n&lt;/code&gt; (N or No) will leave placeholders inside Fabfile.py and Makefile to be filled later. If &lt;code&gt;Y&lt;/code&gt; (y or Yes) is chosen, only 1 subsequest question will be asked related to the Dropbox configuration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Where is your Dropbox directory? [~/Dropbox/Public/]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Above questions have default value which can be changed later from inside the Fabfile.py and Makefile.&lt;/p&gt;
+&lt;h6&gt;Do you want to upload your website using S3? (y/N)&lt;/h6&gt;
+&lt;p&gt;If you have a Amazon S3 web service configured, state &lt;code&gt;y&lt;/code&gt; to use the option to provide your configuration details.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - &lt;code&gt;n&lt;/code&gt; (N or No) will leave placeholders inside Fabfile.py and Makefile to be filled later. If &lt;code&gt;Y&lt;/code&gt; (y or Yes) is chosen, only 1 subsequest question will be asked related to the S3 configuration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is the name of your S3 bucket? [my_s3_bucket]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Above questions have default value which can be changed later from inside the Fabfile.py and Makefile.&lt;/p&gt;
+&lt;h6&gt;Do you want to upload your website using Rackspace Cloud Files? (y/N)&lt;/h6&gt;
+&lt;p&gt;Rackspace Cloud Files users can use the Official API to upload files of the website, by enabling this option the API can be configured.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - &lt;code&gt;n&lt;/code&gt; (N or No) will leave placeholders inside Fabfile.py and Makefile to be filled later. If &lt;code&gt;Y&lt;/code&gt; (y or Yes) is chosen, 3 subsequest questions will be asked related to the Rackspace Cloud Files configuration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is your Rackspace Cloud username? [my_rackspace_username]&lt;/li&gt;
+&lt;li&gt;What is your Rackspace Cloud API key? [my_rackspace_api_key]&lt;/li&gt;
+&lt;li&gt;What is the name of your Cloud Files container? [my_cloudfiles_container]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each of the above questions have default value which can be changed later from inside the Fabfile.py and Makefile.&lt;/p&gt;
+&lt;h6&gt;Do you want to upload your website using GitHub Pages? (y/N)&lt;/h6&gt;
+&lt;p&gt;GitHub Pages are also supported by Fabfile.py and Makefile, entering &lt;code&gt;y&lt;/code&gt; will about more details for it's configuration.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - &lt;code&gt;n&lt;/code&gt; (N or No) will leave placeholders inside Fabfile.py and Makefile to be filled later. If &lt;code&gt;Y&lt;/code&gt; (y or Yes) is chosen, only 1 subsequest question will be asked related to the GitHub Pages configuration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Is this your personal page (username.github.io)? (y/N)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Above questions have default value which can be changed later from inside the Fabfile.py and Makefile.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Demystifying &lt;code&gt;pelican-quickstart&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;The entire process ends up in the desired project structure as stated above. Now let's look into the other side of the action Pelican contributors have put a lot of efforts in.&lt;/p&gt;
+&lt;h6&gt;Handling Command-line Arguments&lt;/h6&gt;
+&lt;p&gt;&lt;code&gt;pelican-quickstart&lt;/code&gt; used &lt;a href="https://docs.python.org/3/howto/argparse.html"&gt;argparse&lt;/a&gt; to handle command-line arguments which user can provide at the very beginning. By running &lt;code&gt;pelican-quickstart -h&lt;/code&gt; it's more clear which arguments one can provide.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;PATH&lt;/code&gt; - Use &lt;code&gt;-p path/to/folder&lt;/code&gt; to provide the desirable path for website &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;title&lt;/code&gt; - Use &lt;code&gt;-t Website-Title&lt;/code&gt; to provide the title&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;author&lt;/code&gt; - Use &lt;code&gt;-a Author-Name&lt;/code&gt; to provide the name of author&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lang&lt;/code&gt; - Use &lt;code&gt;-l en&lt;/code&gt; with 2 letter language code for default language&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once the program is executed, an ArgumentParser object is created which can handle above optional arguments and store it in a &lt;code&gt;dict&lt;/code&gt; object. The values of this &lt;code&gt;dict&lt;/code&gt; can be checked further in the program to ask appropriate questions.&lt;/p&gt;
+&lt;h6&gt;The Interrogation Process&lt;/h6&gt;
+&lt;p&gt;&lt;code&gt;pelican-quickstart&lt;/code&gt; has a &lt;code&gt;dict&lt;/code&gt; named as &lt;code&gt;CONF&lt;/code&gt; with default configurations which are modified with every question asked to the user.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;CONF&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;pelican&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;pelican&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;pelicanopts&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;basedir&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;curdir&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;ftp_host&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;ftp_user&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;anonymous&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;ftp_target_dir&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;/&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;ssh_host&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;ssh_port&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;22&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;ssh_user&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;root&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;ssh_target_dir&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;/var/www&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;s3_bucket&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;my_s3_bucket&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;cloudfiles_username&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;my_rackspace_username&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;cloudfiles_api_key&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;my_rackspace_api_key&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;cloudfiles_container&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;my_cloudfiles_container&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;dropbox_dir&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;~/Dropbox/Public/&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;github_pages_branch&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;_GITHUB_PAGES_BRANCHES&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;project&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;default_pagination&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;siteurl&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;lang&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;_DEFAULT_LANGUAGE&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;timezone&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;_DEFAULT_TIMEZONE&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;There are 3 variables used inside &lt;code&gt;CONF&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;_GITHUB_PAGES_BRANCHES&lt;/code&gt; - It's a &lt;code&gt;dict&lt;/code&gt; which contains local and remote branch information.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;_GITHUB_PAGES_BRANCHES = {
+    &amp;#39;personal&amp;#39;: &amp;#39;master&amp;#39;,
+    &amp;#39;project&amp;#39;: &amp;#39;gh-pages&amp;#39;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;_DEFAULT_LANGUAGE&lt;/code&gt; - &lt;a href="https://docs.python.org/3.5/library/locale.html"&gt;locale&lt;/a&gt; is used to access the user's default language from their local machine. It's set to &lt;code&gt;English&lt;/code&gt; by default or in case the local machine doesn't have a default language.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;_DEFAULT_TIMEZONE&lt;/code&gt; - &lt;a href="https://pypi.python.org/pypi/tzlocal"&gt;tzlocal&lt;/a&gt; package is used to figure out the local timezone of user's machine. It's set to &lt;code&gt;Europe/Paris&lt;/code&gt; by default or in case of failure in fetching local timezone.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h6&gt;Cross Version Compatibility&lt;/h6&gt;
+&lt;p&gt;&lt;code&gt;pelican-quickstart&lt;/code&gt; is a great example of how a Python program can be made compatible with both Python 2 and 3. For this purpose &lt;a href="https://docs.python.org/3.5/library/__future__.html"&gt;future&lt;/a&gt;, &lt;a href="https://docs.python.org/3.5/library/codecs.html"&gt;codecs&lt;/a&gt; and &lt;a href="https://pypi.python.org/pypi/six"&gt;six&lt;/a&gt; packages are used.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;six&lt;/code&gt; is compatible with both Python 2 and 3 and helps in figuring out which of the functions should be used if either of the versions is encountered. Once such instance is when we need to figure out whether to use &lt;code&gt;raw_input()&lt;/code&gt; or &lt;code&gt;input()&lt;/code&gt;. A boolean &lt;code&gt;six.PY3&lt;/code&gt; is used which results &lt;code&gt;True&lt;/code&gt; if the version is Python 3 and &lt;code&gt;False&lt;/code&gt; otherwise. Hence the appropriate function can be returned as seen below.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;_input_compat&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;prompt&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;six&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;PY3&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;prompt&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;raw_input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;prompt&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;future&lt;/code&gt; is used to bring support of &lt;code&gt;print()&lt;/code&gt; using &lt;code&gt;print_function&lt;/code&gt; and provide &lt;code&gt;UTF-8&lt;/code&gt; support to print function using &lt;code&gt;unicode_literals&lt;/code&gt;. Or as Python lovers say, bringing future to earlier versions of Python.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;codecs&lt;/code&gt; is also compatible with both Python 2 and 3 and provides support for file management. Mostly &lt;code&gt;codecs.open&lt;/code&gt; is used by &lt;code&gt;pelican-quickstart&lt;/code&gt; to facilitate the compatibility.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="n"&gt;codecs&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;join&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;CONF&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;basedir&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;pelicanconf.py&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;w&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;fd&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h6&gt;Creating files and folders out of thin air&lt;/h6&gt;
+&lt;p&gt;To finish of, all &lt;code&gt;pelican-quickstart&lt;/code&gt; has to do is create files and folders considering all the configurations it has taken from the user. To create folders, &lt;code&gt;os.makedirs&lt;/code&gt; is used from &lt;a href="https://docs.python.org/3.5/library/os.html"&gt;os&lt;/a&gt; package is used. Creating folders is rather a simple process as compared to how files are generated using configurations provided.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://jinja.pocoo.org/"&gt;Jinja2&lt;/a&gt; plays a major role in facilitating the smooth transition of configurations to Python, .sh and Makefile. &lt;a href="https://github.com/getpelican/pelican/tree/master/pelican/tools/templates"&gt;Jinja Templates&lt;/a&gt; for &lt;code&gt;Makefile&lt;/code&gt;, &lt;code&gt;develop_sever.sh&lt;/code&gt;, &lt;code&gt;fabfile.py&lt;/code&gt;, &lt;code&gt;pelicanconf.py&lt;/code&gt;, and &lt;code&gt;publishconf.py&lt;/code&gt; are already stored within &lt;code&gt;pelican-quickstart&lt;/code&gt;. Now the task of is to open the template, use &lt;code&gt;CONF&lt;/code&gt; dict to find out all the important configuration and replace the &lt;code&gt;value&lt;/code&gt; with the placeholders named with similar &lt;code&gt;key&lt;/code&gt; as in &lt;code&gt;CONF&lt;/code&gt;. For example, &lt;code&gt;pelicanconf.py.jinja2&lt;/code&gt; contains &lt;code&gt;AUTHOR = {{author}}&lt;/code&gt; where &lt;code&gt;author&lt;/code&gt; is replaced with the &lt;code&gt;value&lt;/code&gt; of &lt;code&gt;author&lt;/code&gt; in &lt;code&gt;CONF&lt;/code&gt; and a new file &lt;code&gt;pelicanconf.py&lt;/code&gt; is created after all the replacements.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;These are most of the content I understood by reading the source of &lt;a href="https://github.com/getpelican/pelican/blob/master/pelican/tools/pelican_quickstart.py"&gt;pelican-quickstart&lt;/a&gt; and looking into the repository itself. In case you find any error in my blog feel free to comment down below or reach out to me and help out in making this blog a little better. Thank you for your patience.&lt;/p&gt;</content><category term="Python"></category><category term="Python"></category><category term="Pelican"></category><category term="Quickstart"></category><category term="Tutorial"></category></entry><entry><title>Migrating data between different machines with scp</title><link href="http://localhost:8000/Migrating-data-between-different-machines-with-scp.html" rel="alternate"></link><published>2017-11-20T00:00:00+05:30</published><updated>2018-02-03T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:localhost,2017-11-20:/Migrating-data-between-different-machines-with-scp.html</id><summary type="html">&lt;p&gt;Migrating data from one machine to another is easy if both of them are physically accessible and in a same room. Just use a pen drive and it becomes the safest way too. But what if both the machines are further apart? The solution to this problem is what we are going to discuss in this blog.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="This blog deals with beginner level commands and tools" src="http://localhost:8000/images/1*B2_tAV_PhUKQSSY0YYmyyQ.png"&gt;&lt;/p&gt;
+&lt;p&gt;Migrating data from one machine to another is easy if both of them are physically accessible and in a same room. Just use a pen drive and it becomes the safest way too. But what if both the machines are further apart? The solution to this problem is what we are going to discuss in this blog.&lt;/p&gt;
+&lt;p&gt;Let’s recall on of the most basic methods we use to copy file/folder from one location to another. Yes, it’s cp(copy). We use it as cp source destination to copy files from source to destination. In our case we might have source or destination as remote location instead of somewhere in the local machine itself. We’ll use a tool which will look syntactically similar to cp in the beginning know as scp(secure copy).&lt;/p&gt;
+&lt;p&gt;This way is recommended when you are trying to transfer the data only once from source to destination in a single pass. In order to transfer multiple files/directories and have a better session based control over your connection ftp is recommended.&lt;/p&gt;
+&lt;h5&gt;What is scp?&lt;/h5&gt;
+&lt;p&gt;&lt;a href="http://archive.oreilly.com/linux/cmd/cmd.csp?path=s/scp"&gt;scp&lt;/a&gt; is a tool on Linux which is used to copy files between remote machine or servers. scp uses ssh and utilizes it’s authenticity and security for file transfer which is a win-win for users. So, to use scp you need to setup &lt;a href="https://www.tecmint.com/install-openssh-server-in-linux/"&gt;ssh server&lt;/a&gt; on the remote machine.&lt;/p&gt;
+&lt;h5&gt;Transferring files with password&lt;/h5&gt;
+&lt;p&gt;If your remote machine or server has a user and password setup which you use to login then scp will work in the similar way.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;scp&lt;span class="w"&gt; &lt;/span&gt;/tmp/myfile&lt;span class="w"&gt; &lt;/span&gt;username@0.0.0.0:/tmp/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Here we’re trying to copy myfile from &lt;code&gt;/tmp/&lt;/code&gt; to the machine who’s IP address is &lt;code&gt;0.0.0.0&lt;/code&gt;. You’ll also notice that before the IP address we mention username with which we want to access the remote machine. And finally we add &lt;code&gt;:&lt;/code&gt; with the folder to which we want to copy our file. So, &lt;code&gt;/tmp/myfile&lt;/code&gt; becomes source and &lt;code&gt;username@0.0.0.0:/tmp/&lt;/code&gt; becomes destination.&lt;/p&gt;
+&lt;p&gt;When you run the above command you might be asked for a password. Simply enter the password and the copying will begin.&lt;/p&gt;
+&lt;h5&gt;Transferring files with a key&lt;/h5&gt;
+&lt;p&gt;To provide more security a key can be used in place of password using public key cryptography. You need to &lt;a href="https://support.suso.com/supki/SSH_Tutorial_for_Linux#Generating_a_key"&gt;create a key pair&lt;/a&gt; using ssh first on the remote machine and then use it from the machine you are trying to access the remote machine as follows.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;scp&lt;span class="w"&gt; &lt;/span&gt;-i&lt;span class="w"&gt; &lt;/span&gt;./mykey.pem&lt;span class="w"&gt; &lt;/span&gt;/tmp/myfile&lt;span class="w"&gt; &lt;/span&gt;username@0.0.0.0:/tmp/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You can see the change clearly as we have added &lt;code&gt;-i&lt;/code&gt; flag to signify that we’ll be passing a key, followed by mykey.pem which the location of our key. For the first time you’ll be prompted to confirm the connection with a yes. Transfer will begin soon after that without any password.&lt;/p&gt;
+&lt;p&gt;scp is very easy to use tool for quick transfer without the fuzz of session management. In future blog post I’ll try to simplify the use of tcp as well. You’re free to use whichever suits you most and that my friend is the beauty of FOSS. Embrace it!&lt;/p&gt;</content><category term="Linux"></category><category term="Linux"></category><category term="DevOps"></category><category term="SCP"></category></entry><entry><title>Python Game Challenge by PyDelhi, November 2017</title><link href="http://localhost:8000/Python-Game-Challenge-by-PyDelhi.html" rel="alternate"></link><published>2017-11-11T00:00:00+05:30</published><updated>2018-02-03T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:localhost,2017-11-11:/Python-Game-Challenge-by-PyDelhi.html</id><summary type="html">&lt;p&gt;PyDelhi organized Python Game Challenge on 11th November, Saturday, 2017. Here’s what happened!&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://pydlehi.org/"&gt;PyDelhi&lt;/a&gt; organized Python Game Challenge on 11th November, Saturday, 2017. Here’s what happened!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Fueled, Noida" src="http://localhost:8000/images/1*K-IdqnqZpQjVNK94k2mgVg.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;Python is multi-talented friend of ours which can assist on all our crazy projects irrespective of the type. PyDelhi came up with the idea of showcasing an underrated potential of making games via competition. Participants were asked to follow only 2 rules for doing so&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Game should be developed using Python&lt;/li&gt;
+&lt;li&gt;It should be developed on the venue during the given time and there begins the competition. We’ve recorded some of the game pitches by participants and gathered few words from them about their experiences below. And after the pitches we’ll announcing winners later in the blog.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;Chessmate&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://github.com/newts7/chessmate"&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+&lt;div class="youtube-16x9"&gt;
+    &lt;iframe src="https://www.youtube.com/embed/EQbs_Gn9fls" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Note from the teammates:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It started 1 Hour late, but the 1 Hour wait was worth it. It started by a talk on Open Source Data, exploring different data sources and Public APIs and how they can be used as a potent tool in a country like India with fewer Hardware resources for countering Air pollution which was at its worst in NCR in the ongoing week.&lt;/p&gt;
+&lt;p&gt;2 Hours into the challenge, we working on figuring out the design and the schema of the codebase to create the game. An hour later our chessboard was fully functional and we were coding on tasks like-&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Moves validation&lt;/li&gt;
+&lt;li&gt;Checkmates&lt;/li&gt;
+&lt;li&gt;Knights and Pawn special cases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We finished the game 30 minutes before the end time and performed end to end testing and were the first team to finish and present the hack out of the total two who completed it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5&gt;Arrow Monster&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://github.com/itaditya/game-o-python"&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+&lt;div class="youtube-16x9"&gt;
+    &lt;iframe src="https://www.youtube.com/embed/zHZyMjy_I_Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h5&gt;Hit and Win&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://github.com/iayanpahwa/PyDelhi-GameOthon"&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+&lt;div class="youtube-16x9"&gt;
+    &lt;iframe src="https://www.youtube.com/embed/wnFOTjxext8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Note from the teammates:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The idea to make this game “thor” is to showcase how easy can it be to interact with physical computing hardware devices with Python programming language, we knew most of the participants if not everyone will be making software games so we decided to make “Thor” a miniature version of hammer game you must have seen/played in arcade game centers.&lt;/p&gt;
+&lt;p&gt;We made it using Force sensitive resistor as sensor a micro-controller and few LEDs, the score is sent to PC via serial port and a daemon handler written in Python parses that using PySerial library! The result was not perfect but we achieved proof of concept and we will surely work on improving it.&lt;/p&gt;
+&lt;p&gt;The event was really good and happening, we look forward to attend more such events/hackathons by PyDelhi. Initially we get less support/interests from volunteers who stopped by seeing us playing with circuits on a software based hackathon but when we demonstrated everyone was curious to learn more about our game which was our primary goal! The presentation experience was lukewarm and an area to work on, if it could be more interactive where every team is involved (apart from just judges) asking questions, suggesting improvements it’d be more fun. Cheers to PyDelhi for conducting such a successful event. :)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5&gt;Maria&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://github.com/mCo0l/Game"&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+&lt;div class="youtube-16x9"&gt;
+    &lt;iframe src="https://www.youtube.com/embed/TWvCCxsDDiA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Note from the teammates:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It was great pleasure to be a part of this event. I entered in any 
+competition out of my college for the first time and it was a great 
+experience. I just a completion post on meetup group and the main 
+purpose i came there was to see how other people make game. I on the 
+other hand had no knowledge how these games are made.When the event 
+started someone said game can be made only using python as well. I also 
+entered the completion without any knowledge of anything and then i 
+started discussing the game with my partner and started building the 
+game at around 2. I had no knowledge of PyGame so we starting doing what 
+we wanted to instead of making a perfect game.&lt;/p&gt;
+&lt;p&gt;We first made a base (box) using PyGame, just googled it. Then we 
+started loading images of character, keys and bricks into the box, then 
+wrote an algorithm so that character won’t go out of the box or does not go 
+behind the bricks and a few other things in the remaining time.&lt;/p&gt;
+&lt;p&gt;But its not about what we did, its about what we learned. With no 
+knowledge of any game library like PyGame we made a small game. Now, 
+when i read a little about PyGame it’s completely clear what were we 
+doing wrong. Overall it was a great experience and the organizers were 
+great as well who gave goodies to participants as well.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5&gt;Up Up Away&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://github.com/Boot-Error/UpUpAway"&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+&lt;div class="youtube-16x9"&gt;
+    &lt;iframe src="https://www.youtube.com/embed/X1H4-0HKP2s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;p&gt;And the winners for Python Game Challenge are Chessmate, Arrow Monster and Hit and Win. Congratulations to all the participants who won and thank you all for coming to the PyDelhi meetup. Keep in touch on our &lt;a href="http://meetup.com/pydelhi/"&gt;meetup&lt;/a&gt;, &lt;a href="http://twitter.com/pydelhi"&gt;twitter&lt;/a&gt; and &lt;a href="https://www.facebook.com/pydelhi"&gt;facebook&lt;/a&gt; page for updates on upcoming events.&lt;/p&gt;</content><category term="Meetup"></category><category term="PyDelhi"></category><category term="Python"></category><category term="Game"></category><category term="ChallengeMeetup"></category></entry><entry><title>PyDelhi + Ilugd + LinuxChixIndia Meetup, as it happened on 5th February 2017</title><link href="http://localhost:8000/PyDelhi-Ilugd-LinuxChixIndia-Meetup-as-it-happened-on-5th-February-2017.html" rel="alternate"></link><published>2017-02-05T00:00:00+05:30</published><updated>2018-02-03T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:localhost,2017-02-05:/PyDelhi-Ilugd-LinuxChixIndia-Meetup-as-it-happened-on-5th-February-2017.html</id><summary type="html">&lt;p&gt;Meetup report of 5th February 2017 as a result of collaboration between PyDelhi, Ilugd and LinuxChix India.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="SCIS,JNU, Pic Credit : Ankit Rai" src="http://localhost:8000/images/1*ElCgHRFG1VBTAo6lcozfKA.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;While I was making my way to SCIS inside JNU all the memories from PyCon 2016 came back to me. SCIS is just opposite to the Convention Center where PyCon took place. That was my first ever conference and I met a lot of awesome people.&lt;/p&gt;
+&lt;p&gt;Speaking of meeting awesome people, there I was inside SCIS in a room filled with ‘Python Enthusiasts’. That room reminded me of my school but this room was equipped with gadgets to make a difference form a classroom. As usual I saw Akshay (&lt;a href="https://medium.com/u/45a2d3c81654"&gt;qua non&lt;/a&gt;) controlling the audience and the fact that our second speaker is not at the venue yet. So, it began with him welcoming everyone.&lt;/p&gt;
+&lt;h5&gt;TensorFlow by &lt;a href="https://medium.com/u/bd3e39707a79"&gt;Mukul Malik&lt;/a&gt; and &lt;a href="https://medium.com/u/e2e09c8049c8"&gt;Rishabh Shukla&lt;/a&gt;&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="Left : Mukul Malik, Right : Rishab, Center: Jupyter, Pic Credit: Abhyuday Pratap" src="http://localhost:8000/images/1*sYCNFdE78EvvAtaKL304bQ.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;This talk takes a deep dive in the topic i.e. buzz-word of past couple of year ‘Machine Learning’, so to give you a context read &lt;a href="https://medium.com/@mukulmalik/how-machine-learning-is-being-abused-91e17bf52363"&gt;Introduction To Machine Learning&lt;/a&gt; by Mukul. Rishab began by explaining the basics of how a neural network learn and reduces error by each iteration to subdue a goal. The role of TensorFlow here is to provide powerful modules to do complex computing efficiently like finding a needle in a haystack (figuratively).&lt;/p&gt;
+&lt;p&gt;As an example, let’s take a data set of English sentences and we have to distinguish each sentence for whether it’s a ‘Fact’ or not. To achieve this, we first perform some preprocessing on our data set to turn them into ML-friendly &lt;a href="https://medium.com/@mukulmalik/word2vec-part-1-fe2ec6514d70"&gt;‘Word Vectors’&lt;/a&gt;, there goes another blog by Mukul. Now we provide an understanding to our algorithm about ‘What is a fact ?’ with help of a database filled with values. Our algorithm begins with raw word vectors in the first iteration and results in a floating value in between ‘0’ (Not a Fact) or ‘1’ (Fact). With every iteration it reduces some ‘error’ in the actual value with the help of ‘bias’. Think of ‘error’ is what we determine at the end of each iteration and ‘bias’ we provide to the next iteration to correct that. Seems easy right ? It’s not. The code base is overwhelmingly complex at first, and like everything you’ll get comfortable with it by practice.&lt;/p&gt;
+&lt;p&gt;Bigger picture. A whole lot of conversation happens on the web which is open to everyone (like twitter) and most of which is erroneous remarks. Rishab began with this project to discriminate between what among them is a correct fact and what is just a humbug. And hence showing us a little of the mystical power ML holds.&lt;/p&gt;
+&lt;h5&gt;&lt;a href="https://summerofcode.withgoogle.com/"&gt;Google Summer Of Code&lt;/a&gt; (and open source), An Interactive Session&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="Open Source Map, Pic Credit: Tushar Malik" src="http://localhost:8000/images/1*MWO3FE5p0XC06O6WvGzikg.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;After a quick snack break and networking Akshay gathered us together again to make the next session interactive. He began with asking everyone whether they know about GSOC, open source and have been a part of it by making contribution. Some people raised their hands and they had to speak about their experience. I began with recalling the names of organisations that have been a part of GSOC and many other names were added by experience people in the audience. Many of them have been contributing to Upstream repositories and not to forget Akshay who has been part of Kivy and also mentoring for GSOC under it since past 6 years. Akshay then explained how we can monitor for projects and apply to GSOC. &lt;a href="https://github.com/aktech"&gt;Amit&lt;/a&gt; also shared his experience with GSOC and how he mentored for &lt;a href="http://sympy.org/"&gt;SymPy&lt;/a&gt; where he also improved one of their computational algorithms by making it more efficient. &lt;a href="https://github.com/CuriousLearner"&gt;Sanyam&lt;/a&gt; opened up about his open source contribution to Mozilla and other communities and what mindset we should have while approaching such organisations.&lt;/p&gt;
+&lt;p&gt;Domain expanded and moved to platforms other than GSOC like &lt;a href="https://www.gnome.org/outreachy/"&gt;Outreachy&lt;/a&gt; and &lt;a href="http://railsgirlssummerofcode.org/"&gt;RGSOC&lt;/a&gt;. Whole idea of contributing to an open source project is to expand our knowledge and obviously a better CV.&lt;/p&gt;
+&lt;h5&gt;Using terminal on GOD MODE by Akash&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="Left: Anuvrat, Right-Podium: Akash, Pic Credit: Abhyuday Pratap" src="http://localhost:8000/images/1*gz7KXe_XJiDjcCxPwCZFog.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;Next talk gave us a heads up about some of the time efficient tools. Beginning with the history of TTY which are nothing just the virtual consoles you can access by CTRL + F1 to F6 to the difference shell and terminal. Then he introduced us to &lt;a href="https://tmux.github.io/"&gt;TMUX&lt;/a&gt; or terminal multiplexer or some would say love at first sight. No matter how good we code sometimes it’s the tools we use that’s really important to increase efficiency and also bring swag to your screen. He briefly showed us how we can handle different TMUX sessions and split a window inside it with set of keys. And while we’re at it, a voice came from behind which I instantly recognised was of &lt;a href="http://anuvrat.in/"&gt;Anuvrat’s&lt;/a&gt;. Before moving to what he said, a monologue&lt;/p&gt;
+&lt;p&gt;I saw Anuvrat at the beginning of the day when he was sitting quietly giving no account of his presence to other. He’s one of those guys who’ll teach you something really interesting whenever you meet. So I thought of not disturbing him with a ‘Hi’, as I knew something amazing was happening inside his head which he’ll surely put in words at a better time.&lt;/p&gt;
+&lt;p&gt;So, he said there’s a tool known as &lt;a href="http://mosh.org/"&gt;MOSH&lt;/a&gt; which is a high latency tool to overcome speed and other issues with SSH. I started working with AWS EC2 a couple of weeks back and if you too have headache of a internet connection you can understand the pain of accessing your server instance with SSH. But in just 20 mins TMUX + MOSHgave me a GOD MODE to access my servers.&lt;/p&gt;
+&lt;h5&gt;Hiring, Pitching and More&lt;/h5&gt;
+&lt;p&gt;In this session people from audience are invited to pitch their products, company as employer and themselves as employee. This session also became interesting as I met an interesting man &lt;a href="https://www.linkedin.com/in/achintsatsangi/"&gt;Achint&lt;/a&gt; and we had a brief talk about each other’s tech stacks.&lt;/p&gt;
+&lt;h5&gt;Parting Words and PyDelhi Conference&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="PyDelhi Conference" src="http://localhost:8000/images/1*gjD8bBH_MdTkvFfIrvZyrw.png"&gt;&lt;/p&gt;
+&lt;p&gt;This is the time where we thank everyone for being a part of the event and share links to connect with each other. &lt;a href="https://github.com/shivan1b"&gt;Shivani&lt;/a&gt; representing &lt;a href="https://github.com/linuxchixindia"&gt;Linux Chix India&lt;/a&gt; and &lt;a href="https://github.com/mystictot"&gt;Shyam&lt;/a&gt;, &lt;a href="https://github.com/iludg"&gt;Indian Linux User Group Delhi&lt;/a&gt; spoke about respective communities and what content they are committed to provide in this pool of meetups. &lt;a href="http://conference.pydelhi.org/"&gt;PyDelhi Conference&lt;/a&gt; became a part of conversation and people are invited to be a part of it by ‘&lt;a href="https://in.explara.com/e/pydelhiconf-2017"&gt;Buying Tickets&lt;/a&gt;’ and ‘&lt;a href="https://cfp.pydelhi.org/"&gt;Submitting a Proposal&lt;/a&gt;’ for talk/workshop. I’ve also proposed a talk for ‘&lt;a href="https://cfp.pydelhi.org/pydelhi-conference-2017/proposals/telegram-bot-using-python/"&gt;Telegram bot using Python&lt;/a&gt;’ which you can up-vote on the &lt;a href="https://cfp.pydelhi.org/pydelhi-conference-2017/proposals/"&gt;CFP website&lt;/a&gt; if you want me to show you how I used it by making ‘&lt;a href="https://telegram.me/viralsemesterbot"&gt;ViralSemesterBot&lt;/a&gt;’ for my college which is basically a notes/news management system build over a bot. After that I was asked to speak the final words for PyDelhi for which I was shocked as it was my first time. But before that, a monologue:&lt;/p&gt;
+&lt;p&gt;I never hesitate to speak given a chance. Exhibit A, I won a inter-school drama competition which I wrote in complete RAP and also performed a part in it. Exhibit B, I jumped off the stage with a guitar (&lt;a href="https://www.facebook.com/photo.php?fbid=758397794186413&amp;amp;l=1a6b9911e7"&gt;literally&lt;/a&gt;) while performing a song. But this was different, I admired the work of the people in front of me. So I found out that I become nervous speaking in front of intelligent people. Maybe that’s why I can have a conversation with myself just fine, if you know what I mean. ;)&lt;/p&gt;
+&lt;p&gt;But I spoke whatever I could and pointed several times at &lt;a href="https://pydelhi.org/"&gt;PyDelhi&lt;/a&gt; website. It’s good to a have a experience like ‘the first time’, for 1) it’ll help in future and 2) ‘first’ happens only once. :D&lt;/p&gt;
+&lt;p&gt;PS : Every underlined word/sentence is sitting on a hyperlink. Please like and leave down comments, I would be happy to have a conversation.&lt;/p&gt;</content><category term="Meetup"></category><category term="PyDelhi"></category><category term="Ilugd"></category><category term="LinuxChix India"></category><category term="Tensorflow"></category><category term="GSOC"></category><category term="Outreachy"></category><category term="RGSOC"></category><category term="TMUX"></category><category term="Meetup"></category></entry><entry><title>PyDelhi Meetup, The Tale Of 21st January</title><link href="http://localhost:8000/PyDelhi-Meetup-The-Tale-Of-21st-January-2017.html" rel="alternate"></link><published>2017-01-24T00:00:00+05:30</published><updated>2018-02-03T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:localhost,2017-01-24:/PyDelhi-Meetup-The-Tale-Of-21st-January-2017.html</id><summary type="html">&lt;p&gt;PyDelhi meetup report of 21st January 2017 which also holds account of my first PyDelhi talk.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="IIM Lucknow Noida Campus, Pic Courtesy : Ankit Rai" src="http://localhost:8000/images/1*0FUTpvIIUFpY7WwTJifTdw.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;Just like a regular-alternate Saturday, 21st was planned to have &lt;a href="https://pydelhi.org/"&gt;PyDelhi&lt;/a&gt; meetup and this time, our host was IIM Lucknow Campus Noida. I reached at around 12 PM near the main gate with my friends. The schedule as on &lt;a href="https://www.meetup.com/pydelhi/"&gt;PyDelhi’s Meetup Page&lt;/a&gt; promised a yet another exciting session. Minutes after people started arriving, &lt;a href="https://github.com/akshayaurora"&gt;Akshay&lt;/a&gt;, one of PyDelhi’s organiser welcomed everyone. You can think of Akshay as ‘the magnificent one’ among the other volunteers of this organisation who make these events possible. Shortly after that he asked the audience to volunteer for the lightning talk, a quick python related talk/session on which they’re currently working on.&lt;/p&gt;
+&lt;h5&gt;My Lightning Talk On Python Telegram Bot&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="Me during my talk, Pic Courtesy : Ankit Rai" src="http://localhost:8000/images/1*kcIK1MxZ44eLvBKgpj2w1Q.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;Before the event began I hurtled towards Akshay and said “I did something last night and I wanna talk about it”, by these words in mind I raised my hand for lighting talk afterwards.&lt;/p&gt;
+&lt;p&gt;Just before that night I worked on Python Telegram Bot, a package which can be used very easily in production to create scripts for Telegram Bot. I began with the basic elements of this package and made PyDelhi Bot and hosted it on AWS Cloud. I showed how telegram.ext and telegram modules and its methods can be used to read client’s message and reply with appropriate message. This bot can be accessed by searching ‘pydelhibot’ on telegram and is already serving links on PyDelhi volunteer group. Hence, it became my first talk on PyDelhi after attending meetup for nearly 6 months.&lt;/p&gt;
+&lt;h5&gt;Amit Kumar With His GIL Swag&lt;/h5&gt;
+&lt;p&gt;After I finished with my beginner talk it was time for &lt;a href="https://medium.com/u/66cd0c98f4e4"&gt;Amit Kumar&lt;/a&gt; to take the floor and share his knowledge on core Python. So he began by first explaining how variables and their values are handled by Python interpreter with the concept of reference count. Moving forward he then showed us the changes to execution time with or without multi-threading and the results were astonishing in which multi-threading lost. Amit explained how Global Interpreter Lock is responsible for such results and it’s bringing down the performance of threads. He then talked about the famous GIL patch in which Greg Stein removed GIL altogether but it decreased performance of Python by 30x. But GIL holds its place until there someone from Python software foundation comes with a better alternative without compromising performance.&lt;/p&gt;
+&lt;h5&gt;VIM’s Power Show By Garvit Khatri&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://github.com/garvitdelhi"&gt;Garvit&lt;/a&gt; volunteered for another lightning talk and proposed VIM for this. He began by firing his editor and using commands to quickly navigate between words and lines. By increasing pace, he then showed us how we can mimic an entire set of operation as many times as we want. After then he showed how we can split the terminal window to open multiple files and left us with WOW. VIM is powerful when used at it’s best and can leave any high end editor like sublime or atom behind by just considering the use of shortcuts.&lt;/p&gt;
+&lt;h5&gt;Snacks And Venue Sighting For PyDelhi Conference&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="Venue for PyDelhi Conference, Pic Credit : Shashank Aryan" src="/images/0*nEDZPIkL238va-XA.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;After Amit’s parody of GIL and Garvit’s showcase of VIM’s abilities came the time for snacks and networking. But for the volunteer it was more important than that. PyDelhi Conference is scheduled on March 18 and IIM itself is the venue for the event so we looked at the proposed halls and buildings to plan further. On the other hand website designs was also discussed.&lt;/p&gt;
+&lt;h5&gt;A Brief On The Activities Of IIM’s Incubation&lt;/h5&gt;
+&lt;p&gt;Rajiv Ornsheeba, the Head Of Incubator gave a quick talk on the works of IIM Lucknow Noida Campus. He described the complete procedure about how to apply and what kind of startups they are looking for. He also stated the importance of making revenue around the products we make and how his team can help startups achieve that right from the investments and throughout the journey with the help of professionals.&lt;/p&gt;
+&lt;h5&gt;Python + Other Languages, An Interactive Session&lt;/h5&gt;
+&lt;p&gt;The last and interactive session was initiated by Akshay asking audience about their experience with handling python with other programming languages. &lt;a href="https://github.com/dhuadaar"&gt;Peeyush&lt;/a&gt; began sharing one instance from his experience where he had to manage some dockers, the technicalities of which were too in-depth for a beginner like me to remember. Then began a series of conversations among other sharing the same stack about how they handled their situation with other languages. I also spoke a less technical version of these exchanges. My use case was not as native as most of people present used python with some other packages to interconnect it with other languages. Alas Akshay shared a wiki which has a list of many tools to make this possible which can be found &lt;a href="https://wiki.python.org/moin/IntegratingPythonWithOtherLanguages"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h5&gt;Parting Words and PyDelhi Conference/CFP&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="Discussion on CFP, Pic Credit : Satyaakam" src="images/0*4nilE4nfQA3ACwoE.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;As the event progressed towards the final segment, Akash and Peeyush took the stage to talk about how we can stay connected to PyDelhi and what PyDelhi Conference is all about. Amit and Shweta joined in to share their experience about previous Pydelhi Conference.&lt;/p&gt;
+&lt;h5&gt;The Conclusion&lt;/h5&gt;
+&lt;p&gt;Finally the meetup came to a close and people started networking to find the solutions to their problems and also to know more about the other. Me with my friends started leaving the venue with Amit and Garvit and gained some pointers from them. While the discussion moved from a good documentation to how to write good code on which Amit said “code is an art. You know it when it’s beautiful.” and suggested &lt;a href="https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882"&gt;Clean Code&lt;/a&gt; as a reference to learn syntactically beautiful code.&lt;/p&gt;
+&lt;p&gt;Just like every other PyDelhi Meetup, this also taught me a lot and pushed me to work hard and learn more. With all these exciting people and many new ones, the day ends with a lot of stories and a promise to make more in the next Alternate-Saturday :D&lt;/p&gt;
+&lt;p&gt;Thanks PyDelhi :)&lt;/p&gt;
+&lt;p&gt;PS : please like and leave down comments, I would be happy to have a conversation.&lt;/p&gt;</content><category term="Meetup"></category><category term="Telegram"></category><category term="Bots"></category><category term="Python"></category><category term="PyDelhi"></category><category term="Meetup"></category></entry></feed>

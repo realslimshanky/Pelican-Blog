@@ -10,6 +10,7 @@ SITELOGO = '/images/profile.jpg'
 FAVICON = '/images/favicon.ico'
 BROWSER_COLOR = '#333333'
 PYGMENTS_STYLE = 'colorful'
+OUTPUT_PATH = 'docs'
 
 ROBOTS = 'index, follow'
 

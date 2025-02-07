@@ -1,0 +1,358 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/stylesheet/style.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/pygments/colorful.min.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="http://localhost:8000/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Shanky's Brainchild Atom">
+
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#333333">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#333333">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<meta name="author" content="Shashank Kumar" />
+<meta name="description" content="Three weeks of Google Summer of Code went off to be life-changing for me. I learned a lot about soft skills and project management as well. This here is the summary of my work which also serves as my Final Report of Google Summer of Code 2018." />
+<meta name="keywords" content="GSoC, Google, Debian, KIVY, Salsa">
+<meta property="og:site_name" content="Shanky's Brainchild"/>
+<meta property="og:title" content="Google Summer of Code 2018 with Debian - Final Report"/>
+<meta property="og:description" content="Three weeks of Google Summer of Code went off to be life-changing for me. I learned a lot about soft skills and project management as well. This here is the summary of my work which also serves as my Final Report of Google Summer of Code 2018."/>
+<meta property="og:locale" content="en_IN"/>
+<meta property="og:url" content="http://localhost:8000/gsoc-2018-final-report.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2018-08-13 00:00:00+05:30"/>
+<meta property="article:modified_time" content="2018-08-13 00:00:00+05:30"/>
+<meta property="article:author" content="http://localhost:8000/author/shashank-kumar.html">
+<meta property="article:section" content="GSoC"/>
+<meta property="article:tag" content="GSoC"/>
+<meta property="article:tag" content="Google"/>
+<meta property="article:tag" content="Debian"/>
+<meta property="article:tag" content="KIVY"/>
+<meta property="article:tag" content="Salsa"/>
+<meta property="og:image" content="http://localhost:8000/">
+
+  <meta name="twitter:image" content="/images/profile.jpg">
+  <meta name="twitter:title" content="Google Summer of Code 2018 with Debian - Final Report - Shanky's Brainchild">
+  <meta name="twitter:description" content="Three weeks of Google Summer of Code went off to be life-changing for me. I learned a lot about soft skills and project management as well. This here is the summary of my work which also serves as my Final Report of Google Summer of Code 2018.">
+    <meta name="twitter:card" content="http://localhost:8000//images/gsocanddebian.png">
+
+  <meta itemprop="name" content="Google Summer of Code 2018 with Debian - Final Report - Shanky's Brainchild">
+  <meta itemprop="description" content="Three weeks of Google Summer of Code went off to be life-changing for me. I learned a lot about soft skills and project management as well. This here is the summary of my work which also serves as my Final Report of Google Summer of Code 2018.">
+    <meta itemprop="image" content="http://localhost:8000//images/gsocanddebian.png">
+
+  <title>Shanky's Brainchild &ndash; Google Summer of Code 2018 with Debian - Final Report</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="http://localhost:8000">
+        <img src="/images/profile.jpg" alt="Shanky's Brainchild" title="Shanky's Brainchild">
+      </a>
+      <h1><a href="http://localhost:8000">Shanky's Brainchild</a></h1>
+
+
+      <ul class="social">
+        <li><a class="sc-linkedin" href="https://www.linkedin.com/in/shashankkumarkushwaha/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="sc-github" href="https://github.com/realslimshanky" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a class="sc-key" href="https://keybase.io/realslimshanky" target="_blank"><i class="fa fa-key"></i></a></li>
+        <li><a class="sc-rss" href="//blog.shanky.dev/feeds/all.atom.xml" target="_blank"><i class="fa fa-rss"></i></a></li>
+      </ul>
+    </div>
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="http://localhost:8000">    Home
+</a>
+
+      <a href="/archives.html">Archives</a>
+      <a href="/categories.html">Categories</a>
+      <a href="/tags.html">Tags</a>
+
+      <a href="http://localhost:8000/feeds/all.atom.xml">    Atom
+</a>
+
+    </nav>
+
+<article class="single">
+  <header>
+    <h1 id="gsoc-2018-final-report">Google Summer of Code 2018 with Debian - Final Report</h1>
+    <p>
+          Posted on Mon 13 August 2018 in <a href="http://localhost:8000/category/gsoc.html">GSoC</a>
+
+
+    </p>
+  </header>
+
+  <div>
+    <p>Three weeks of Google Summer of Code went off to be life-changing for me. This here is the summary of my work which also serves as my Final Report of Google Summer of Code 2018.</p>
+<p><img alt="GSoC and Debian" src="http://localhost:8000/images/gsocanddebian.png"></p>
+<h3>Preperations</h3>
+<p>My project is <strong>Wizard/GUI helping students/interns apply and get started</strong> and the final application is named <strong>New Contributor Wizard</strong>. It originated as the brainchild and Project Idea of <a href="https://wiki.debian.org/SummerOfCode2018/Projects/WizardForStudentsAndNewInterns">Daniel Pocock</a> for GSoC 2018 under Debian. I prepared the application task for the same and shared my journey through Open Source till GSoC 2018 in two of my blogs, <a href="https://blog.shanky.xyz/gsoc-2018-blog-1-from-preparations-to-debian-proposal.html#gsoc-2018-blog-1-from-preparations-to-debian-proposal"><strong>From Preparations to Debian to Proposal</strong></a> and <a href="https://blog.shanky.xyz/gsoc-2018-blog-2-the-application-task-and-results.html#gsoc-2018-blog-2-the-application-task-and-results"><strong>The Application Task and Results</strong></a>.</p>
+<h3>Project Overview</h3>
+<p><img alt="Sign Up Screen" src="http://localhost:8000/images/gsoc-final-report-application-screen-signup.png"></p>
+<p>New Contributor Wizard is a GUI application build to help new contributors get started with Open Source. It was an idea to bring together all the Tools and Tutorials necessary for a person to learn and start contributing to Open Source. The application contains different courseware sections like <code>Communication</code>, <code>Version Control System</code> etc. and within each section, there are respective Tools and Tutorials.</p>
+<p>A Tool is an up and running service right inside the application which can perform tasks to help the user understand the concepts. For example, encrypting a message using the primary key, decrypting the encrypted message using the private key, and so on, these tools can help the user better understand the concepts of encryption.</p>
+<p>A tutorial is comprised of lessons which contain text, images, questions and code snippets. It is a comprehensive guide for a particular concept. For example, Encryption 101, How to use git?, What is a mailing list? and so on.</p>
+<p>In addition to providing the Tools and Tutorials, this application is build to be progressive. One can easily contribute new Tutorials by just creating a JSON file, the process of which is documented in the project repository itself. Similarly, a documentation for contributing Tools is present as well.</p>
+<h3>Project Details</h3>
+<ul>
+<li>
+<p><strong>GSoC Project Page</strong> - <a href="https://summerofcode.withgoogle.com/projects/#5056989357408256">GSoC Projects #5056989357408256</a></p>
+</li>
+<li>
+<p><strong>Project Respository</strong> - <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard">New Contributor Wizard on Debian Salsa</a></p>
+</li>
+<li>
+<p><strong>Issue/Bug Tracker</strong> - <a href="https://outreach-lab.debian.net/redmine/projects/new-contributor-wizard">New Contributor Wizard on Debian Redmine</a></p>
+</li>
+<li>
+<p><strong>Communication</strong> - Private thread with mentors for daily updates, <a href="https://lists.debian.org/debian-outreach/">Debian Outreach Mailing List</a> for weekly updates and <a href="https://meet.jit.si">Jitsi Meet</a> for conference calls.</p>
+</li>
+</ul>
+<h3>Programming Language and Tools</h3>
+<p><strong>For Development</strong></p>
+<ul>
+<li><a href="https://docs.python.org">Python</a></li>
+<li><a href="https://kivy.org/docs">Kivy</a></li>
+<li><a href="http://docs.python-requests.org/en/master">Request</a></li>
+<li><a href="https://pythonhosted.org/python-gnupg">Python GnuPG</a></li>
+<li><a href="http://docs.cython.org/en/latest">Cython</a></li>
+</ul>
+<p><strong>For Testing</strong></p>
+<ul>
+<li><a href="https://pylint.readthedocs.io/en/latest">Pylint</a></li>
+<li><a href="https://docs.pytest.org/en/latest">Pytest</a></li>
+<li><a href="https://pytest-cov.readthedocs.io/en/latest">Pytest-cov</a></li>
+<li><a href="https://github.com/gotcha/ipdb">IPDB</a></li>
+</ul>
+<p><strong>Environment</strong></p>
+<ul>
+<li><a href="https://docs.pipenv.org/">Pipenv</a> for Python Virtual Environment</li>
+<li><a href="https://wiki.debian.org/DebianStretch">Debian 9</a> for Project Development and testing</li>
+</ul>
+<p><strong>Version Control System</strong></p>
+<ul>
+<li><a href="https://git-scm.com/">Git</a></li>
+</ul>
+<p>For pinned dependencies and sub-dependencies one can have a look at the <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/master/Pipfile">Pipfile</a> and <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/master/Pipfile.lock">Pipfile.lock</a></p>
+<h3>My Contributions</h3>
+<p>The project was just an idea before GSoC and I had to make all the decisions for the implementation with the help of mentors whether it was Design or Architecture of the application. Below is the list of my contributions in shape of merge requests and every merge request contains UI, application logic, tests, and documentation. My contributions can also be seen in <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/blob/master/changelog"><strong>Changelog</strong></a> and <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/graphs/master"><strong>Contribution Graph</strong></a> of the application.</p>
+<h5>Sign Up</h5>
+<p>Sign Up is the first screen a user is shown and asks for all the information required to create an account. It then takes the user to the Dashboard with all the courseware sections.</p>
+<p><strong>Merge request</strong> - <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/4">Adds SignUp feature</a></p>
+<p><strong>Redmine Issue</strong> - <a href="https://outreach-lab.debian.net/redmine/issues/8">Create SignUp Feature</a></p>
+<p><strong>Feature In Action</strong> (updated working of the feature)</p>
+<video width="400" controls loop>
+  <source src="http://localhost:8000/videos/GSoC_final_signup.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<h5>Sign In</h5>
+<p>Alternate to Sign Up, the user has option to select Sign In to use existing account in order to access the application.</p>
+<p><strong>Merge Request</strong> - <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/5">Adds SignIn feature</a></p>
+<p><strong>Redmine Issue</strong> - <a href="https://outreach-lab.debian.net/redmine/issues/9">Create SignIn Feature</a></p>
+<p><strong>Feature In Action</strong> (updated working of the feature)</p>
+<video width="400" controls loop>
+  <source src="http://localhost:8000/videos/GSoC_final_signin.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<h5>Dashboard</h5>
+<p>The Dashboard is said to be the protagonist screen of the application. It contains all the courseware sessions and their respective Tools and Tutorials.</p>
+<p><strong>Merge Request</strong> - <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/6">Adds Dashboard feature</a></p>
+<p><strong>Redmine Issue</strong> - <a href="https://outreach-lab.debian.net/redmine/issues/25">Implementing Dashboard</a></p>
+<p><strong>Feature In Action</strong> (updated working of the feature)</p>
+<video width="400" controls loop>
+  <source src="http://localhost:8000/videos/GSoC_final_dashboard.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<h5>Adding Tool Architecture</h5>
+<p>Every courseware section can have respective Tools and Tutorials. To add Tools to a section I devised an architecture and implemented on <code>Encryption</code> to add 4 different Tools. They are:</p>
+<ul>
+<li>Create Key Pair</li>
+<li>Display and manage Key Pair</li>
+<li>Encrypt a message</li>
+<li>Decrypt a message</li>
+</ul>
+<p><strong>Merge Request</strong> - <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/7">Adding encryption tools</a></p>
+<p><strong>Redmine Issue</strong> - <a href="https://outreach-lab.debian.net/redmine/issues/28">Adding Encryption Tools</a></p>
+<p><strong>Feature In Action</strong> (updated working of the feature)</p>
+<video width="400" controls loop>
+  <source src="http://localhost:8000/videos/GSoC_final_encryption_tools.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<h5>Adding Tutorial Architecture</h5>
+<p>Similar to Tools, Tutorials can be found with respect to any courseware section. I have created a Tutorial Parser, which can take a JSON file and build GUI for the Tutorial easily without any coding required. This way folks can easily contribute Tutorials to the project. I added <code>Encryption 101</code> Tutorial to showcase the use of Tutorial Parser.</p>
+<p><strong>Merge Request</strong> - <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/9">Adding encryption tutorials</a></p>
+<p><strong>Redmine Issue</strong> - <a href="https://outreach-lab.debian.net/redmine/issues/31">Adding Encryption Tutorials</a></p>
+<p><strong>Feature In Action</strong> (updated working of the feature)</p>
+<video width="400" controls loop>
+  <source src="http://localhost:8000/videos/GSoC_final_encryption_tutorials.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<h5>Adding 'Invite Contributor' block to Tools and Tutorials</h5>
+<p>In order to invite the contributor to New Contributor Wizard, every Tools and Tutorials menu display an additional block by linking the project repository.</p>
+<p><strong>Merge Request</strong> - <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/10">Inviting contributors</a></p>
+<p><strong>Redmine Issue</strong> - <a href="https://outreach-lab.debian.net/redmine/issues/54">Inviting contributors to the project</a></p>
+<p><strong>Feature In Action</strong> (updated working of the feature)</p>
+<video width="400" controls loop>
+  <source src="http://localhost:8000/videos/GSoC_final_invite_contributors.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<h5>Adding How To Use</h5>
+<p>One of the courseware section <code>How To Use</code> help the user understand about different sections of the application in order to get the best out of it.</p>
+<p><strong>Merge Request</strong> - <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/15">Updating How To Use</a></p>
+<p><strong>Redmine Issue</strong> - <a href="https://outreach-lab.debian.net/redmine/issues/53">Adding How To Use in the application </a></p>
+<p><strong>Feature In Action</strong> (updated working of the feature)</p>
+<video width="400" controls loop>
+  <source src="http://localhost:8000/videos/GSoC_final_how_to_use.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<h5>Adding description to all the modules</h5>
+<p>All the courseware sections or modules need a simple description to describe what the user will learn using it's Tutorials and Tools.</p>
+<p><strong>Merge Request</strong> - <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/20">Description added to all the modules</a></p>
+<p><strong>Redmine Issue</strong> - <a href="https://outreach-lab.debian.net/redmine/issues/57">Add a introduction/description to all the modules</a></p>
+<p><strong>Feature In Action</strong> (updated working of the feature)</p>
+<video width="400" controls loop>
+  <source src="http://localhost:8000/videos/GSoC_final_description_to_all_modules.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+<h5>Adding Generic Tools and Tutorials Menu</h5>
+<p>This feature allows the abstraction of Tools and Tutorials architecture I mentioned earlier so that the Menu architecture can be used by any of the courseware sections following the DRY approach.</p>
+<p><strong>Merge Request</strong> - <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/13">Adding Generic Menu</a></p>
+<p><strong>Redmine Issue</strong> - <a href="https://outreach-lab.debian.net/redmine/issues/49">Adding Tutorial and Tools menu to all the modules</a></p>
+<h5>Tutorial Contribution Doc</h5>
+<p>A tutorial in the application can be added using just a JSON file. As mentioned earlier, it is made possible using the Tutorial Parser. A comprehensive ocumentation is added to help the users understand how they can contribute Tutorials to the application for the world to take advantage of.</p>
+<p><strong>Merge Request</strong> - <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/16">Tutorial contribution docs</a></p>
+<p><strong>Redmine Issue</strong> - <a href="https://outreach-lab.debian.net/redmine/issues/45">Add documentation for Tutorial development</a></p>
+<h5>Tools Contribution Doc</h5>
+<p>A tool in the application is build using Kivy lang and Python. A comprehensive documentation is added to the project in order for folks to contribute Tools for the world to take advantage of.</p>
+<p><strong>Merge Request</strong> - <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/17">Tools contribution docs</a></p>
+<p><strong>Redmine Issue</strong> - <a href="https://outreach-lab.debian.net/redmine/issues/44">Add documentation for Tools development</a></p>
+<h5>Adding a License to project</h5>
+<p>After having discussions with the mentors and a bit of research, GNU GPLv3 was finalized as the license for the project and has been added to the repository.</p>
+<p><strong>Merge Request</strong> - <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/11">Adds License to project</a></p>
+<p><strong>Redmine Issue</strong> - <a href="https://outreach-lab.debian.net/redmine/issues/10">Add a license to Project Repository</a></p>
+<h5>Allowing different timezones during Sign Up</h5>
+<p>Sign Up feature is refactored to support different timezones from the user.</p>
+<p><strong>Merge Request</strong> - <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/18">Allowing different timezones during signup</a></p>
+<p><strong>Redmine Issue</strong> - <a href="https://outreach-lab.debian.net/redmine/issues/56">Allow different timezones</a></p>
+<h5>All other contributions</h5>
+<p>Here's a list of all the merge request I raised to develop a feature or fix an issue with the application - <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests?scope=all&amp;utf8=%E2%9C%93&amp;state=all&amp;author_username=realslimshanky-guest">All merge request by Shashank Kumar</a></p>
+<p>Here are all the issues/bug/features I created, resolved or was associated to on the Redmine - <a href="https://outreach-lab.debian.net/redmine/projects/new-contributor-wizard/issues?utf8=%E2%9C%93&amp;set_filter=1&amp;f%5B%5D=status_id&amp;op%5Bstatus_id%5D=o&amp;f%5B%5D=assigned_to_id&amp;op%5Bassigned_to_id%5D=%3D&amp;v%5Bassigned_to_id%5D%5B%5D=8&amp;f%5B%5D=&amp;c%5B%5D=tracker&amp;c%5B%5D=status&amp;c%5B%5D=priority&amp;c%5B%5D=subject&amp;c%5B%5D=assigned_to&amp;c%5B%5D=updated_on&amp;group_by=&amp;t%5B%5D=">All the redmine issue associated to Shashank Kumar</a></p>
+<h3>Packaging</h3>
+<p>The application has been packaged for PyPi and can be installed using either <code>pip</code> or <code>pipenv</code>.</p>
+<p>Package - <a href="https://pypi.org/project/new-contributor-wizard/">new-contributor-wizard</a></p>
+<p>Packaging Tool - <a href="https://pypi.org/project/setuptools/">setuptools</a></p>
+<h3>To Do List</h3>
+<ul>
+<li><a href="https://outreach-lab.debian.net/redmine/issues/59">Add more tools and tutorials to the project</a></li>
+<li><a href="https://outreach-lab.debian.net/redmine/issues/55">GUI popup for text manipulation in input boxes throughout the application</a></li>
+<li><a href="https://outreach-lab.debian.net/redmine/issues/60">Packaging the application for Debian after the Kivy package for python3 is upgraded</a></li>
+</ul>
+<h3>Weekly Updates And Reports</h3>
+<p>These report were send daily to private mentors mail thread and weekly on Debian Outreach mailing list.</p>
+<ul>
+<li><a href="https://lists.debian.org/debian-outreach/2018/05/msg00069.html">Week 1 and 2</a></li>
+<li><a href="https://salsa.debian.org/snippets/126">Week 3</a></li>
+<li><a href="https://salsa.debian.org/snippets/127">Week 4</a></li>
+<li><a href="https://salsa.debian.org/snippets/128">Week 5</a></li>
+<li><a href="https://salsa.debian.org/snippets/129">Week 6</a></li>
+<li><a href="https://salsa.debian.org/snippets/130">Week 7</a></li>
+<li><a href="https://salsa.debian.org/snippets/131">Week 8</a></li>
+<li><a href="https://salsa.debian.org/snippets/132">Week 9</a></li>
+<li><a href="https://salsa.debian.org/snippets/133">Week 10</a></li>
+<li><a href="https://salsa.debian.org/snippets/134">Week 11</a></li>
+<li><a href="https://salsa.debian.org/snippets/135">Week 12</a></li>
+</ul>
+<h3>Talk Delivered On My GSoC Project</h3>
+<p>On 12th August 2018, I gave a talk on <strong>How my Google Summer of Code project can help bring new contributors to Open Source</strong> during a meetup in Hacker Space, Noida, India. Here are the <a href="https://slides.com/realslimshanky/gsoc">slides</a> I prepared for my talk and a collection of <a href="https://drive.google.com/folderview?id=1Dcpbw0QsmW8OL8B5XYbmov83A7k8dbeM">photographs</a> of the event.</p>
+<h3>Summary</h3>
+<p>New Contributor Wizard is ready for the users who would like to get started with Open Source as well as to the folks who would like to contribute Tools and Tutorials to the application as well.</p>
+<h3>Acknowledgment</h3>
+<p>I would like to thank Google Summer of Code for giving me the opportunity of giving back to the community and Debian for selecting me for the project.</p>
+<p>I would like to thank <a href="https://danielpocock.com/">Daniel Pocock</a> for his amazing blogs and ideas he comes up which end up inspiring students and result in a project like above.</p>
+<p>I would like to thank <a href="https://www.sanyamkhurana.com/">Sanyam Khurana</a> for constantly motivating me by reviewing every single line of code which I wrote to come up with the best solution to put in front of the community.</p>
+<p>Thanks to all the loved ones who always believed in me and kept me motivated.</p>
+  </div>
+
+  <div class="tag-cloud">
+    <p>
+      <a href="http://localhost:8000/tag/gsoc.html">GSoC</a>
+      <a href="http://localhost:8000/tag/google.html">Google</a>
+      <a href="http://localhost:8000/tag/debian.html">Debian</a>
+      <a href="http://localhost:8000/tag/kivy.html">KIVY</a>
+      <a href="http://localhost:8000/tag/salsa.html">Salsa</a>
+    </p>
+  </div>
+
+  <div>
+    <b>Please share the blog if you like it</b>
+    <ul class="social">
+      <li><a href="https://twitter.com/intent/tweet?text=Google Summer of Code 2018 with Debian - Final Report by @realslimshanky https%3A%2F%2Fblog.shanky.xyz/gsoc-2018-final-report.html" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+      <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fblog.shanky.xyz/gsoc-2018-final-report.html&title=Google Summer of Code 2018 with Debian - Final Report by Shashank Kumar " target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+      <li><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fblog.shanky.xyz/gsoc-2018-final-report.html" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+      <li><a href="mailto:?subject=Google Summer of Code 2018 with Debian - Final Report by Shashank Kumar &body=https%3A%2F%2Fblog.shanky.xyz/gsoc-2018-final-report.html&" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a></li>
+    </ul><br />
+  </div>
+
+
+</article>
+
+    <footer>
+<p>
+  &copy; Shashank Kumar 2025 - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>    Powered by <a href="https://getpelican.com" target="_blank">Pelican</a> and <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme
+</p><p>
+  <a rel="license"
+     href="https://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Shanky's Brainchild ",
+  "url" : "http://localhost:8000",
+  "image": "/images/profile.jpg",
+  "description": "Some of what Shashank Kumar ( realslimshanky ) stumbles upon or thinks intentionally lies here on the blog."
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/stylesheet/style.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/pygments/colorful.min.css">
+  <link rel="stylesheet" type="text/css" href="http://localhost:8000/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="http://localhost:8000/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Shanky's Brainchild Atom">
+
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#333333">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#333333">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<meta name="author" content="Shashank Kumar" />
+<meta name="description" content="Third week of GSoC was all about working on the code and it's quality. It's the first time I started using KIVY and here's how it went." />
+<meta name="keywords" content="GSoC, Google, Debian, KIVY, Salsa, Gitlab">
+<meta property="og:site_name" content="Shanky's Brainchild"/>
+<meta property="og:title" content="Google Summer of Code 2018 with Debian - Week 3"/>
+<meta property="og:description" content="Third week of GSoC was all about working on the code and it's quality. It's the first time I started using KIVY and here's how it went."/>
+<meta property="og:locale" content="en_IN"/>
+<meta property="og:url" content="http://localhost:8000/gsoc-2018-week-3.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2018-06-04 00:00:00+05:30"/>
+<meta property="article:modified_time" content="2018-06-05 00:00:00+05:30"/>
+<meta property="article:author" content="http://localhost:8000/author/shashank-kumar.html">
+<meta property="article:section" content="GSoC"/>
+<meta property="article:tag" content="GSoC"/>
+<meta property="article:tag" content="Google"/>
+<meta property="article:tag" content="Debian"/>
+<meta property="article:tag" content="KIVY"/>
+<meta property="article:tag" content="Salsa"/>
+<meta property="article:tag" content="Gitlab"/>
+<meta property="og:image" content="http://localhost:8000/">
+
+  <meta name="twitter:image" content="/images/profile.jpg">
+  <meta name="twitter:title" content="Google Summer of Code 2018 with Debian - Week 3 - Shanky's Brainchild">
+  <meta name="twitter:description" content="Third week of GSoC was all about working on the code and it's quality. It's the first time I started using KIVY and here's how it went.">
+    <meta name="twitter:card" content="http://localhost:8000//images/gsocweek3kivyapp.png">
+
+  <meta itemprop="name" content="Google Summer of Code 2018 with Debian - Week 3 - Shanky's Brainchild">
+  <meta itemprop="description" content="Third week of GSoC was all about working on the code and it's quality. It's the first time I started using KIVY and here's how it went.">
+    <meta itemprop="image" content="http://localhost:8000//images/gsocweek3kivyapp.png">
+
+  <title>Shanky's Brainchild &ndash; Google Summer of Code 2018 with Debian - Week 3</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="http://localhost:8000">
+        <img src="/images/profile.jpg" alt="Shanky's Brainchild" title="Shanky's Brainchild">
+      </a>
+      <h1><a href="http://localhost:8000">Shanky's Brainchild</a></h1>
+
+
+      <ul class="social">
+        <li><a class="sc-linkedin" href="https://www.linkedin.com/in/shashankkumarkushwaha/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="sc-github" href="https://github.com/realslimshanky" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a class="sc-key" href="https://keybase.io/realslimshanky" target="_blank"><i class="fa fa-key"></i></a></li>
+        <li><a class="sc-rss" href="//blog.shanky.dev/feeds/all.atom.xml" target="_blank"><i class="fa fa-rss"></i></a></li>
+      </ul>
+    </div>
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="http://localhost:8000">    Home
+</a>
+
+      <a href="/archives.html">Archives</a>
+      <a href="/categories.html">Categories</a>
+      <a href="/tags.html">Tags</a>
+
+      <a href="http://localhost:8000/feeds/all.atom.xml">    Atom
+</a>
+
+    </nav>
+
+<article class="single">
+  <header>
+    <h1 id="gsoc-2018-week-3">Google Summer of Code 2018 with Debian - Week 3</h1>
+    <p>
+          Posted on Mon 04 June 2018 in <a href="http://localhost:8000/category/gsoc.html">GSoC</a>
+
+
+    </p>
+  </header>
+
+  <div>
+    <p>Coming to the third week of GSoC felt like it was part of the daily schedule since ever. Daily updates to mentors, reviews, and evaluations on merge/pull requests and constant learning process kept my schedule full of adrenalin. Here's what I worked on!</p>
+<h5>How A Project Is Made with Sanyam Khurana</h5>
+<p>Building an idea into a project seems like a lot of work and excitement right? You can do all sorts of crazy stuff with your code to make it as amazing as possible. Use all sorts of cool-tool in hope of making something out of it at the end. But this is where the problem lies. Diving into the sea of amusement and uncertainty never promises a good ending. And hence, my mentor <a href="http://www.sanyamkhurana.com/">Sanyam Khurana</a> and I sat down for my intervention in hope of structuring the tasks for good. And this is how a project begins. Sanyam with his experience in <a href="https://github.com/curiouslearner">Open Source</a> as well as industry taught me the importance of dividing tasks which should be atomic and should clearly define what we are trying to achieve in Plain-English. For example, when you are trying to make a blogging website, you don't create a pull request with all of the functionalities needed for the blog. First, think about the atomic tasks which can be done independently. Now create a series of these tasks (we call them tickets/issues/features). So, you have a ticket for, say, setting up pelican blog. Another for creating a theme for your blog. Another for adding analytics to your blog and so on.</p>
+<p>Now, you can also create boards or table with columns which define the state of which these tasks lies. A task may be in development or in testing or review phase. This makes it easier to vizualise what needs to be done, what has been done already and what tasks should be in focus currently. This methodology in a broader sense and proper framework with a lot of disciplines in action is known as Agile Software Development.</p>
+<h5>Dividing Project into Tasks</h5>
+<p>After learning much about how to proceed, I sketched out the way in which I can separate out the atomic features needed for the project. We're using Debian hosted <a href="https://outreach-lab.debian.net/redmine/projects/new-contributor-wizard">Redmine</a> for our project management and I started jotting down the issues, to begin with. Here are the issues which shape the beginning of the project.</p>
+<ul>
+<li><a href="https://outreach-lab.debian.net/redmine/issues/15">Create Design Guideline</a> - The first issue in order to create a reference GUI design guideline for the application.</li>
+<li><a href="https://outreach-lab.debian.net/redmine/issues/16">Design GUI for Sign Up</a> - Design mockup following the guideline to describe how Sign Up module should look like on the GUI.</li>
+<li><a href="https://outreach-lab.debian.net/redmine/issues/17">Design GUI for Sign In</a> - Design mockup following the guideline to describe how Sign In module should look like on the GUI.</li>
+<li><a href="https://outreach-lab.debian.net/redmine/issues/5">Create Git repository for the project</a> - Project mentor Daniel created this issue as the first step which marks the beginning of the project.</li>
+<li><a href="https://outreach-lab.debian.net/redmine/issues/4">Initializing skeleton KIVY application</a> - After a dedicated repository has been created for our project, a KIVY application has to be setup which should also include tests, documentation, and changelog.</li>
+<li><a href="https://outreach-lab.debian.net/redmine/issues/8">Create SignUp Feature</a> - After the skeleton is setup, sign up modules can be implemented which should present a GUI to the user in order to create the account to access the application. This screen should be the first interaction with the user after they run the application for the first time.</li>
+<li><a href="https://outreach-lab.debian.net/redmine/issues/9">Create SignIn Feature</a> - If the user is already signed up for an account on the application, this screen will be the medium with which they can Sign In with the credentials.</li>
+<li><a href="https://outreach-lab.debian.net/redmine/issues/10">Add a license to Project Repository</a> - Being an open source project, picking up license is a very elaborative process where we have to also look at all the dependencies our application has and other parameters. Hence, this issues is more of a discussion which will conclude by adding a License file in the project repository.</li>
+</ul>
+<p>These were some of the key issues which came up after my discussion with Sanyam (except creating git repo which Daniel kickstarted). These issues were enough to begin with and as we progress we can create more issues on Redmine. As part of the first couple of weeks of GSoC, I've already completed the first 3 design issues, I also wrote a <a href="https://blog.shanky.xyz/gsoc-2018-week-1-and-2.html">blog</a> explaining about my process and the outcome. So, for the third week, I started with initializing skeleton KIVY application.</p>
+<h5>The First Merge Request</h5>
+<p><img alt="KIVY APP" src="http://localhost:8000/images/gsocweek3kivyapp.png"></p>
+<p>Don't be confused if you are a Github native, since we are using Debian hosted Gitlab (<a href="https://salsa.debian.org/">called salsa</a>), it has Merge Request in place of Pull Request.</p>
+<p>The issue which I was trying to solve in my first Merge Request was <a href="https://outreach-lab.debian.net/redmine/issues/4">Initializing skeleton KIVY application</a>. It was just to create a boilerplate from scratch so that development from now on would be smooth. I set out to achieve following things in my Merge Request</p>
+<ul>
+<li>Add a KIVY application which can create a sample window with sample text on it to showcase that KIVY is working just fine</li>
+<li>Create the project structure to fit documentation, ui, tests and modules</li>
+<li>Add <code>pipenv</code> support for virtual environment and dependency management</li>
+<li>Integrate <code>pylint</code> to test Python code for PEP8 compliance</li>
+<li>Integrate <code>pytest</code> and write tests for unit and integration testing</li>
+<li>Adding Gitlab CI support</li>
+<li>Add a <code>README.md</code> file and write general description about the project and all it's components</li>
+<li>Add documentation for end user to help them easily run and explain all the features of the application</li>
+<li>Add documentation for developers to help them build the application from source</li>
+<li>Add documentation for contributors to share some of the best practices while contributing to this application</li>
+</ul>
+<p>Here's the <a href="https://salsa.debian.org/new-contributor-wizard-team/new-contributor-wizard/merge_requests/1">Merge Request</a> which resulted in all of the above additions to the project. It was a lot of pain getting CI to work for the first time, but once you get a green tick, you know what ticks CI to work correctly. Throughout my development process Sanyam helped me with reviews and it finally got merged into the repository by Daniel.</p>
+<h5>Conclusion</h5>
+<p>This week kickstarted the main development process for <strong>New Contributor Wizard</strong> and gave me a chance to learn about project/software management. I will be creating more issues and share about what I'm working in the next week's GSoC blog.</p>
+  </div>
+
+  <div class="tag-cloud">
+    <p>
+      <a href="http://localhost:8000/tag/gsoc.html">GSoC</a>
+      <a href="http://localhost:8000/tag/google.html">Google</a>
+      <a href="http://localhost:8000/tag/debian.html">Debian</a>
+      <a href="http://localhost:8000/tag/kivy.html">KIVY</a>
+      <a href="http://localhost:8000/tag/salsa.html">Salsa</a>
+      <a href="http://localhost:8000/tag/gitlab.html">Gitlab</a>
+    </p>
+  </div>
+
+  <div>
+    <b>Please share the blog if you like it</b>
+    <ul class="social">
+      <li><a href="https://twitter.com/intent/tweet?text=Google Summer of Code 2018 with Debian - Week 3 by @realslimshanky https%3A%2F%2Fblog.shanky.xyz/gsoc-2018-week-3.html" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+      <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fblog.shanky.xyz/gsoc-2018-week-3.html&title=Google Summer of Code 2018 with Debian - Week 3 by Shashank Kumar " target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+      <li><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fblog.shanky.xyz/gsoc-2018-week-3.html" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+      <li><a href="mailto:?subject=Google Summer of Code 2018 with Debian - Week 3 by Shashank Kumar &body=https%3A%2F%2Fblog.shanky.xyz/gsoc-2018-week-3.html&" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a></li>
+    </ul><br />
+  </div>
+
+
+</article>
+
+    <footer>
+<p>
+  &copy; Shashank Kumar 2025 - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>    Powered by <a href="https://getpelican.com" target="_blank">Pelican</a> and <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme
+</p><p>
+  <a rel="license"
+     href="https://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Shanky's Brainchild ",
+  "url" : "http://localhost:8000",
+  "image": "/images/profile.jpg",
+  "description": "Some of what Shashank Kumar ( realslimshanky ) stumbles upon or thinks intentionally lies here on the blog."
+}
+</script>
+</body>
+</html>
