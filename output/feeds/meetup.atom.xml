@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Shanky's Brainchild - Meetup</title><link href="https://blog.shanky.dev/" rel="alternate"></link><link href="https://blog.shanky.dev/feeds/meetup.atom.xml" rel="self"></link><id>https://blog.shanky.dev/</id><updated>2019-04-20T00:00:00+05:30</updated><entry><title>Event report for DebUtsav Delhi 2019</title><link href="https://blog.shanky.dev/event-report-for-debutsav-delhi-2019.html" rel="alternate"></link><published>2019-04-20T00:00:00+05:30</published><updated>2019-04-20T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:blog.shanky.dev,2019-04-20:/event-report-for-debutsav-delhi-2019.html</id><summary type="html">&lt;p&gt;The Debian India Community in Delhi along with Mozilla Delhi/NCR community organized DebUtsav Delhi 2019 on 9 and 10 March, 2019.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Event report for DebUtsav Delhi 2019" src="https://blog.shanky.dev/images/debutsavdelhi1.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;The Debian India Community in Delhi along with Mozilla Delhi/NCR community
+organized DebUtsav Delhi 2019 on 9 and 10 March, 2019.&lt;/p&gt;
+&lt;p&gt;For those who are unware, DebUtsav is an Indian style version of a typical Mini Debian Conference.&lt;/p&gt;
+&lt;p&gt;This was the first Debian related conference to be organized in the Northern
+region of India. We have had Mini Debian conferences previously in Mumbai, Pune, Hyderabad and in different cities of state of Kerala. But this was the very
+first one in the Northern Region.&lt;/p&gt;
+&lt;h4&gt;DebUtsav was made possible with the help from our sponsors&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.hamaralinux.org/"&gt;Hamara Linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nipfp.org.in/home-page/"&gt;National Institute of Public Finance and Policy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;The travel costs of some of our speakers were generously covered by Debian.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The event took place at National Institute of Public Finance and Policy (NIPFP),
+Delhi.&lt;/p&gt;
+&lt;h4&gt;The event schedule was divided into two tracks.&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Debian Track and FOSS Track. The Debian Track was specific for the talks or
+  workshops related to Debian.&lt;/li&gt;
+&lt;li&gt;The FOSS track included talks/workshops ranging from General Free Software, Gender
+Diversity a Digital Security and privacy. The full schedule is present on
+the website &lt;a href="https://www.debutsav.in/#schedule"&gt;DebUtsav.in&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Debian Track" src="https://blog.shanky.dev/images/debutsavdelhi2.jpg"&gt;&lt;/p&gt;
+&lt;h5&gt;On the first day of DebUtsav&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Debian Track&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Although you can check the talks happened at the talks in the link to
+&lt;a href="https://www.debutsav.in/#schedule"&gt;schedule&lt;/a&gt;. Some of the notable talks were
+Pirate Praveen on Debian Packaging in times of Docker and Flatpak. Abhijit
+Introduced us to the Debian LTS project. While Raju Devidas talked on "How to
+become a Debian Developer?" There were also workshops by Utkarsh Gupta and Sagar Ippalpalli on Packaging of Ruby Gems and Node Modules.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Debian Track" src="https://blog.shanky.dev/images/debutsavdelhi6.jpg" title="Debian Track"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FOSS Track&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ashutosh Singh, also known as Juggernaut, talked on getting started into Open
+Source and Debian. The other talks in FOSS track included, a talk on
+Cryptography &amp;amp; Cryptanalysis by Ishan Malik. While Mohit Phulera talked about
+Setting up and using Google Vision API's. Thing to note here that both were
+first time speakers. DebUtsav got them started. We also had a Rust 101 workshop by Swarnim Arun. Karmanya Talked about Building Data Apps with Grames. The last talk for the day in FOSS track was by Himanshu, it had a funky name to it,
+&lt;code&gt;SELinux: For the Asgardians&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="FOSS Track" src="https://blog.shanky.dev/images/debutsavdelhi4.jpg" title="FOSS Track"&gt;&lt;/p&gt;
+&lt;h5&gt;Second Day of DebUtsav&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Debian Track&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The first talk of the day was on an Introduction to the Hamara Linux project by
+Shivani Bharadwaj and Raju Devidas. They introduced the Hamara Project to the
+one's present as well as talked about there upcoming release of Hamara codenamed
+Svastik.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Hamara Svastik by rajudev" src="https://blog.shanky.dev/images/debutsavdelhi3.jpg" title="Hamara Svastik by rajudev"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Introduction to Hamara Project by Shivani and rajudev" src="https://blog.shanky.dev/images/debutsavdelhi5.jpg" title="Introduction to Hamara Project by Shivani and rajudev"&gt;&lt;/p&gt;
+&lt;p&gt;Later in the Debian track, we had the first ever Bug Squashing Party
+&lt;a href="https://wiki.debian.org/BSP"&gt;BSP&lt;/a&gt; in India. For the BSP we had 2 DD's and 2
+DM's and many other active Debian contributors present. They helped people
+present to go through the Debian bug tracking system
+&lt;a href="https://wiki.debian.org/BTS"&gt;BTS&lt;/a&gt; and find bugs that they can help solve.
+Although we did not manage to get any bugsolved during the duration of BSP, we
+did managed to get some people get familiar with Debian's bug tracking
+eco-system, introduced them to the various teams within Debian in which they can
+co-ordinate to get started for solving bugs as well as contributing to Debian in
+general. The BSP proved to be a good starting point for Utkarsh Gupta. Within
+two-three weeks after the BSP he has already solved many bugs including 15 RC
+bugs.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Sruthi co-ordinating BSP" src="https://blog.shanky.dev/images/debutsavdelhi7.jpg" title="Sruthi co-ordinating BSP"&gt;
+&lt;img alt="Bug Squashing Party " src="https://blog.shanky.dev/images/debutsavdelhi8.jpg" title="Bug Sqashing Party"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FOSS track&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The first talk in the FOSS track was on Digital Security and Privacy by
+Shashikanth. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Digital security and Privacy" src="https://blog.shanky.dev/images/debutsavdelhi9.jpg" title="Digital security and privacy"&gt;&lt;/p&gt;
+&lt;p&gt;In the second talk our DM Sruthi Chandran raised the question on &lt;code&gt;How gender diverse and inclusinve is the Free Software Community?&lt;/code&gt;. She
+co-ordinated the sicussion very well and made sure that the people present
+during the session got involved. &lt;/p&gt;
+&lt;p&gt;&lt;img alt="How gender diverse are free software communities?" src="https://blog.shanky.dev/images/debutsavdelhi10.jpg" title="How gender diverse are free software communities?"&gt;&lt;/p&gt;
+&lt;p&gt;Later in the Day we had talks by Pirate Praveen on &lt;code&gt;Take back our data and Freedoms&lt;/code&gt;. Vipul Gupta talked about digging
+Opportunities in Open Source. Last talk which was scheduled for the foss track
+did not take place because of the un-availability of the speaker Ranjith Raj
+Vasam. Everyone got involved into the Debian BSP instead.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Talk by Vipul Gupta" src="https://blog.shanky.dev/images/debutsavdelhi11.jpg" title="Digging opportunities in Open Source by Vipul Gupta"&gt;&lt;/p&gt;
+&lt;p&gt;On the sidelines of the schedule of the second day, the podcast team of
+&lt;a href="https://decompiled.in/"&gt;Decompiled&lt;/a&gt; was also present. With the efforts of the
+team, Raju Devidas interviewed Pirate Praveen. In the interview they talked
+about work done by Praveen over the years as well as his journey in Debian
+project.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="decompiled interview" src="https://blog.shanky.dev/images/debutsavdelhi12.jpg" title="Interview of Praveen by Decompiled.in podcast"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Mohit" src="https://blog.shanky.dev/images/debutsavdelhi13.jpg" title="Mohit from decompiled.in"&gt;&lt;/p&gt;
+&lt;h3&gt;Some statistics from DebUtsav&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;For both the days combined, around 120 people registered for attending
+  DebUtsav, out of them around 95 attended the conference.&lt;/li&gt;
+&lt;li&gt;Around 10-15, unregistered attendees/on spot registrations were also present.&lt;/li&gt;
+&lt;li&gt;We had a total of 14 Women Attendees.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;DebUtsav Delhi was lucky to have the presence of
+- 2 Debian Developers Pirate Praveen &amp;amp; Abhijith PA.
+- 2 Debian Maintainers Sruthi Chandran and Sagar Ippalpalli.&lt;/p&gt;
+&lt;p&gt;It is during the conversations that happened at the conference that we realized
+that there are a lot of first's happening in the Debian India Community.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sruthi Chandran is the first Women Debian Maintainer from India, also soon to
+  be the first women Debian Developer from India.&lt;/li&gt;
+&lt;li&gt;Presence of DD's proved useful for Utkarsh Gupta as he got his initial
+  requirements for a DM fulfilled with his keys signed by the DD's present at
+  DebUtsav. He is at the time of writing this event report, the youngest DM from
+  India.&lt;/li&gt;
+&lt;li&gt;Currently Sruthi Chandran and Raju Devidas have there DD applications in
+  process. If they get approved, we will be crossing the Double Digits of DD's
+  from India for the first time. They are 9 now and with two more we will get to
+  11.&lt;/li&gt;
+&lt;li&gt;This was the first Debian related conference in Delhi or anywhere in Northern
+  India.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;DebUtsav Delhi proved very productive in introducing many new people to Debian
+project and to free software in general. Also it provided an opportunity for the
+Debian contributors from Delhi to meet the Debian Developers.&lt;/p&gt;
+&lt;p&gt;The conference was made possible by the continuous efforts of people from the
+communities of &lt;a href="https://wiki.mozilla.org/India/Delhi"&gt;Mozilla Delhi NCR&lt;/a&gt; and
+&lt;a href="https://www.linuxdelhi.org/"&gt;Indian Linux User's Group Delhi&lt;/a&gt;. Some of the
+people involved in the effort could be seen on the Team section of
+&lt;a href="https://www.debutsav.in/#team"&gt;debutsav.in&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks a lot to everyone for puting up there efforts for DebUtsav Delhi. We are 
+looking forward to having another Debian event in Delhi and more events around
+India.&lt;/p&gt;</content><category term="Meetup"></category><category term="Debian"></category><category term="DebUtsav"></category><category term="Delhi"></category></entry><entry><title>PyDelhi Dev Sprints - 28th April 2018</title><link href="https://blog.shanky.dev/pydelhi-dev-sprints-28th-april-2018.html" rel="alternate"></link><published>2018-05-03T00:00:00+05:30</published><updated>2018-05-04T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:blog.shanky.dev,2018-05-03:/pydelhi-dev-sprints-28th-april-2018.html</id><summary type="html">&lt;p&gt;PyDelhi volunteer teamed up to organise dev sprint which is way different that the regular meetup and being in the team I had the reponsibility of reaching out to organisations and mentors for the same. Here's how it went!&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="PyDelhi Dev Sprint on 28th April 2018" src="https://blog.shanky.dev/images/pydelhidevsprint1.jpg"&gt;&lt;/p&gt;
+&lt;h4&gt;The Idea&lt;/h4&gt;
+&lt;p&gt;&lt;a href="http://rajatsaini.com"&gt;Rajat Saini&lt;/a&gt; who is one of the PyDelhi volunteers for a long time suggested &lt;a href="https://mail.python.org/pipermail/ncr-python.in/2018-April/001759.html"&gt;new concepts&lt;/a&gt; for PyDelhi events on the mailing list. Discussions began both on the mailing list and on telegram volunteer group about the same and we planned to organize PyDelhi Dev Sprint on April 28th. Begin one of the volunteers I had the responsibility of creating a form for organizations and mentors, reaching out to them and also broadcast the news to different FOSS communities in and around Delhi.&lt;/p&gt;
+&lt;h4&gt;The Organisations&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="Organisations participated" src="https://blog.shanky.dev/images/pydelhidevsprint2.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Close to the event date, we had following organizations confirmed for Dev Sprint.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://kivy.org"&gt;Kivy&lt;/a&gt; - &lt;a href="https://github.com/akshayaurora"&gt;Akshay Arora&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://coala.io"&gt;Coala&lt;/a&gt; - &lt;a href="https://github.com/hemangsk"&gt;Hemang Kumar&lt;/a&gt; and &lt;a href="https://github.com/rj722"&gt;Rahul Jha&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://mozilla.org"&gt;Mozilla&lt;/a&gt; - &lt;a href="https://github.com/curiouslearner"&gt;Sanyam Khurana&lt;/a&gt; for AddOn Server, Remo and Mozilla Central and I, &lt;a href="https://github.com/realslimshanky"&gt;Shashank Kumar&lt;/a&gt; for AddOn Frontend&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://python.org"&gt;Python&lt;/a&gt; - &lt;a href="https://github.com/curiouslearner"&gt;Sanyam Khurana&lt;/a&gt; for CPython &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;The Day of Dev Sprints&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="Priyank taking VCS session" src="https://blog.shanky.dev/images/pydelhidevsprint3.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.knowlarity.com"&gt;Knowlarity&lt;/a&gt; invited PyDelhi to host Dev Sprint in their Gurugram office and also sponsored lunch afterward. It all began with a quick introduction from everyone and Sanyam taking a session on what Dev Sprints actually are. Later, the attendees chose their projects and circled around the mentors for the same. Those who were new to Git and Github were helped by &lt;a href="https://twitter.com/priyankt68"&gt;Priyank&lt;/a&gt; who took the initiative of teaching VCS. Afterward, Knowlarity CTO, &lt;a href="https://twitter.com/ajayshr"&gt;Ajay Shrivastava&lt;/a&gt; took a quick inspirational session and then Hiring and Pitching session took place.&lt;/p&gt;
+&lt;h4&gt;The Aftermath&lt;/h4&gt;
+&lt;p&gt;&lt;img alt="Mandatory Group Picture" src="https://blog.shanky.dev/images/pydelhidevsprint4.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;The result of the event was 11 Issues and 6 Pull Requests to different project of participating organizations and listed them on &lt;a href="https://public.etherpad-mozilla.org/p/pydelhidevsprintapril2018"&gt;etherpad&lt;/a&gt;. Folks who contributed got PyDelhi and Github swags. We took a mandatory group picture afterward to conclude the day. Hope to see you guys in upcoming &lt;a href="https://meetup.com/pydelhi"&gt;PyDelhi Meetup&lt;/a&gt;&lt;/p&gt;</content><category term="Meetup"></category><category term="PyDelhi"></category><category term="Python"></category><category term="Kivy"></category><category term="Coala"></category><category term="CPython"></category><category term="Mozilla"></category></entry><entry><title>Python Game Challenge by PyDelhi, November 2017</title><link href="https://blog.shanky.dev/Python-Game-Challenge-by-PyDelhi.html" rel="alternate"></link><published>2017-11-11T00:00:00+05:30</published><updated>2018-02-03T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:blog.shanky.dev,2017-11-11:/Python-Game-Challenge-by-PyDelhi.html</id><summary type="html">&lt;p&gt;PyDelhi organized Python Game Challenge on 11th November, Saturday, 2017. Here’s what happened!&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://pydlehi.org/"&gt;PyDelhi&lt;/a&gt; organized Python Game Challenge on 11th November, Saturday, 2017. Here’s what happened!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Fueled, Noida" src="https://blog.shanky.dev/images/1*K-IdqnqZpQjVNK94k2mgVg.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;Python is multi-talented friend of ours which can assist on all our crazy projects irrespective of the type. PyDelhi came up with the idea of showcasing an underrated potential of making games via competition. Participants were asked to follow only 2 rules for doing so&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Game should be developed using Python&lt;/li&gt;
+&lt;li&gt;It should be developed on the venue during the given time and there begins the competition. We’ve recorded some of the game pitches by participants and gathered few words from them about their experiences below. And after the pitches we’ll announcing winners later in the blog.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5&gt;Chessmate&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://github.com/newts7/chessmate"&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+&lt;div class="youtube-16x9"&gt;
+    &lt;iframe src="https://www.youtube.com/embed/EQbs_Gn9fls" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Note from the teammates:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It started 1 Hour late, but the 1 Hour wait was worth it. It started by a talk on Open Source Data, exploring different data sources and Public APIs and how they can be used as a potent tool in a country like India with fewer Hardware resources for countering Air pollution which was at its worst in NCR in the ongoing week.&lt;/p&gt;
+&lt;p&gt;2 Hours into the challenge, we working on figuring out the design and the schema of the codebase to create the game. An hour later our chessboard was fully functional and we were coding on tasks like-&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Moves validation&lt;/li&gt;
+&lt;li&gt;Checkmates&lt;/li&gt;
+&lt;li&gt;Knights and Pawn special cases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We finished the game 30 minutes before the end time and performed end to end testing and were the first team to finish and present the hack out of the total two who completed it.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5&gt;Arrow Monster&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://github.com/itaditya/game-o-python"&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+&lt;div class="youtube-16x9"&gt;
+    &lt;iframe src="https://www.youtube.com/embed/zHZyMjy_I_Y" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h5&gt;Hit and Win&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://github.com/iayanpahwa/PyDelhi-GameOthon"&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+&lt;div class="youtube-16x9"&gt;
+    &lt;iframe src="https://www.youtube.com/embed/wnFOTjxext8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Note from the teammates:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The idea to make this game “thor” is to showcase how easy can it be to interact with physical computing hardware devices with Python programming language, we knew most of the participants if not everyone will be making software games so we decided to make “Thor” a miniature version of hammer game you must have seen/played in arcade game centers.&lt;/p&gt;
+&lt;p&gt;We made it using Force sensitive resistor as sensor a micro-controller and few LEDs, the score is sent to PC via serial port and a daemon handler written in Python parses that using PySerial library! The result was not perfect but we achieved proof of concept and we will surely work on improving it.&lt;/p&gt;
+&lt;p&gt;The event was really good and happening, we look forward to attend more such events/hackathons by PyDelhi. Initially we get less support/interests from volunteers who stopped by seeing us playing with circuits on a software based hackathon but when we demonstrated everyone was curious to learn more about our game which was our primary goal! The presentation experience was lukewarm and an area to work on, if it could be more interactive where every team is involved (apart from just judges) asking questions, suggesting improvements it’d be more fun. Cheers to PyDelhi for conducting such a successful event. :)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5&gt;Maria&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://github.com/mCo0l/Game"&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+&lt;div class="youtube-16x9"&gt;
+    &lt;iframe src="https://www.youtube.com/embed/TWvCCxsDDiA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Note from the teammates:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It was great pleasure to be a part of this event. I entered in any 
+competition out of my college for the first time and it was a great 
+experience. I just a completion post on meetup group and the main 
+purpose i came there was to see how other people make game. I on the 
+other hand had no knowledge how these games are made.When the event 
+started someone said game can be made only using python as well. I also 
+entered the completion without any knowledge of anything and then i 
+started discussing the game with my partner and started building the 
+game at around 2. I had no knowledge of PyGame so we starting doing what 
+we wanted to instead of making a perfect game.&lt;/p&gt;
+&lt;p&gt;We first made a base (box) using PyGame, just googled it. Then we 
+started loading images of character, keys and bricks into the box, then 
+wrote an algorithm so that character won’t go out of the box or does not go 
+behind the bricks and a few other things in the remaining time.&lt;/p&gt;
+&lt;p&gt;But its not about what we did, its about what we learned. With no 
+knowledge of any game library like PyGame we made a small game. Now, 
+when i read a little about PyGame it’s completely clear what were we 
+doing wrong. Overall it was a great experience and the organizers were 
+great as well who gave goodies to participants as well.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h5&gt;Up Up Away&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://github.com/Boot-Error/UpUpAway"&gt;Github Repository&lt;/a&gt;&lt;/p&gt;
+&lt;div class="youtube-16x9"&gt;
+    &lt;iframe src="https://www.youtube.com/embed/X1H4-0HKP2s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;p&gt;And the winners for Python Game Challenge are Chessmate, Arrow Monster and Hit and Win. Congratulations to all the participants who won and thank you all for coming to the PyDelhi meetup. Keep in touch on our &lt;a href="http://meetup.com/pydelhi/"&gt;meetup&lt;/a&gt;, &lt;a href="http://twitter.com/pydelhi"&gt;twitter&lt;/a&gt; and &lt;a href="https://www.facebook.com/pydelhi"&gt;facebook&lt;/a&gt; page for updates on upcoming events.&lt;/p&gt;</content><category term="Meetup"></category><category term="PyDelhi"></category><category term="Python"></category><category term="Game"></category><category term="ChallengeMeetup"></category></entry><entry><title>PyDelhi + Ilugd + LinuxChixIndia Meetup, as it happened on 5th February 2017</title><link href="https://blog.shanky.dev/PyDelhi-Ilugd-LinuxChixIndia-Meetup-as-it-happened-on-5th-February-2017.html" rel="alternate"></link><published>2017-02-05T00:00:00+05:30</published><updated>2018-02-03T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:blog.shanky.dev,2017-02-05:/PyDelhi-Ilugd-LinuxChixIndia-Meetup-as-it-happened-on-5th-February-2017.html</id><summary type="html">&lt;p&gt;Meetup report of 5th February 2017 as a result of collaboration between PyDelhi, Ilugd and LinuxChix India.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="SCIS,JNU, Pic Credit : Ankit Rai" src="https://blog.shanky.dev/images/1*ElCgHRFG1VBTAo6lcozfKA.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;While I was making my way to SCIS inside JNU all the memories from PyCon 2016 came back to me. SCIS is just opposite to the Convention Center where PyCon took place. That was my first ever conference and I met a lot of awesome people.&lt;/p&gt;
+&lt;p&gt;Speaking of meeting awesome people, there I was inside SCIS in a room filled with ‘Python Enthusiasts’. That room reminded me of my school but this room was equipped with gadgets to make a difference form a classroom. As usual I saw Akshay (&lt;a href="https://medium.com/u/45a2d3c81654"&gt;qua non&lt;/a&gt;) controlling the audience and the fact that our second speaker is not at the venue yet. So, it began with him welcoming everyone.&lt;/p&gt;
+&lt;h5&gt;TensorFlow by &lt;a href="https://medium.com/u/bd3e39707a79"&gt;Mukul Malik&lt;/a&gt; and &lt;a href="https://medium.com/u/e2e09c8049c8"&gt;Rishabh Shukla&lt;/a&gt;&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="Left : Mukul Malik, Right : Rishab, Center: Jupyter, Pic Credit: Abhyuday Pratap" src="https://blog.shanky.dev/images/1*sYCNFdE78EvvAtaKL304bQ.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;This talk takes a deep dive in the topic i.e. buzz-word of past couple of year ‘Machine Learning’, so to give you a context read &lt;a href="https://medium.com/@mukulmalik/how-machine-learning-is-being-abused-91e17bf52363"&gt;Introduction To Machine Learning&lt;/a&gt; by Mukul. Rishab began by explaining the basics of how a neural network learn and reduces error by each iteration to subdue a goal. The role of TensorFlow here is to provide powerful modules to do complex computing efficiently like finding a needle in a haystack (figuratively).&lt;/p&gt;
+&lt;p&gt;As an example, let’s take a data set of English sentences and we have to distinguish each sentence for whether it’s a ‘Fact’ or not. To achieve this, we first perform some preprocessing on our data set to turn them into ML-friendly &lt;a href="https://medium.com/@mukulmalik/word2vec-part-1-fe2ec6514d70"&gt;‘Word Vectors’&lt;/a&gt;, there goes another blog by Mukul. Now we provide an understanding to our algorithm about ‘What is a fact ?’ with help of a database filled with values. Our algorithm begins with raw word vectors in the first iteration and results in a floating value in between ‘0’ (Not a Fact) or ‘1’ (Fact). With every iteration it reduces some ‘error’ in the actual value with the help of ‘bias’. Think of ‘error’ is what we determine at the end of each iteration and ‘bias’ we provide to the next iteration to correct that. Seems easy right ? It’s not. The code base is overwhelmingly complex at first, and like everything you’ll get comfortable with it by practice.&lt;/p&gt;
+&lt;p&gt;Bigger picture. A whole lot of conversation happens on the web which is open to everyone (like twitter) and most of which is erroneous remarks. Rishab began with this project to discriminate between what among them is a correct fact and what is just a humbug. And hence showing us a little of the mystical power ML holds.&lt;/p&gt;
+&lt;h5&gt;&lt;a href="https://summerofcode.withgoogle.com/"&gt;Google Summer Of Code&lt;/a&gt; (and open source), An Interactive Session&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="Open Source Map, Pic Credit: Tushar Malik" src="https://blog.shanky.dev/images/1*MWO3FE5p0XC06O6WvGzikg.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;After a quick snack break and networking Akshay gathered us together again to make the next session interactive. He began with asking everyone whether they know about GSOC, open source and have been a part of it by making contribution. Some people raised their hands and they had to speak about their experience. I began with recalling the names of organisations that have been a part of GSOC and many other names were added by experience people in the audience. Many of them have been contributing to Upstream repositories and not to forget Akshay who has been part of Kivy and also mentoring for GSOC under it since past 6 years. Akshay then explained how we can monitor for projects and apply to GSOC. &lt;a href="https://github.com/aktech"&gt;Amit&lt;/a&gt; also shared his experience with GSOC and how he mentored for &lt;a href="http://sympy.org/"&gt;SymPy&lt;/a&gt; where he also improved one of their computational algorithms by making it more efficient. &lt;a href="https://github.com/CuriousLearner"&gt;Sanyam&lt;/a&gt; opened up about his open source contribution to Mozilla and other communities and what mindset we should have while approaching such organisations.&lt;/p&gt;
+&lt;p&gt;Domain expanded and moved to platforms other than GSOC like &lt;a href="https://www.gnome.org/outreachy/"&gt;Outreachy&lt;/a&gt; and &lt;a href="http://railsgirlssummerofcode.org/"&gt;RGSOC&lt;/a&gt;. Whole idea of contributing to an open source project is to expand our knowledge and obviously a better CV.&lt;/p&gt;
+&lt;h5&gt;Using terminal on GOD MODE by Akash&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="Left: Anuvrat, Right-Podium: Akash, Pic Credit: Abhyuday Pratap" src="https://blog.shanky.dev/images/1*gz7KXe_XJiDjcCxPwCZFog.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;Next talk gave us a heads up about some of the time efficient tools. Beginning with the history of TTY which are nothing just the virtual consoles you can access by CTRL + F1 to F6 to the difference shell and terminal. Then he introduced us to &lt;a href="https://tmux.github.io/"&gt;TMUX&lt;/a&gt; or terminal multiplexer or some would say love at first sight. No matter how good we code sometimes it’s the tools we use that’s really important to increase efficiency and also bring swag to your screen. He briefly showed us how we can handle different TMUX sessions and split a window inside it with set of keys. And while we’re at it, a voice came from behind which I instantly recognised was of &lt;a href="http://anuvrat.in/"&gt;Anuvrat’s&lt;/a&gt;. Before moving to what he said, a monologue&lt;/p&gt;
+&lt;p&gt;I saw Anuvrat at the beginning of the day when he was sitting quietly giving no account of his presence to other. He’s one of those guys who’ll teach you something really interesting whenever you meet. So I thought of not disturbing him with a ‘Hi’, as I knew something amazing was happening inside his head which he’ll surely put in words at a better time.&lt;/p&gt;
+&lt;p&gt;So, he said there’s a tool known as &lt;a href="http://mosh.org/"&gt;MOSH&lt;/a&gt; which is a high latency tool to overcome speed and other issues with SSH. I started working with AWS EC2 a couple of weeks back and if you too have headache of a internet connection you can understand the pain of accessing your server instance with SSH. But in just 20 mins TMUX + MOSHgave me a GOD MODE to access my servers.&lt;/p&gt;
+&lt;h5&gt;Hiring, Pitching and More&lt;/h5&gt;
+&lt;p&gt;In this session people from audience are invited to pitch their products, company as employer and themselves as employee. This session also became interesting as I met an interesting man &lt;a href="https://www.linkedin.com/in/achintsatsangi/"&gt;Achint&lt;/a&gt; and we had a brief talk about each other’s tech stacks.&lt;/p&gt;
+&lt;h5&gt;Parting Words and PyDelhi Conference&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="PyDelhi Conference" src="https://blog.shanky.dev/images/1*gjD8bBH_MdTkvFfIrvZyrw.png"&gt;&lt;/p&gt;
+&lt;p&gt;This is the time where we thank everyone for being a part of the event and share links to connect with each other. &lt;a href="https://github.com/shivan1b"&gt;Shivani&lt;/a&gt; representing &lt;a href="https://github.com/linuxchixindia"&gt;Linux Chix India&lt;/a&gt; and &lt;a href="https://github.com/mystictot"&gt;Shyam&lt;/a&gt;, &lt;a href="https://github.com/iludg"&gt;Indian Linux User Group Delhi&lt;/a&gt; spoke about respective communities and what content they are committed to provide in this pool of meetups. &lt;a href="http://conference.pydelhi.org/"&gt;PyDelhi Conference&lt;/a&gt; became a part of conversation and people are invited to be a part of it by ‘&lt;a href="https://in.explara.com/e/pydelhiconf-2017"&gt;Buying Tickets&lt;/a&gt;’ and ‘&lt;a href="https://cfp.pydelhi.org/"&gt;Submitting a Proposal&lt;/a&gt;’ for talk/workshop. I’ve also proposed a talk for ‘&lt;a href="https://cfp.pydelhi.org/pydelhi-conference-2017/proposals/telegram-bot-using-python/"&gt;Telegram bot using Python&lt;/a&gt;’ which you can up-vote on the &lt;a href="https://cfp.pydelhi.org/pydelhi-conference-2017/proposals/"&gt;CFP website&lt;/a&gt; if you want me to show you how I used it by making ‘&lt;a href="https://telegram.me/viralsemesterbot"&gt;ViralSemesterBot&lt;/a&gt;’ for my college which is basically a notes/news management system build over a bot. After that I was asked to speak the final words for PyDelhi for which I was shocked as it was my first time. But before that, a monologue:&lt;/p&gt;
+&lt;p&gt;I never hesitate to speak given a chance. Exhibit A, I won a inter-school drama competition which I wrote in complete RAP and also performed a part in it. Exhibit B, I jumped off the stage with a guitar (&lt;a href="https://www.facebook.com/photo.php?fbid=758397794186413&amp;amp;l=1a6b9911e7"&gt;literally&lt;/a&gt;) while performing a song. But this was different, I admired the work of the people in front of me. So I found out that I become nervous speaking in front of intelligent people. Maybe that’s why I can have a conversation with myself just fine, if you know what I mean. ;)&lt;/p&gt;
+&lt;p&gt;But I spoke whatever I could and pointed several times at &lt;a href="https://pydelhi.org/"&gt;PyDelhi&lt;/a&gt; website. It’s good to a have a experience like ‘the first time’, for 1) it’ll help in future and 2) ‘first’ happens only once. :D&lt;/p&gt;
+&lt;p&gt;PS : Every underlined word/sentence is sitting on a hyperlink. Please like and leave down comments, I would be happy to have a conversation.&lt;/p&gt;</content><category term="Meetup"></category><category term="PyDelhi"></category><category term="Ilugd"></category><category term="LinuxChix India"></category><category term="Tensorflow"></category><category term="GSOC"></category><category term="Outreachy"></category><category term="RGSOC"></category><category term="TMUX"></category><category term="Meetup"></category></entry><entry><title>PyDelhi Meetup, The Tale Of 21st January</title><link href="https://blog.shanky.dev/PyDelhi-Meetup-The-Tale-Of-21st-January-2017.html" rel="alternate"></link><published>2017-01-24T00:00:00+05:30</published><updated>2018-02-03T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:blog.shanky.dev,2017-01-24:/PyDelhi-Meetup-The-Tale-Of-21st-January-2017.html</id><summary type="html">&lt;p&gt;PyDelhi meetup report of 21st January 2017 which also holds account of my first PyDelhi talk.&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="IIM Lucknow Noida Campus, Pic Courtesy : Ankit Rai" src="https://blog.shanky.dev/images/1*0FUTpvIIUFpY7WwTJifTdw.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;Just like a regular-alternate Saturday, 21st was planned to have &lt;a href="https://pydelhi.org/"&gt;PyDelhi&lt;/a&gt; meetup and this time, our host was IIM Lucknow Campus Noida. I reached at around 12 PM near the main gate with my friends. The schedule as on &lt;a href="https://www.meetup.com/pydelhi/"&gt;PyDelhi’s Meetup Page&lt;/a&gt; promised a yet another exciting session. Minutes after people started arriving, &lt;a href="https://github.com/akshayaurora"&gt;Akshay&lt;/a&gt;, one of PyDelhi’s organiser welcomed everyone. You can think of Akshay as ‘the magnificent one’ among the other volunteers of this organisation who make these events possible. Shortly after that he asked the audience to volunteer for the lightning talk, a quick python related talk/session on which they’re currently working on.&lt;/p&gt;
+&lt;h5&gt;My Lightning Talk On Python Telegram Bot&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="Me during my talk, Pic Courtesy : Ankit Rai" src="https://blog.shanky.dev/images/1*kcIK1MxZ44eLvBKgpj2w1Q.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;Before the event began I hurtled towards Akshay and said “I did something last night and I wanna talk about it”, by these words in mind I raised my hand for lighting talk afterwards.&lt;/p&gt;
+&lt;p&gt;Just before that night I worked on Python Telegram Bot, a package which can be used very easily in production to create scripts for Telegram Bot. I began with the basic elements of this package and made PyDelhi Bot and hosted it on AWS Cloud. I showed how telegram.ext and telegram modules and its methods can be used to read client’s message and reply with appropriate message. This bot can be accessed by searching ‘pydelhibot’ on telegram and is already serving links on PyDelhi volunteer group. Hence, it became my first talk on PyDelhi after attending meetup for nearly 6 months.&lt;/p&gt;
+&lt;h5&gt;Amit Kumar With His GIL Swag&lt;/h5&gt;
+&lt;p&gt;After I finished with my beginner talk it was time for &lt;a href="https://medium.com/u/66cd0c98f4e4"&gt;Amit Kumar&lt;/a&gt; to take the floor and share his knowledge on core Python. So he began by first explaining how variables and their values are handled by Python interpreter with the concept of reference count. Moving forward he then showed us the changes to execution time with or without multi-threading and the results were astonishing in which multi-threading lost. Amit explained how Global Interpreter Lock is responsible for such results and it’s bringing down the performance of threads. He then talked about the famous GIL patch in which Greg Stein removed GIL altogether but it decreased performance of Python by 30x. But GIL holds its place until there someone from Python software foundation comes with a better alternative without compromising performance.&lt;/p&gt;
+&lt;h5&gt;VIM’s Power Show By Garvit Khatri&lt;/h5&gt;
+&lt;p&gt;&lt;a href="https://github.com/garvitdelhi"&gt;Garvit&lt;/a&gt; volunteered for another lightning talk and proposed VIM for this. He began by firing his editor and using commands to quickly navigate between words and lines. By increasing pace, he then showed us how we can mimic an entire set of operation as many times as we want. After then he showed how we can split the terminal window to open multiple files and left us with WOW. VIM is powerful when used at it’s best and can leave any high end editor like sublime or atom behind by just considering the use of shortcuts.&lt;/p&gt;
+&lt;h5&gt;Snacks And Venue Sighting For PyDelhi Conference&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="Venue for PyDelhi Conference, Pic Credit : Shashank Aryan" src="/images/0*nEDZPIkL238va-XA.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;After Amit’s parody of GIL and Garvit’s showcase of VIM’s abilities came the time for snacks and networking. But for the volunteer it was more important than that. PyDelhi Conference is scheduled on March 18 and IIM itself is the venue for the event so we looked at the proposed halls and buildings to plan further. On the other hand website designs was also discussed.&lt;/p&gt;
+&lt;h5&gt;A Brief On The Activities Of IIM’s Incubation&lt;/h5&gt;
+&lt;p&gt;Rajiv Ornsheeba, the Head Of Incubator gave a quick talk on the works of IIM Lucknow Noida Campus. He described the complete procedure about how to apply and what kind of startups they are looking for. He also stated the importance of making revenue around the products we make and how his team can help startups achieve that right from the investments and throughout the journey with the help of professionals.&lt;/p&gt;
+&lt;h5&gt;Python + Other Languages, An Interactive Session&lt;/h5&gt;
+&lt;p&gt;The last and interactive session was initiated by Akshay asking audience about their experience with handling python with other programming languages. &lt;a href="https://github.com/dhuadaar"&gt;Peeyush&lt;/a&gt; began sharing one instance from his experience where he had to manage some dockers, the technicalities of which were too in-depth for a beginner like me to remember. Then began a series of conversations among other sharing the same stack about how they handled their situation with other languages. I also spoke a less technical version of these exchanges. My use case was not as native as most of people present used python with some other packages to interconnect it with other languages. Alas Akshay shared a wiki which has a list of many tools to make this possible which can be found &lt;a href="https://wiki.python.org/moin/IntegratingPythonWithOtherLanguages"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h5&gt;Parting Words and PyDelhi Conference/CFP&lt;/h5&gt;
+&lt;p&gt;&lt;img alt="Discussion on CFP, Pic Credit : Satyaakam" src="images/0*4nilE4nfQA3ACwoE.jpeg"&gt;&lt;/p&gt;
+&lt;p&gt;As the event progressed towards the final segment, Akash and Peeyush took the stage to talk about how we can stay connected to PyDelhi and what PyDelhi Conference is all about. Amit and Shweta joined in to share their experience about previous Pydelhi Conference.&lt;/p&gt;
+&lt;h5&gt;The Conclusion&lt;/h5&gt;
+&lt;p&gt;Finally the meetup came to a close and people started networking to find the solutions to their problems and also to know more about the other. Me with my friends started leaving the venue with Amit and Garvit and gained some pointers from them. While the discussion moved from a good documentation to how to write good code on which Amit said “code is an art. You know it when it’s beautiful.” and suggested &lt;a href="https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882"&gt;Clean Code&lt;/a&gt; as a reference to learn syntactically beautiful code.&lt;/p&gt;
+&lt;p&gt;Just like every other PyDelhi Meetup, this also taught me a lot and pushed me to work hard and learn more. With all these exciting people and many new ones, the day ends with a lot of stories and a promise to make more in the next Alternate-Saturday :D&lt;/p&gt;
+&lt;p&gt;Thanks PyDelhi :)&lt;/p&gt;
+&lt;p&gt;PS : please like and leave down comments, I would be happy to have a conversation.&lt;/p&gt;</content><category term="Meetup"></category><category term="Telegram"></category><category term="Bots"></category><category term="Python"></category><category term="PyDelhi"></category><category term="Meetup"></category></entry></feed>

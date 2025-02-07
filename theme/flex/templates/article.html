@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block meta %}
+<meta name="author" content="{{ article.author.name }}" />
+<meta name="description" content="{{ article.summary|striptags }}" />
+<meta name="keywords" content="{{ article.tags|join(', ') }}">
+{% include "partial/og_article.html" %}
+{% endblock %}
+
+{% block tmeta %}
+  <meta name="twitter:image" content="{{ SITELOGO }}">
+  <meta name="twitter:title" content="{{ article.title|striptags + ' - ' + SITETITLE }}">
+  <meta name="twitter:description" content="{{ article.summary|striptags }}">
+  {% if 'cover' in article.metadata %}
+    <meta name="twitter:card" content="{{ SITEURL }}/{{ article.metadata['cover'] }}">
+  {% else %}
+    <meta name="twitter:card" content="{{ SITELOGO }}">
+  {% endif %}
+{% endblock %}
+
+{% block gmeta %}
+  <meta itemprop="name" content="{{ article.title|striptags + ' - ' + SITETITLE }}">
+  <meta itemprop="description" content="{{ article.summary|striptags }}">
+  {% if 'cover' in article.metadata %}
+    <meta itemprop="image" content="{{ SITEURL }}/{{ article.metadata['cover'] }}">
+  {% else %}
+    <meta itemprop="image" content="{{ SITELOGO }}">
+  {% endif %}
+{% endblock %}
+
+{% block title %} &ndash; {{ article.title|striptags }}{% endblock %}
+
+{% block content %}
+<article class="single">
+  <header>
+    <h1 id="{{ article.slug }}">{{ article.title }}</h1>
+    <p>
+      {{ _('Posted on %(when)s in %(category)s',
+           when=article.locale_date,
+           category='<a href="%s/%s">%s</a>'|format(SITEURL, article.category.url, article.category)|safe) }}
+
+      {% if 'post_stats' in PLUGINS %}
+        &#8226; {{ article.stats['read_mins'] }} min read
+      {% endif %}
+    </p>
+  </header>
+
+  <div>
+    {{ article.content }}
+  </div>
+
+  <div class="tag-cloud">
+    <p>
+      {% if article.tags %}
+      {% for tag in article.tags %}
+      <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+      {% endfor %}
+      {% endif %}
+    </p>
+  </div>
+
+  {% if article.status != 'draft' %}
+  <div>
+    <b>Please share the blog if you like it</b>
+    <ul class="social">
+      <li><a href="https://twitter.com/intent/tweet?text={{ article.title|striptags + ' by @realslimshanky ' + 'https%3A%2F%2Fblog.shanky.xyz/' + article.url }}" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+      <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fblog.shanky.xyz/{{ article.url }}&title={{ article.title|striptags + ' by Shashank Kumar ' }}" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+      <li><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fblog.shanky.xyz/{{ article.url }}" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+      <li><a href="mailto:?subject={{ article.title|striptags + ' by Shashank Kumar ' }}&body=https%3A%2F%2Fblog.shanky.xyz/{{ article.url }}&" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a></li>
+    </ul><br />
+  </div>
+  {% endif %}
+
+  {% if article.related_posts %}
+  <div class="related-posts">
+    <h4>{{ _('You might enjoy') }}</h4>
+    <ul class="related-posts">
+    {% for related_post in article.related_posts %}
+      <li><a href="{{ SITEURL }}/{{ related_post.url }}">{{ related_post.title }}</a></li>
+    {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% include "partial/disqus.html" %}
+</article>
+{% endblock %}

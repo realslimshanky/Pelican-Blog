@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Shanky's Brainchild - Python</title><link href="https://blog.shanky.dev/" rel="alternate"></link><link href="https://blog.shanky.dev/feeds/python.atom.xml" rel="self"></link><id>https://blog.shanky.dev/</id><updated>2018-02-13T00:00:00+05:30</updated><entry><title>What Pelican quickstart actually do and how it does that?</title><link href="https://blog.shanky.dev/what-pelican-quickstart-actually-do-and-how-it-does-that.html" rel="alternate"></link><published>2018-02-12T00:00:00+05:30</published><updated>2018-02-13T00:00:00+05:30</updated><author><name>Shashank Kumar</name></author><id>tag:blog.shanky.dev,2018-02-12:/what-pelican-quickstart-actually-do-and-how-it-does-that.html</id><summary type="html">&lt;p&gt;In this blog, I'll go through the process after running the command &lt;code&gt;pelican-quickstart&lt;/code&gt; without any arguments inside a &lt;a href="https://docs.python.org/3/tutorial/venv.html"&gt;virtual environment&lt;/a&gt; to see what goes down in the background. Later in the blog, I'll figure out how everything works.&lt;/p&gt;</summary><content type="html">&lt;p&gt;I chose to use &lt;a href="https://github.com/getpelican/pelican"&gt;Pelican&lt;/a&gt; to build my personal blog out of my love for Python. It took me two days to go through the tutorials given by Official Pelican &lt;a href="https://docs.getpelican.com/en/stable"&gt;documentation&lt;/a&gt; and setup &lt;a href="https://blog.shanky.xyz"&gt;Shanky's Brainchild&lt;/a&gt; with the help of the &lt;a href="https://github.com/alexandrevicenzi/flex"&gt;Flex&lt;/a&gt; theme created by &lt;a href="https://alexandrevicenzi.com"&gt;Alexandre Vicenzi&lt;/a&gt;. Pelican contributors have made sure you have a quick and easy beginning in order to get down to business asap and evolve as per your needs. For this very purpose, we use &lt;code&gt;pelican-quickstart&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In this blog, I'll go through the process after running the command &lt;code&gt;pelican-quickstart&lt;/code&gt; without any arguments inside a &lt;a href="https://docs.python.org/3/tutorial/venv.html"&gt;virtual environment&lt;/a&gt; to see what goes down in the background. Later in the blog, I'll figure out how everything works. You can also move directly to &lt;strong&gt;Demystifying pelican-quickstart&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4&gt;Prerequisites and Warm-Up&lt;/h4&gt;
+&lt;p&gt;Before we start, make sure to have a virtual environment setup, use either venv or pipenv. Install the protagonist package &lt;a href="https://pypi.python.org/pypi/pelican"&gt;&lt;code&gt;pelican&lt;/code&gt;&lt;/a&gt;. Optionally, if one is familiar with &lt;a href="https://daringfireball.net/projects/markdown"&gt;Markdown&lt;/a&gt; like me and want to create website/blog using it, install &lt;a href="https://pypi.python.org/pypi/Markdown"&gt;&lt;code&gt;Markdown&lt;/code&gt;&lt;/a&gt; package.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Running &lt;code&gt;pelican-quickstart&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;After setting up the virtual environment and activated it, creating a new folder for our website say &lt;code&gt;justanotherblog&lt;/code&gt;, running &lt;code&gt;pelican-quickstart&lt;/code&gt; from inside the folder, a few questions will be asked by Pelican. As a result of answering all of the successfully, following directory structure can be seen which is in turn created by &lt;code&gt;pelican-quickstart&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;justanotherblog/
+                content/
+                output/
+                develop_server.sh
+                fabfile.py
+                Makefile
+                pelicanconf.py
+                publishconf.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Let's look into the question that were asked and how they affect our blog.&lt;/p&gt;
+&lt;h6&gt;Where do you want to create your new web site? [.]&lt;/h6&gt;
+&lt;p&gt;Here, it is asked about the location of the website. The default value is &lt;code&gt;.&lt;/code&gt; or the location from where the &lt;code&gt;pelican-quickstart&lt;/code&gt; has been called and is denoted by &lt;code&gt;[.]&lt;/code&gt;. If one does not want to change the location can simply enter without inputting anything. You can also specify a location like &lt;code&gt;/home/username/justanotherblog&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - Location specified here will be the parent location for all the Pelican files.&lt;/p&gt;
+&lt;h6&gt;What will be the title of this web site?&lt;/h6&gt;
+&lt;p&gt;When this question is asked, title of the website should be provided. Failure in doing so or just hitting enter here would immediately prompt &lt;code&gt;You must enter something&lt;/code&gt; and the question will be asked again.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - Title specified here will be store inside &lt;code&gt;pelicanconf.py&lt;/code&gt; as &lt;code&gt;SITENAME = 'Just Another Blog'&lt;/code&gt;.&lt;/p&gt;
+&lt;h6&gt;Who will be the author of this web site?&lt;/h6&gt;
+&lt;p&gt;When this question is asked, author name should be provided. And just like before, failure in doing so or just hitting enter here would immediately prompt &lt;code&gt;You must enter something&lt;/code&gt; and the question will be asked again.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - Name specified here will be saved inside &lt;code&gt;pelicanconf.py&lt;/code&gt; as &lt;code&gt;AUTHOR = 'Shashank Kumar'&lt;/code&gt;&lt;/p&gt;
+&lt;h6&gt;What will be the default language of this web site? [en]&lt;/h6&gt;
+&lt;p&gt;Whichever language you would like to use to write the content of your blog should be stated here. Language should be in form of 2 letters code and failure in doing so will prompt &lt;code&gt;You must enter a 2 letters long string&lt;/code&gt; with the question asked again. You can look up 2 letter code for languages in this &lt;a href="https://www.loc.gov/standards/iso639-2/php/code_list.php"&gt;ISO 639.1&lt;/a&gt; guide. Default language is English - en as denoted by &lt;code&gt;[en]&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - The choosen language will be stored inside &lt;code&gt;pelicanconf.py&lt;/code&gt; as &lt;code&gt;DEFAULT_LANG = 'en'&lt;/code&gt;.&lt;/p&gt;
+&lt;h6&gt;Do you want to specify a URL prefix? e.g., http://example.com   (Y/n)&lt;/h6&gt;
+&lt;p&gt;Here, you have to state whether or not you want to use a URL prefix or simply host your blog. The default value is &lt;code&gt;Y&lt;/code&gt; (y or Yes) or one can also choose &lt;code&gt;n&lt;/code&gt; (N or No). Failure in doing to will prompt &lt;code&gt;You must answer 'yes' or 'no'&lt;/code&gt; and the question will be asked again.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - If chosen &lt;code&gt;Y&lt;/code&gt;, a subsequent question will be asked to state the URL. If chosen &lt;code&gt;n&lt;/code&gt;, &lt;code&gt;SITEURL = ''&lt;/code&gt; will be saved inside &lt;code&gt;pelicanconf.py&lt;/code&gt; which can be changed later.&lt;/p&gt;
+&lt;h6&gt;What is your URL prefix? (see above example; no trailing slash)&lt;/h6&gt;
+&lt;p&gt;If the previous question was answered with a &lt;code&gt;Y&lt;/code&gt;, this question will be asked. Now is the time to state the URL you are planning to host the blog. Although we cannot enter while providing a URL by simply entering (&lt;code&gt;You must enter something&lt;/code&gt; will be prompted while doing os), there's no failure to this step as the URL is not validated.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - The stated URL will be saved inside &lt;code&gt;pelicanconf.py&lt;/code&gt; as SITEURL = 'URL stated'.&lt;/p&gt;
+&lt;h6&gt;Do you want to enable article pagination? (Y/n)&lt;/h6&gt;
+&lt;p&gt;Pagination is the property of a blog to provide part of items or contents in one page and shift the rest to susequest pages with proper numering in order to allow easy access. Allowing pagination in Pelican will help showcase blogs on the homepage spreading across pages. The default value is &lt;code&gt;Y&lt;/code&gt; (y or Yes) or one can also choose &lt;code&gt;n&lt;/code&gt; (N or No) to disable pagination.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - If chosen &lt;code&gt;Y&lt;/code&gt;, a subsequent question will be asked about the no of articles or blogs per page. If chosen &lt;code&gt;N&lt;/code&gt;, this will be saved as &lt;code&gt;DEFAULT_PAGINATION = False&lt;/code&gt; inside &lt;code&gt;pelicanconf.py&lt;/code&gt;&lt;/p&gt;
+&lt;h6&gt;How many articles per page do you want? [10]&lt;/h6&gt;
+&lt;p&gt;If the previous question was answered with a &lt;code&gt;Y&lt;/code&gt;, this question will be asked. This is where the number of articles or blogs per page is declared. The default number is &lt;code&gt;10&lt;/code&gt;. There's no failure to this step as number is not validated.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - &lt;code&gt;DEFAULT_PAGINATION = 10&lt;/code&gt; will be stored inside &lt;code&gt;pelicanconf.py&lt;/code&gt;.&lt;/p&gt;
+&lt;h6&gt;What is your time zone? [Europe/Paris]&lt;/h6&gt;
+&lt;p&gt;Time zones are important in order to properly state the date and time of creation of blogs and also while generating feeds. The default time zone is set to &lt;code&gt;Europe/Paris&lt;/code&gt; which can be changed by providing another one. Look into this &lt;a href="http://en.wikipedia.org/wiki/List_of_tz_database_time_zones"&gt;wikipedia guide&lt;/a&gt; for the complete list.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - &lt;code&gt;TIMEZONE = 'Europe/Paris'&lt;/code&gt; will be saved inside &lt;code&gt;pelicanconf.py&lt;/code&gt;.&lt;/p&gt;
+&lt;h6&gt;Do you want to generate a Fabfile/Makefile to automate generation and publishing? (Y/n)&lt;/h6&gt;
+&lt;p&gt;Fabfile.py and Makefile are used to manage development server, publishing website to gh-pages or via ssh and similar feature. The default answer to this is &lt;code&gt;Y&lt;/code&gt; (y or Yes), after which Pelican will ask few questions to create the proper configuration for Fabfile.py and Makefile. If &lt;code&gt;n&lt;/code&gt; (N or No) is entered, generation of Fabfile.py and Makefile will be skipped.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - If &lt;code&gt;Y&lt;/code&gt; is selected, configuration for generating Fabfile.py and Makefile will be asked after the next question.&lt;/p&gt;
+&lt;h6&gt;Do you want an auto-reload &amp;amp; simpleHTTP script to assist with theme and site development? (Y/n)&lt;/h6&gt;
+&lt;p&gt;Auto-reload and simpleHTTP scripts are very helpful while in development as they facilitate local server management and auto-reload whenever the content of the website is changed. This step is specifically to ask whether &lt;code&gt;develop_server.sh&lt;/code&gt; file should be created with command line scripts in order to provide auto-reload and simpleHTTP facilities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - If &lt;code&gt;Y&lt;/code&gt; is selected, &lt;code&gt;develop_server.sh&lt;/code&gt; will be created with proper configurations.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The reason why before asking for Fabfile.py and Makefile configurations, we are asked about &lt;code&gt;develop_server.sh&lt;/code&gt; is because Makefile can also use &lt;code&gt;develop_server.sh&lt;/code&gt; to facilitate local server management.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Now, let's look into options that will come up if &lt;code&gt;Y&lt;/code&gt; is chosen for generating Fabfile/Makefile.&lt;/p&gt;
+&lt;h6&gt;Do you want to upload your website using FTP? (y/N)&lt;/h6&gt;
+&lt;p&gt;If files of this website is to be uploaded to the server using FTP connection this option can be useful. The default is &lt;code&gt;n&lt;/code&gt; (N or No).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - &lt;code&gt;n&lt;/code&gt; (N or No) will leave placeholders inside Fabfile.py and Makefile to be filled later. If &lt;code&gt;Y&lt;/code&gt; (y or Yes) is chosen, 3 subsequest questions will be asked related to the FTP configuration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is the hostname of your FTP server? [localhost] &lt;/li&gt;
+&lt;li&gt;What is your username on that server? [anonymous] &lt;/li&gt;
+&lt;li&gt;Where do you want to put your web site on that server? [/]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each of the above questions have default value which can be changed later from inside the Fabfile.py and Makefile.&lt;/p&gt;
+&lt;h6&gt;Do you want to upload your website using SSH? (y/N)&lt;/h6&gt;
+&lt;p&gt;Another option one can use to upload their files is SSH, state whether or not you want to configure SSH here.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - &lt;code&gt;n&lt;/code&gt; (N or No) will leave placeholders inside Fabfile.py and Makefile to be filled later. If &lt;code&gt;Y&lt;/code&gt; (y or Yes) is chosen, 4 subsequest questions will be asked related to the SSH configuration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is the hostname of your SSH server? [localhost] &lt;/li&gt;
+&lt;li&gt;What is the port of your SSH server? [22] &lt;/li&gt;
+&lt;li&gt;What is your username on that server? [root] &lt;/li&gt;
+&lt;li&gt;Where do you want to put your web site on that server? [/var/www]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each of the above questions have default value which can be changed later from inside the Fabfile.py and Makefile.&lt;/p&gt;
+&lt;h6&gt;Do you want to upload your website using Dropbox? (y/N)&lt;/h6&gt;
+&lt;p&gt;Another helpful option is using Dropbox to upload the files, this is where you state whether or not you would like to configure it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - &lt;code&gt;n&lt;/code&gt; (N or No) will leave placeholders inside Fabfile.py and Makefile to be filled later. If &lt;code&gt;Y&lt;/code&gt; (y or Yes) is chosen, only 1 subsequest question will be asked related to the Dropbox configuration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Where is your Dropbox directory? [~/Dropbox/Public/]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Above questions have default value which can be changed later from inside the Fabfile.py and Makefile.&lt;/p&gt;
+&lt;h6&gt;Do you want to upload your website using S3? (y/N)&lt;/h6&gt;
+&lt;p&gt;If you have a Amazon S3 web service configured, state &lt;code&gt;y&lt;/code&gt; to use the option to provide your configuration details.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - &lt;code&gt;n&lt;/code&gt; (N or No) will leave placeholders inside Fabfile.py and Makefile to be filled later. If &lt;code&gt;Y&lt;/code&gt; (y or Yes) is chosen, only 1 subsequest question will be asked related to the S3 configuration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is the name of your S3 bucket? [my_s3_bucket]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Above questions have default value which can be changed later from inside the Fabfile.py and Makefile.&lt;/p&gt;
+&lt;h6&gt;Do you want to upload your website using Rackspace Cloud Files? (y/N)&lt;/h6&gt;
+&lt;p&gt;Rackspace Cloud Files users can use the Official API to upload files of the website, by enabling this option the API can be configured.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - &lt;code&gt;n&lt;/code&gt; (N or No) will leave placeholders inside Fabfile.py and Makefile to be filled later. If &lt;code&gt;Y&lt;/code&gt; (y or Yes) is chosen, 3 subsequest questions will be asked related to the Rackspace Cloud Files configuration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;What is your Rackspace Cloud username? [my_rackspace_username]&lt;/li&gt;
+&lt;li&gt;What is your Rackspace Cloud API key? [my_rackspace_api_key]&lt;/li&gt;
+&lt;li&gt;What is the name of your Cloud Files container? [my_cloudfiles_container]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each of the above questions have default value which can be changed later from inside the Fabfile.py and Makefile.&lt;/p&gt;
+&lt;h6&gt;Do you want to upload your website using GitHub Pages? (y/N)&lt;/h6&gt;
+&lt;p&gt;GitHub Pages are also supported by Fabfile.py and Makefile, entering &lt;code&gt;y&lt;/code&gt; will about more details for it's configuration.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Resultant&lt;/strong&gt; - &lt;code&gt;n&lt;/code&gt; (N or No) will leave placeholders inside Fabfile.py and Makefile to be filled later. If &lt;code&gt;Y&lt;/code&gt; (y or Yes) is chosen, only 1 subsequest question will be asked related to the GitHub Pages configuration.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Is this your personal page (username.github.io)? (y/N)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Above questions have default value which can be changed later from inside the Fabfile.py and Makefile.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h4&gt;Demystifying &lt;code&gt;pelican-quickstart&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;The entire process ends up in the desired project structure as stated above. Now let's look into the other side of the action Pelican contributors have put a lot of efforts in.&lt;/p&gt;
+&lt;h6&gt;Handling Command-line Arguments&lt;/h6&gt;
+&lt;p&gt;&lt;code&gt;pelican-quickstart&lt;/code&gt; used &lt;a href="https://docs.python.org/3/howto/argparse.html"&gt;argparse&lt;/a&gt; to handle command-line arguments which user can provide at the very beginning. By running &lt;code&gt;pelican-quickstart -h&lt;/code&gt; it's more clear which arguments one can provide.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;PATH&lt;/code&gt; - Use &lt;code&gt;-p path/to/folder&lt;/code&gt; to provide the desirable path for website &lt;/li&gt;
+&lt;li&gt;&lt;code&gt;title&lt;/code&gt; - Use &lt;code&gt;-t Website-Title&lt;/code&gt; to provide the title&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;author&lt;/code&gt; - Use &lt;code&gt;-a Author-Name&lt;/code&gt; to provide the name of author&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;lang&lt;/code&gt; - Use &lt;code&gt;-l en&lt;/code&gt; with 2 letter language code for default language&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once the program is executed, an ArgumentParser object is created which can handle above optional arguments and store it in a &lt;code&gt;dict&lt;/code&gt; object. The values of this &lt;code&gt;dict&lt;/code&gt; can be checked further in the program to ask appropriate questions.&lt;/p&gt;
+&lt;h6&gt;The Interrogation Process&lt;/h6&gt;
+&lt;p&gt;&lt;code&gt;pelican-quickstart&lt;/code&gt; has a &lt;code&gt;dict&lt;/code&gt; named as &lt;code&gt;CONF&lt;/code&gt; with default configurations which are modified with every question asked to the user.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;CONF&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;pelican&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;pelican&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;pelicanopts&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;basedir&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;curdir&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;ftp_host&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;ftp_user&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;anonymous&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;ftp_target_dir&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;/&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;ssh_host&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;localhost&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;ssh_port&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;22&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;ssh_user&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;root&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;ssh_target_dir&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;/var/www&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;s3_bucket&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;my_s3_bucket&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;cloudfiles_username&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;my_rackspace_username&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;cloudfiles_api_key&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;my_rackspace_api_key&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;cloudfiles_container&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;my_cloudfiles_container&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;dropbox_dir&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;~/Dropbox/Public/&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;github_pages_branch&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;_GITHUB_PAGES_BRANCHES&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;project&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;default_pagination&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;siteurl&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;lang&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;_DEFAULT_LANGUAGE&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;timezone&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;_DEFAULT_TIMEZONE&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;There are 3 variables used inside &lt;code&gt;CONF&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;_GITHUB_PAGES_BRANCHES&lt;/code&gt; - It's a &lt;code&gt;dict&lt;/code&gt; which contains local and remote branch information.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;_GITHUB_PAGES_BRANCHES = {
+    &amp;#39;personal&amp;#39;: &amp;#39;master&amp;#39;,
+    &amp;#39;project&amp;#39;: &amp;#39;gh-pages&amp;#39;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;_DEFAULT_LANGUAGE&lt;/code&gt; - &lt;a href="https://docs.python.org/3.5/library/locale.html"&gt;locale&lt;/a&gt; is used to access the user's default language from their local machine. It's set to &lt;code&gt;English&lt;/code&gt; by default or in case the local machine doesn't have a default language.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;_DEFAULT_TIMEZONE&lt;/code&gt; - &lt;a href="https://pypi.python.org/pypi/tzlocal"&gt;tzlocal&lt;/a&gt; package is used to figure out the local timezone of user's machine. It's set to &lt;code&gt;Europe/Paris&lt;/code&gt; by default or in case of failure in fetching local timezone.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h6&gt;Cross Version Compatibility&lt;/h6&gt;
+&lt;p&gt;&lt;code&gt;pelican-quickstart&lt;/code&gt; is a great example of how a Python program can be made compatible with both Python 2 and 3. For this purpose &lt;a href="https://docs.python.org/3.5/library/__future__.html"&gt;future&lt;/a&gt;, &lt;a href="https://docs.python.org/3.5/library/codecs.html"&gt;codecs&lt;/a&gt; and &lt;a href="https://pypi.python.org/pypi/six"&gt;six&lt;/a&gt; packages are used.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;six&lt;/code&gt; is compatible with both Python 2 and 3 and helps in figuring out which of the functions should be used if either of the versions is encountered. Once such instance is when we need to figure out whether to use &lt;code&gt;raw_input()&lt;/code&gt; or &lt;code&gt;input()&lt;/code&gt;. A boolean &lt;code&gt;six.PY3&lt;/code&gt; is used which results &lt;code&gt;True&lt;/code&gt; if the version is Python 3 and &lt;code&gt;False&lt;/code&gt; otherwise. Hence the appropriate function can be returned as seen below.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;_input_compat&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;prompt&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;six&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;PY3&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;prompt&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;raw_input&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;prompt&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;future&lt;/code&gt; is used to bring support of &lt;code&gt;print()&lt;/code&gt; using &lt;code&gt;print_function&lt;/code&gt; and provide &lt;code&gt;UTF-8&lt;/code&gt; support to print function using &lt;code&gt;unicode_literals&lt;/code&gt;. Or as Python lovers say, bringing future to earlier versions of Python.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;codecs&lt;/code&gt; is also compatible with both Python 2 and 3 and provides support for file management. Mostly &lt;code&gt;codecs.open&lt;/code&gt; is used by &lt;code&gt;pelican-quickstart&lt;/code&gt; to facilitate the compatibility.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="n"&gt;codecs&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;open&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;join&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;CONF&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;basedir&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;pelicanconf.py&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;w&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;utf-8&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;fd&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h6&gt;Creating files and folders out of thin air&lt;/h6&gt;
+&lt;p&gt;To finish of, all &lt;code&gt;pelican-quickstart&lt;/code&gt; has to do is create files and folders considering all the configurations it has taken from the user. To create folders, &lt;code&gt;os.makedirs&lt;/code&gt; is used from &lt;a href="https://docs.python.org/3.5/library/os.html"&gt;os&lt;/a&gt; package is used. Creating folders is rather a simple process as compared to how files are generated using configurations provided.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://jinja.pocoo.org/"&gt;Jinja2&lt;/a&gt; plays a major role in facilitating the smooth transition of configurations to Python, .sh and Makefile. &lt;a href="https://github.com/getpelican/pelican/tree/master/pelican/tools/templates"&gt;Jinja Templates&lt;/a&gt; for &lt;code&gt;Makefile&lt;/code&gt;, &lt;code&gt;develop_sever.sh&lt;/code&gt;, &lt;code&gt;fabfile.py&lt;/code&gt;, &lt;code&gt;pelicanconf.py&lt;/code&gt;, and &lt;code&gt;publishconf.py&lt;/code&gt; are already stored within &lt;code&gt;pelican-quickstart&lt;/code&gt;. Now the task of is to open the template, use &lt;code&gt;CONF&lt;/code&gt; dict to find out all the important configuration and replace the &lt;code&gt;value&lt;/code&gt; with the placeholders named with similar &lt;code&gt;key&lt;/code&gt; as in &lt;code&gt;CONF&lt;/code&gt;. For example, &lt;code&gt;pelicanconf.py.jinja2&lt;/code&gt; contains &lt;code&gt;AUTHOR = {{author}}&lt;/code&gt; where &lt;code&gt;author&lt;/code&gt; is replaced with the &lt;code&gt;value&lt;/code&gt; of &lt;code&gt;author&lt;/code&gt; in &lt;code&gt;CONF&lt;/code&gt; and a new file &lt;code&gt;pelicanconf.py&lt;/code&gt; is created after all the replacements.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;These are most of the content I understood by reading the source of &lt;a href="https://github.com/getpelican/pelican/blob/master/pelican/tools/pelican_quickstart.py"&gt;pelican-quickstart&lt;/a&gt; and looking into the repository itself. In case you find any error in my blog feel free to comment down below or reach out to me and help out in making this blog a little better. Thank you for your patience.&lt;/p&gt;</content><category term="Python"></category><category term="Python"></category><category term="Pelican"></category><category term="Quickstart"></category><category term="Tutorial"></category></entry></feed>

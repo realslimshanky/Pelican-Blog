@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1080"
+   height="720"
+   viewBox="0 0 285.75001 190.5"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="fullscreenGUI.svg"
+   inkscape:version="0.92.1 r15371"
+   inkscape:export-filename="/home/realslimshanky/Documents/GSoC/Designs/fullscreenGUI.png"
+   inkscape:export-xdpi="114.286"
+   inkscape:export-ydpi="114.286">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5626">
+      <stop
+         style="stop-color:#1d4e89;stop-opacity:1"
+         offset="0"
+         id="stop5622" />
+      <stop
+         style="stop-color:#163964;stop-opacity:1"
+         offset="1"
+         id="stop5624" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5626"
+       id="linearGradient5628"
+       x1="77.258331"
+       y1="201.75002"
+       x2="275.86398"
+       y2="201.75002"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3089796,0,0,1,-87.882166,0)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.75769918"
+     inkscape:cx="499.71825"
+     inkscape:cy="368.13544"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="703"
+     inkscape:window-x="0"
+     inkscape:window-y="36"
+     inkscape:window-maximized="1"
+     units="px"
+     inkscape:pagecheckerboard="false"
+     inkscape:object-paths="false"
+     showguides="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-106.50001)">
+    <rect
+       id="rect70-1"
+       width="259.97073"
+       height="174.625"
+       x="13.247411"
+       y="114.43752"
+       style="opacity:1;fill:url(#linearGradient5628);fill-opacity:1;fill-rule:nonzero;stroke-width:0.63372058"
+       ry="2.672559" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5145"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Varela Round';-inkscape-font-specification:'Varela Round';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="matrix(0,-0.26458334,0.26458334,0,-46.909134,245.83842)"><flowRegion
+         id="flowRegion5147"
+         style="fill:#ffffff"><rect
+           id="rect5149"
+           width="194.00839"
+           height="48.832016"
+           x="69.948601"
+           y="258.07526"
+           style="fill:#ffffff" /></flowRegion><flowPara
+         id="flowPara5151">1d4e89ff</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5145-3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Varela Round';-inkscape-font-specification:'Varela Round';letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none"
+       transform="matrix(0,-0.26458334,0.26458334,0,185.78305,245.46065)"><flowRegion
+         id="flowRegion5147-6"
+         style="fill:#ffffff"><rect
+           id="rect5149-7"
+           width="194.00839"
+           height="48.832016"
+           x="69.948601"
+           y="258.07526"
+           style="fill:#ffffff" /></flowRegion><flowPara
+         id="flowPara5151-5">163964ff</flowPara></flowRoot>  </g>
+</svg>

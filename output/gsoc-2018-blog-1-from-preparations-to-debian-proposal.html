@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="https://blog.shanky.dev/theme/stylesheet/style.css">
+  <link rel="stylesheet" type="text/css" href="https://blog.shanky.dev/theme/pygments/colorful.min.css">
+  <link rel="stylesheet" type="text/css" href="https://blog.shanky.dev/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="https://blog.shanky.dev/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Shanky's Brainchild Atom">
+
+
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#333333">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#333333">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<meta name="author" content="Shashank Kumar" />
+<meta name="description" content="Being an open source contributor for more than a year I decided to get the best out of me by taking part in one of the biggest internship programs in the world. Here's how I started!" />
+<meta name="keywords" content="GSoC, Google, Debian, PyDelhi, DGPLUD, Python, PyQt">
+<meta property="og:site_name" content="Shanky's Brainchild"/>
+<meta property="og:title" content="Google Summer of Code 2018 - Blog 1 - From Preparations to Debian to Proposal"/>
+<meta property="og:description" content="Being an open source contributor for more than a year I decided to get the best out of me by taking part in one of the biggest internship programs in the world. Here's how I started!"/>
+<meta property="og:locale" content="en_IN"/>
+<meta property="og:url" content="https://blog.shanky.dev/gsoc-2018-blog-1-from-preparations-to-debian-proposal.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2018-03-31 00:00:00+05:30"/>
+<meta property="article:modified_time" content="2018-04-02 00:00:00+05:30"/>
+<meta property="article:author" content="https://blog.shanky.dev/author/shashank-kumar.html">
+<meta property="article:section" content="GSoC"/>
+<meta property="article:tag" content="GSoC"/>
+<meta property="article:tag" content="Google"/>
+<meta property="article:tag" content="Debian"/>
+<meta property="article:tag" content="PyDelhi"/>
+<meta property="article:tag" content="DGPLUD"/>
+<meta property="article:tag" content="Python"/>
+<meta property="article:tag" content="PyQt"/>
+<meta property="og:image" content="https://blog.shanky.dev/">
+
+  <meta name="twitter:image" content="/images/profile.jpg">
+  <meta name="twitter:title" content="Google Summer of Code 2018 - Blog 1 - From Preparations to Debian to Proposal - Shanky's Brainchild">
+  <meta name="twitter:description" content="Being an open source contributor for more than a year I decided to get the best out of me by taking part in one of the biggest internship programs in the world. Here's how I started!">
+    <meta name="twitter:card" content="https://blog.shanky.dev//images/GSoC-icon-192.png">
+
+  <meta itemprop="name" content="Google Summer of Code 2018 - Blog 1 - From Preparations to Debian to Proposal - Shanky's Brainchild">
+  <meta itemprop="description" content="Being an open source contributor for more than a year I decided to get the best out of me by taking part in one of the biggest internship programs in the world. Here's how I started!">
+    <meta itemprop="image" content="https://blog.shanky.dev//images/GSoC-icon-192.png">
+
+  <title>Shanky's Brainchild &ndash; Google Summer of Code 2018 - Blog 1 - From Preparations to Debian to Proposal</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="https://blog.shanky.dev">
+        <img src="/images/profile.jpg" alt="Shanky's Brainchild" title="Shanky's Brainchild">
+      </a>
+      <h1><a href="https://blog.shanky.dev">Shanky's Brainchild</a></h1>
+
+
+      <ul class="social">
+        <li><a class="sc-linkedin" href="https://www.linkedin.com/in/shashankkumarkushwaha/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="sc-github" href="https://github.com/realslimshanky" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a class="sc-key" href="https://keybase.io/realslimshanky" target="_blank"><i class="fa fa-key"></i></a></li>
+        <li><a class="sc-rss" href="//blog.shanky.dev/feeds/all.atom.xml" target="_blank"><i class="fa fa-rss"></i></a></li>
+      </ul>
+    </div>
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href="https://blog.shanky.dev">    Home
+</a>
+
+      <a href="/archives.html">Archives</a>
+      <a href="/categories.html">Categories</a>
+      <a href="/tags.html">Tags</a>
+
+      <a href="https://blog.shanky.dev/feeds/all.atom.xml">    Atom
+</a>
+
+    </nav>
+
+<article class="single">
+  <header>
+    <h1 id="gsoc-2018-blog-1-from-preparations-to-debian-proposal">Google Summer of Code 2018 - Blog 1 - From Preparations to Debian to Proposal</h1>
+    <p>
+          Posted on Sat 31 March 2018 in <a href="https://blog.shanky.dev/category/gsoc.html">GSoC</a>
+
+
+    </p>
+  </header>
+
+  <div>
+    <p>I got to know about Open Source and community efforts during my first PyDelhi meetup close to a couple of years ago. And my journey began right from there. So in order to understand my preparation for GSoC, everything that has impacted me over the last couple of years is important. Here in this blog, I share what I learned to be able to work for the idea posted by Debian and submitting proposal afterward.</p>
+<h5>PyDelhi - The Beginning</h5>
+<p><img alt="PyDelhi" src="https://blog.shanky.dev/images/pydelhi.png"></p>
+<p>After starting with Python I came across the community named <a href="https://pydelhi.org/">PyDelhi</a> which promotes Python programming language by organizing meetups and conferences. It is entirely volunteer-run and I also became active after attending my <a href="https://www.meetup.com/pydelhi/events/pkdrklyvkbfc/">first ever meetup</a>. One of the best Python books I was recommended by few folks was <a href="https://pymbook.readthedocs.io/"><strong>Python for You and Me</strong></a> by <a href="https://kushaldas.in/"><strong>Kushal Das</strong></a>. I met folks who were working on cool projects using Python and I created one myself for PyDelhi named <a href="http://github.com/realslimshanky/PyDelhi-Bot">PyDelhi Bot</a> to serve <a href="https://t.me/pydelhigroup">Telegram Volunteer Group</a>. Later, I went on to give a talk during PyDelhi Conference 2017 which landed on <a href="https://www.youtube.com/watch?v=J6aZlUzxL5w">YouTube</a> and I have been a volunteer, speaker, contributor and co-organizer for PyDelhi ever since. I volunteered for <a href="https://in.pycon.org/2016/">PyCon India 2016</a>, was in Core Organizing team for <a href="https://in.pycon.org/2017/">2017</a> and volunteering for <a href="https://in.pycon.org/2018/">2018</a> as well. My love for Python grew from PyDelhi and it became my primary programming language. Soon, I met various communities promoting Open Source software and methodologies and volunteered for them as well.</p>
+<h4>Durgapur Linux User Group - Summer Training</h4>
+<p><img alt="DGPLUG" src="https://blog.shanky.dev/images/dgplug.png"></p>
+<p>After looking more into Kushal Das' blog, I got to know about <a href="https://dgplug.org">DGPLUG</a>. DGPLUG organizes one of the best <a href="https://dgplug.org/summertraining17/">summer training</a> which I was blessed to be a part of in 2016 and later in 2017 (to fill knowledge gaps). Training was carried on IRC which is always better so that folks with not-so-good internet reception can also benefit. The training started assuming everyone should learn from Zero and teaches all the basics following the <a href="https://dgplug.org/summertraining17/#objectives">objectives</a> which a developer should know in order to write code and contribute to open source in the best way possible. <a href="https://dgplug.org/summertraining17/#guest-sessions">Guest sessions</a> were one of the important sessions in which we got to interact with community veterans and industry leaders. Guests shared their experiences with the technologies they were working on and we can ask them questions if we had any doubt regarding it. The entire session was recorded and the logs were uploaded for someone who couldn't be online.</p>
+<p>During the training, some important things which I learned were by the <a href="http://www.shakthimaan.com/">Shakti Kanan</a> sessions as follows</p>
+<ul>
+<li>
+<p><a href="http://www.shakthimaan.com/downloads/glv/presentations/communication-guidelines.pdf">Communication Guidelines</a> - I got to know about various communication platforms like IRC and Mailing Lists and what are the advantages and disadvantages of each of them has. It was important to learn when should be using those and how. <a href="https://dgplug.org/irclogs/mbuf_1stclass.log">Logs</a> to session in which it was discussed.</p>
+</li>
+<li>
+<p><a href="http://www.shakthimaan.com/downloads/glv/presentations/mailing-list-etiquette.pdf">Mailing List Etiquette</a> - In this session, I got to learn what are the suggested ways in which we should be using Mailing Lists and proper format to draft mails. <a href="https://dgplug.org/irclogs/mbuf_1stclass.log">Logs</a> to session in which it was discussed.</p>
+</li>
+<li>
+<p><a href="http://www.shakthimaan.com/downloads/glv/presentations/i-want-2-do-project-tell-me-wat-2-do.pdf">I Want To Do Project, Tell Me What To Do</a> - Another important session to teach what are the ways in which we should start working on a project of our own or contribute to upstream projects. This tells us the importance of a mentor and how we can find one for ourselves. <a href="https://dgplug.org/irclogs/mbuf_2ndclass.log">Logs</a> to session in which it was discussed.</p>
+</li>
+</ul>
+<p>This was a fresh start for me in the path of becoming a good developer. This opened a lot of new ways to interact and collaborate with Open Source communities around the world. (If above links to presentation doesn't work use these - <a href="PDFs/communication-guidelines.pdf">Communication Guidelines</a>, <a href="PDFs/mailing-list-etiquette.pdf">Mailing List Etiquette</a> and <a href="PDFs/i-want-2-do-project-tell-me-wat-2-do.pdf">I Want To Do Project, Tell Me What To Do</a>)</p>
+<h4>Google Summer of Code - Before The Proposal</h4>
+<p><img alt="Google Summer of Code" src="https://blog.shanky.dev/images/GSoC-icon-192.png"></p>
+<p><a href="https://summerofcode.withgoogle.com">Google Summer of Code</a> has been an exciting opportunity for the folks willing to contribute to upstream Open Source projects and being my first and last (I graduate this year) time participating, I'm willing to work with the best I've got and learn along the way. Starting from reaching out to different organizations and probing through the idealist. It's important here to look into the idea in the domain of technologies one is working with. This way it's easier to complete application tasks before, and complete the objectives with good quality code during the internship period.</p>
+<p>Since this was my first time, I decided to go through the <a href="https://google.github.io/gsocguides/student">Student Guide</a> for GSoC and follow the prerequisites needed order to participate. After signing up and submitting my <a href="https://developers.google.com/open-source/gsoc/help/proof-of-enrollment">Proof of Enrollement</a>, one is free to focus on finding a suitable organization, reading through the idealist and working to complete application tasks given by the mentors.</p>
+<h4>Debian - The Spark</h4>
+<p><img alt="Debian" src="https://blog.shanky.dev/images/debian.png"></p>
+<p>The time GSoC idea list went live I was learning about Web Extensions and coincidently Debian had 2 projects who's end goal was to create Browser Extensions. So I got excited about them and started with Debian's <a href="https://wiki.debian.org/SummerOfCode2018/ProjectProposals/CreateASuccessorToTelifyUsingWebExtensions">Create a successor to the Telify plugin using WebExtensions</a>. Because of not being able to find a mentor who could help me guide through legacy Telify code I was sure I will not able to complete application task in time. So I pivoted, and there it was, <a href="https://wiki.debian.org/SummerOfCode2018/Projects/WizardForStudentsAndNewInterns">Wizard/GUI helping students/interns apply and get started</a>.</p>
+<p>My mind exploded with the ideas and the possibilities of feature set which can be incorporated into this project. 'Open Source Buddy' came to my mind while naming the application for the task and I began with the UI design using Inkscape which I was going to code eventually. I'll be writing a blog soon focusing entirely on the application task I created with all the technical details as well. One can find the source code with a demo video for the same on <a href="https://salsa.debian.org/realslimshanky-guest/Open-Source-Buddy">Salsa</a>. The project idea was to create a GUI application which can help students or interns get started with their Open Source contributions. The application will guide through the tools of the trade like Git, Github, GnuPG etc and explain the importance of communication via IRC, Mailing List etc. I planned to use PyQt as suggested on the idea description to begin with the application task. More on this later.</p>
+<p>After selecting the project and being absolutely sure that I'll work with the best I've got for this project in the internship I began probing more about the organization on how to do things the right way. I came across <a href="https://danielpocock.com/">Daniel Pocock</a>'s blog (who is also my mentor for this project) on <a href="https://danielpocock.com/getting-selected-for-google-summer-of-code-2016">Want to be selected for Google Summer of Code 2016?</a> mentioned in the description of the project idea I selected, shaped my views in order to understand the project better. Reading more about Debian and how to join the Debian community from a dedicated <a href="https://wiki.debian.org/SummerOfCode2018">Debian GSoC</a> page, I did following things</p>
+<ul>
+<li>
+<p>Mailing List - I joined <a href="https://lists.debian.org/debian-outreach/">Debian Outreach</a> which was a dedicated list for discussion of Debian's participation in internship-like programs, such as Outreachy, Google Summer of Code, etc.</p>
+</li>
+<li>
+<p>IRC - In order to join <a href="https://wiki.debian.org/IRC">Debian channels</a> on IRC, I configured <a href="https://www.oftc.net/">OFTC</a> on <a href="https://wiki.znc.in/ZNC">ZNC</a> which I was already using for Freenode (#pydelhi, #dgplug, #pyconindia, #python-gsoc) and Mozilla (#introduction, #development). This way I don't lose any of the messages when I'm not online and can connect with ZNC using any of the clients on Laptop or Mobile.</p>
+</li>
+<li>
+<p>Wiki - I signed up for Debian Wiki account and was blacklisted because my email address included <code>.xyz</code> domain. Thanks to <a href="https://wiki.debian.org/SteveMcIntyre">Steve McIntyre</a> and <a href="https://wiki.debian.org/PaulWise">Paul Wise</a> from the <a href="https://wiki.debian.org/Teams/DebianWiki">Wiki Admin Team</a> for helping me out. I finally created my account and afterward, I created my <a href="https://wiki.debian.org/ShashankKumar">own wiki page</a>.</p>
+</li>
+</ul>
+<h4>The Proposal Deadline</h4>
+<p>March 27, 2018 - 21:30 (IST) was the deadline for proposal submission. Proposal showcases what a participant understands the project idea and can elaborate on how they plan to create it. It also showcases more about participant's past work and experiences mostly related to the same technology they'll be using. Student Guide contains <a href="https://google.github.io/gsocguides/student/writing-a-proposal">few general guidelines</a> which tells about important points that should be included in the proposal. Apart from these, it's always a good idea to talk with mentors what they think should be included in the proposal. I took my time (close to 2 days) in order to research and come up with the best feature set and methodologies which can be used to make an amazing project. After the review process, here's the <a href="PDFs/GSoC_2018_proposal_for_Debian7.pdf"><strong>Final GSoC Proposal</strong></a> which I submitted.</p>
+<h4>What's Next!</h4>
+<p>I plan on integrating the Open Source Buddy with pylint, pytest and working more on GUI and PyQT so that if I'm selected for the project, using the tools of trade would be easy and I can focus more on the features. This was my experience till the project submission in brief. I'm planning to continue this GSoC blog series in order to share all that I learn along the way. Next up, a blog explaining how I completed application task - <a href="https://salsa.debian.org/realslimshanky-guest/Open-Source-Buddy">Open Source Buddy</a>.</p>
+<h4>IMPORTANT UPDATE</h4>
+<p>I got selected for Google Summer of Code 2018 under Debian and my project is <a href="https://summerofcode.withgoogle.com/projects/#5056989357408256">Wizard/GUI helping students/interns apply and get started</a>.</p>
+<p>I've also added second blog in the series titles <a href="https://blog.shanky.xyz/gsoc-2018-blog-2-the-application-task-and-results.html"><strong>The Application Task and Results</strong></a>. Check it out!</p>
+  </div>
+
+  <div class="tag-cloud">
+    <p>
+      <a href="https://blog.shanky.dev/tag/gsoc.html">GSoC</a>
+      <a href="https://blog.shanky.dev/tag/google.html">Google</a>
+      <a href="https://blog.shanky.dev/tag/debian.html">Debian</a>
+      <a href="https://blog.shanky.dev/tag/pydelhi.html">PyDelhi</a>
+      <a href="https://blog.shanky.dev/tag/dgplud.html">DGPLUD</a>
+      <a href="https://blog.shanky.dev/tag/python.html">Python</a>
+      <a href="https://blog.shanky.dev/tag/pyqt.html">PyQt</a>
+    </p>
+  </div>
+
+  <div>
+    <b>Please share the blog if you like it</b>
+    <ul class="social">
+      <li><a href="https://twitter.com/intent/tweet?text=Google Summer of Code 2018 - Blog 1 - From Preparations to Debian to Proposal by @realslimshanky https%3A%2F%2Fblog.shanky.xyz/gsoc-2018-blog-1-from-preparations-to-debian-proposal.html" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+      <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fblog.shanky.xyz/gsoc-2018-blog-1-from-preparations-to-debian-proposal.html&title=Google Summer of Code 2018 - Blog 1 - From Preparations to Debian to Proposal by Shashank Kumar " target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+      <li><a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fblog.shanky.xyz/gsoc-2018-blog-1-from-preparations-to-debian-proposal.html" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+      <li><a href="mailto:?subject=Google Summer of Code 2018 - Blog 1 - From Preparations to Debian to Proposal by Shashank Kumar &body=https%3A%2F%2Fblog.shanky.xyz/gsoc-2018-blog-1-from-preparations-to-debian-proposal.html&" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a></li>
+    </ul><br />
+  </div>
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'shankys-brainchild';
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>
+        Please enable JavaScript to view comments.
+
+</noscript>
+</article>
+
+    <footer>
+<p>
+  &copy; Shashank Kumar 2025 - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>    Powered by <a href="https://getpelican.com" target="_blank">Pelican</a> and <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme
+</p><p>
+  <a rel="license"
+     href="https://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Shanky's Brainchild ",
+  "url" : "https://blog.shanky.dev",
+  "image": "/images/profile.jpg",
+  "description": "Some of what Shashank Kumar ( realslimshanky ) stumbles upon or thinks intentionally lies here on the blog."
+}
+</script>
+</body>
+</html>
